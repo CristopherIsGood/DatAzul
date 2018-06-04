@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* Cris M - Responsive version 1.01 */
+
+/* @media Rule to 480px --- the device screen for mobile --- */
+@media only screen 
+and (max-width: 479px) {
+
+			/* work image */		
+			#wrapper .my_works .work_image p {
+				font-size:26pt !important;
+			}
+
+				/* work descr */			
+				#wrapper .my_works .work_descr p span:first-child {
+					font-size:26pt !important;
+				}
+				
+				#wrapper .my_works .work_descr p span:last-child {
+					font-size:13pt !important;
+				}
+				
+				/* about myself */
+				#wrapper .about_myself p span:first-child {
+					font-size:26pt !important;
+				}
+				
+				#wrapper .about_myself p span:last-child {
+					font-size:13pt !important;
+				}
+				
+		/* get in touch */	
+		#wrapper .get_in_touch p {
+			font-size:26pt !important;
+		}
+		
+			#wrapper .get_in_touch .div-responsive .sub-heading-1 {
+				font-size:20pt !important;
+			}
+			
+			#wrapper .get_in_touch .div-responsive .sub-heading-2 {
+				font-size:12pt !important;
+			}
+			
+			#wrapper .get_in_touch .div-responsive ul{
+				font-size:10pt !important;
+			}
+		
+			#wrapper .get_in_touch form input {
+				font-size:11pt !important;
+			}
+			
+			#wrapper .get_in_touch form textarea {
+				font-size:11pt !important;
+			}	
+			
+				#wrapper .get_in_touch form input[type=submit] {
+					font-size:18pt !important;
+				}	
+				
+		/* copyright*/
+		#wrapper .copyright p {
+			font-size:14pt !important;
+		}
+	
+}
+
+/* @media Rule to 990px --- the device screen for mobile --- */
+@media only screen 
+and (max-width: 989px) {
+	
+		/* navigational list */
+		#wrapper .nav-list {
+			width:100px;
+		}
+		
+		/* navigational list - dropdown button in mobile layout */
+		#wrapper .nav-list .dropbtn {
+			width:100px;
+			height:120px;
+			background:url("../img/drop-down-nav_mobile.png") no-repeat center;
+			cursor:pointer;
+			border:none;
+		}
+	
+		#wrapper .nav-list ul {
+			display:none;
+		}
+		
+		/* navigational list in mobile layout */
+		#wrapper .nav-list_mobile {
+			width:100%;
+			height:auto;
+			float:left;
+			margin:0;
+			padding:0;
+			top:120px;
+			left:0;
+			display:none;
+			position:absolute;
+			z-index:1;
+			background:#f3f3f3;
+		}
+		
+		/* navigational list - show animation */
+		#wrapper .show {
+			display:block !important;
+		}
+		
+			/* navigational list in mobile layout */
+			#wrapper .nav-list_mobile ul {
+				margin:0;
+				padding:10px 0 10px 20px;
+			}
+		
+				#wrapper .nav-list_mobile ul li {
+					display:block;
+					margin:0;
+					padding:10px 0;
+					font-family:Ebrima;
+					font-size:14pt;
+					color:#6986bf;
+					list-style-type:none;
+					text-transform:uppercase;
+				}
+				
+					#wrapper .nav-list_mobile ul li a {
+						text-decoration:none;
+						color:#6986bf;
+					}
+		
+		/* logo selection */
+		#wrapper .logo-select {
+			width:200px;
+		}
+		
+				#wrapper .logo-select p img {
+					width:160px;
+				}
+
+	/* self expression */
+	#wrapper .self_expression {
+		height:100%;
+	}
+	
+			/* image block */
+			#wrapper .self_expression .image_block {
+				width:100%;
+				margin:auto;
+				display:block;
+			}	
+			
+			#wrapper .self_expression .image_block p {
+				display:none !important;
+			}
+		
+			#wrapper .self_expression .image_block:after {
+				left:0 !important;
+				background-position:center !important;
+				width:100% !important;
+			}
+			
+			/* quote mobile layout */
+			#wrapper .self_expression .quote_mobile {
+				width:100%;
+				height:300px;
+				margin:auto;
+				display:block;
+				padding:0;
+				float:left;
+				display:table;
+			}	
+			
+				#wrapper .self_expression .quote_mobile p {
+					font-family:Ebrima;
+					font-size:12pt;
+					font-weight:bold;
+					font-style:italic;
+					color:#2e2e2e;
+					text-align:left;
+					margin:0;
+					padding:30px;
+					vertical-align:middle;
+					display:table-cell;
+				}
+				
+				#wrapper .self_expression .quote_mobile p span {
+					display:block;
+					text-align:right;
+				}
+			
+	/* my works */
+	#wrapper .my_works {
+		padding-top:0;
+		background:#f3f3f3;
+	}
+			
+		/* work image */
+		#wrapper .my_works .work_image {
+			width:100%;
+			height:auto;
+			margin-top:120px;
+		}
+		
+			#wrapper .my_works .work_image p {
+				padding-top:60px;
+				padding-left:30px;
+				padding-bottom:60px;
+			}
+			
+			/* work description */
+			#wrapper .my_works .work_descr p {
+				padding-top:30px;
+				padding-left:30px;
+				padding-bottom:60px;
+			}
+			
+				#wrapper .my_works .work_descr p span:first-child {
+					margin-top:30px;
+					margin-bottom:30px;
+				}
+
+		/* work descr */
+		#wrapper .my_works .work_descr {
+			width:100%;
+			height:auto;
+		}
+		
+	/* about myself */
+	#wrapper .about_myself {
+		height:auto;
+		padding-bottom:120px;
+	}
+	
+			#wrapper .about_myself p {
+				width:calc(100% - 60px);
+				padding-top:30px;
+				padding-left:30px;
+				padding-bottom:0;
+				padding-right:30px;
+				display:block;
+			}
+			
+				#wrapper .about_myself p span:first-child {
+					margin-top:30px;
+					margin-bottom:30px;
+				}
+
+	/* get in touch */
+	#wrapper .get_in_touch {
+		/*height:700px;*/
+		height:auto;
+	}
+	
+		#wrapper .get_in_touch .div-responsive {
+			width:calc(100% - 60px) !important;
+			padding-top:30px;
+			padding-left:30px;
+			padding-bottom:0;
+			padding-right:30px;
+			display:block;
+		}	
+		
+			#wrapper .get_in_touch .div-responsive .sub-heading-1 {
+				margin-left:0;
+			}
+			
+			#wrapper .get_in_touch .div-responsive .sub-heading-2 {
+				margin-left:0;
+			}
+			
+			#wrapper .get_in_touch .div-responsive ul{
+				margin-left:10px;
+			}
+			
+			/*#wrapper .get_in_touch form input {
+				width:100% !important;
+				margin-left:0;
+				margin-right:0;
+			}
+			
+				#wrapper .get_in_touch form input[type=submit] {
+					width:100% !important;
+					margin-left:0;
+					margin-right:0;
+				}
+				
+			#wrapper .get_in_touch form textarea {
+				width:100% !important;
+				margin-left:0;
+				margin-right:0;
+			}*/
+
+/*----------------------------------- CONTACT PROCESS PAGE ----------------------------------*/	
+
+	/* contact process */
+	#wrapper .contact_process {
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+	
+		#wrapper .contact_process p {
+			padding-left:30px;
+			padding-right:30px;
+		}
+		
+				#wrapper .contact_process p span:first-child {
+					font-size:26pt !important;
+				}
+				
+				#wrapper .contact_process p span:last-child {
+					font-size:13pt !important;
+				}
+	
+}
+
+@media only screen
+and (min-width: 990px) {
+		/* navigational list - dropdown button in mobile layout */
+		#wrapper .nav-list .dropbtn {
+			display:none;
+		}
+}
+
+
+/* @media Rule to 1366px --- the device screen for tablet --- */
+@media only screen 
+and (max-width: 1365px) {
+	
+			/* navigational list */
+			#wrapper .nav-list ul {
+				font-size:24pt;
+			}
+	
+			/* image block */
+			#wrapper .self_expression .image_block p {
+				font-size:12pt;
+				padding-left:40px;
+			}
+		
+		#wrapper .self_expression .image_block:after {
+			left:50%;
+			background-position:left;
+			width:50%;
+		}
+
+
+			/* work image */				
+			#wrapper .my_works .work_image p {
+				font-size:32pt;
+			}
+			
+				/* work descr */
+				#wrapper .my_works .work_descr p span:first-child {
+					font-size:32pt;
+				}
+				
+				#wrapper .my_works .work_descr p span:last-child {
+					font-size:14pt;
+				}
+				
+				/* about myself */
+				#wrapper .about_myself p span:first-child {
+					font-size:32pt;
+				}
+				
+				#wrapper .about_myself p span:last-child {
+					font-size:14pt;
+				}
+				
+		/* get in touch */
+		#wrapper .get_in_touch p {
+			font-size:32pt;
+		}
+		
+		#wrapper .get_in_touch .div-responsive {
+			width:100%;
+		}
+		
+		/*#wrapper .get_in_touch form {
+			width:calc(100% - 60px);
+			margin:0 30px;
+		}
+		
+			#wrapper .get_in_touch form input {
+				width:calc(49% - 60px);
+			}
+			
+				#wrapper .get_in_touch form input[type=submit] {
+					width:calc(98% - 60px);
+				}
+		
+			#wrapper .get_in_touch form input {
+				font-size:12pt;
+			}
+				
+			#wrapper .get_in_touch form textarea {
+				font-size:12pt;
+			}	
+			
+				#wrapper .get_in_touch form input[type=submit] {
+					font-size:24pt;
+				}*/
+			
+		/* copyright*/
+		#wrapper .copyright p {
+			font-size:20pt;
+		}
+	
+}
