@@ -220,7 +220,7 @@ body{
 				}
 				
 				#wrapper .my_works .work_descr p span:last-child {
-					font-family:Calibri;
+					font-family:"Calibri", Arial, Helvetica, sans-serif;
 					font-size:16pt;
 					font-weight:bold;
 					line-height:35px;
@@ -257,7 +257,7 @@ body{
 				}
 				
 				#wrapper .about_myself p span:last-child {
-					font-family:Calibri;
+					font-family:"Calibri", Arial, Helvetica, sans-serif;
 					font-size:16pt;
 					color:#2d2e2e;
 					font-weight:bold;
@@ -312,7 +312,7 @@ body{
 		}	
 		
 			#wrapper .get_in_touch .div-responsive .sub-heading-1 {
-				font-family:Calibri;
+				font-family:"Calibri", Arial, Helvetica, sans-serif;
 				font-size:20pt;
 				color:#1a1a1a;
 				font-weight:bold;
@@ -325,7 +325,7 @@ body{
 			}
 			
 			#wrapper .get_in_touch .div-responsive .sub-heading-2 {
-				font-family:Calibri;
+				font-family:"Calibri", Arial, Helvetica, sans-serif;
 				font-size:14pt;
 				color:#1a1a1a;
 				font-weight:bold;
@@ -338,7 +338,7 @@ body{
 			}
 			
 			#wrapper .get_in_touch .div-responsive ul{
-				font-family:Calibri;
+				font-family:"Calibri", Arial, Helvetica, sans-serif;
 				font-size:12pt;
 				color:#1a1a1a;
 				font-weight:bold;
@@ -414,7 +414,7 @@ body{
 				}*/
 				
 		#wrapper .get_in_touch .email {
-			font-family:Calibri;
+			font-family:"Calibri", Arial, Helvetica, sans-serif;
 			font-size:16pt;
 			color:#1a1a1a;
 			font-weight:bold;
@@ -514,7 +514,7 @@ body{
 			}
 				
 			#wrapper .contact_process p span:last-child {
-				font-family:Calibri;
+				font-family:"Calibri", Arial, Helvetica, sans-serif;
 				font-size:16pt;
 				font-weight:bold;
 				line-height:35px;
