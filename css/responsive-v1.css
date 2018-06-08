@@ -44,12 +44,12 @@ and (max-width: 479px) {
 			#wrapper .get_in_touch .div-responsive ul{
 				font-size:10pt !important;
 			}
-		
-		#wrapper .get_in_touch .email {
+			
+		/*#wrapper .get_in_touch .email {
 			font-size:12pt !important;
 		}
 		
-			/*#wrapper .get_in_touch form input {
+			#wrapper .get_in_touch form input {
 				font-size:11pt !important;
 			}
 			
@@ -59,7 +59,7 @@ and (max-width: 479px) {
 			
 				#wrapper .get_in_touch form input[type=submit] {
 					font-size:18pt !important;
-				}*/		
+				}*/	
 				
 		/* copyright*/
 		#wrapper .copyright p {
@@ -276,14 +276,15 @@ and (max-width: 989px) {
 				margin-left:10px;
 			}
 			
-		#wrapper .get_in_touch .email {
+			
+		/*#wrapper .get_in_touch .email {
 			font-size:14pt;
 			width:calc(100% - 60px);
 			margin-left:30px;
 			margin-right:30px;
 		}
 			
-			/*#wrapper .get_in_touch form input {
+			#wrapper .get_in_touch form input {
 				width:100% !important;
 				margin-left:0;
 				margin-right:0;
