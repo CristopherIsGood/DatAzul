@@ -45,11 +45,11 @@ and (max-width: 479px) {
 				font-size:10pt !important;
 			}
 			
-		/*#wrapper .get_in_touch .email {
-			font-size:12pt !important;
-		}
+				#wrapper .get_in_touch .request p {
+					font-size:14pt !important;
+				}
 		
-			#wrapper .get_in_touch form input {
+			/*#wrapper .get_in_touch form input {
 				font-size:11pt !important;
 			}
 			
@@ -276,6 +276,12 @@ and (max-width: 989px) {
 				margin-left:10px;
 			}
 			
+		#wrapper .get_in_touch .request {
+			width:calc(100% - 64px) !important;
+			margin-left:30px !important;	
+			margin-right:30px !important;
+		}
+			
 			
 		/*#wrapper .get_in_touch .email {
 			font-size:14pt;
@@ -412,6 +418,12 @@ and (max-width: 1365px) {
 				#wrapper .get_in_touch form input[type=submit] {
 					font-size:24pt;
 				}*/
+				
+		#wrapper .get_in_touch .request {
+			width:calc(100% - 364px);
+			margin-left:180px;	
+			margin-right:180px;
+		}
 			
 		/* copyright*/
 		#wrapper .copyright p {

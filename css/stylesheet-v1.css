@@ -433,6 +433,34 @@ body{
 				text-decoration:none;
 				color:#f2f2f2;
 			}*/
+		#wrapper .get_in_touch a {
+			text-decoration:none;
+			color:#f2f2f2;
+		}
+			
+			#wrapper .get_in_touch .request {
+				width:calc(100% - 804px);
+				height:100px;
+				background:#6a86bf;
+				float:left;
+				margin:30px 400px 0;
+				padding:0;
+				clear:both;
+				position:relative;
+				z-index:1;
+				text-align:center;
+				border:2px dashed #f3f3f3;
+			}
+			
+				#wrapper .get_in_touch .request p {
+					font-family:"Calibri", Arial, Helvetica, sans-serif;
+					font-size:16pt;
+					color:#1a1a1a;
+					font-weight:bold;
+					text-transform:uppercase;	
+					margin:35px auto 0;
+					padding:0;
+				}
 			
 	/* copyright*/
 	#wrapper .copyright {
