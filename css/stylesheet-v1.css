@@ -189,6 +189,10 @@ body{
 				vertical-align:middle;
 				display:table-cell;
 			}
+			
+				#wrapper .my_works .work_image p span {
+					display:block;
+				}
 
 		/* work descr */
 		#wrapper .my_works .work_descr {

@@ -7,7 +7,7 @@ and (max-width: 479px) {
 
 			/* work image */		
 			#wrapper .my_works .work_image p {
-				font-size:26pt !important;
+				font-size:18pt !important;
 			}
 
 				/* work descr */			
@@ -364,7 +364,7 @@ and (max-width: 1365px) {
 
 			/* work image */				
 			#wrapper .my_works .work_image p {
-				font-size:32pt;
+				font-size:29pt;
 			}
 			
 				/* work descr */
