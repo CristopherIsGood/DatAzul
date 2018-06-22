@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* Cris M - Stylesheet version 1.01 */
+/* Cris M - Stylesheet version 1.02 */
 
 /* body */
 body{
@@ -226,9 +226,9 @@ body{
 					line-height:35px;
 				}
 				
-				#wrapper .my_works .work_descr p span b {
+				/*#wrapper .my_works .work_descr p span b {
 					color:#1a1a1a;
-				}
+				}*/
 
 	/* about myself */
 	#wrapper .about_myself {
@@ -313,12 +313,12 @@ body{
 			float:left;
 			height:auto;
 			width:50%;
+			color:#f2f2f2;
 		}	
 		
 			#wrapper .get_in_touch .div-responsive .sub-heading-1 {
 				font-family:"Calibri", Arial, Helvetica, sans-serif;
 				font-size:20pt;
-				color:#1a1a1a;
 				font-weight:bold;
 				text-transform:uppercase;
 				line-height:35px;
@@ -331,7 +331,6 @@ body{
 			#wrapper .get_in_touch .div-responsive .sub-heading-2 {
 				font-family:"Calibri", Arial, Helvetica, sans-serif;
 				font-size:14pt;
-				color:#1a1a1a;
 				font-weight:bold;
 				text-transform:uppercase;
 				line-height:35px;
@@ -344,7 +343,6 @@ body{
 			#wrapper .get_in_touch .div-responsive ul {
 				font-family:"Calibri", Arial, Helvetica, sans-serif;
 				font-size:12pt;
-				color:#1a1a1a;
 				font-weight:bold;
 				text-transform:uppercase;
 				line-height:35px;
@@ -437,6 +435,7 @@ body{
 				text-decoration:none;
 				color:#f2f2f2;
 			}*/
+			
 		#wrapper .get_in_touch a {
 			text-decoration:none;
 			color:#f2f2f2;
