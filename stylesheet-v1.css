@@ -1,0 +1,562 @@
+@charset "utf-8";
+/* Cris M - Stylesheet version 1.02 */
+
+/* body */
+body{
+	background:#f3f3f3;
+	margin:0;
+	padding:0;
+	color:#fff;
+}
+
+/* datazul */
+#datazul{
+	width:100%;
+	height:auto;
+	background:#f3f3f3;
+	margin:0;
+	padding:0;
+}
+
+	/* sticky header */
+	#datazul .sticky_header {
+		width:100%;
+		height:120px;
+		background:#f3f3f3;
+		float:left;
+		margin:0;
+		padding:0;
+		position:fixed;
+		z-index:2;
+	}
+	
+		/* navigational list */
+		#datazul .nav-list {
+			width:60%;
+			height:120px;
+			float:left;
+			margin:0;
+			padding:0;
+			display:table;
+		}
+		
+			#datazul .nav-list ul {
+				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-size:36pt;
+				color:#6986bf;
+				vertical-align:middle;
+				display:table-cell;	
+				list-style-type:none;
+				text-transform:uppercase;
+				margin:0;
+				padding:0 0 0 50px;
+			}
+			
+				#datazul .nav-list ul li {
+					display:inline;	
+					margin:0 5% 0 0;
+					padding:0;
+				}
+				
+					#datazul .nav-list ul li a {
+						text-decoration:none;
+						color:#6986bf;
+					}
+	
+		/* logo selection */
+		#datazul .logo-select {
+			width:360px;
+			height:120px;
+			background:#6a85be;
+			float:right;
+			margin:auto;
+			padding:0;
+			display:table;
+		}
+			#datazul .logo-select p {
+				text-align:center;
+				margin:auto;
+				padding:0;
+				vertical-align:middle;
+				display:table-cell;
+			}
+			
+				#datazul .logo-select p img {
+					width:220px;
+					height:auto;
+				}
+				
+		/* navigation list in mobile layout */
+		#datazul .nav-list_mobile {
+			display:none;
+		}
+	
+	/* main header */
+	#datazul .main_header {
+		width:100%;
+		height:120px;
+		background:#f3f3f3;
+		float:left;
+		margin:0;
+		padding:0;
+	}
+
+	/* self expression */
+	#datazul .self_expression {
+		width:100%;
+		height:400px;
+		background:#fff;
+		float:left;
+		margin:0;
+		padding:0;
+	}
+	
+		/* image block */
+		#datazul .self_expression .image_block {
+			width:100%;
+			height:520px;
+			float:left;
+			margin:auto;
+			padding:0;
+			position:relative;
+			display:table;
+		}
+		
+			#datazul .self_expression .image_block p {
+				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-size:14pt;
+				font-weight:bold;
+				font-style:italic;
+				color:#2e2e2e;
+				text-align:left;
+				margin:0;
+				padding:0 55% 0 50px;
+				vertical-align:middle;
+				display:table-cell;
+			}
+				
+				#datazul .self_expression .image_block p span {
+					display:block;
+					text-align:right;
+				}	
+		
+		#datazul .self_expression .image_block:after {
+			content:"";
+			display:block;
+			position:absolute;
+			top:0;
+			left:0;
+			background:url("../img/bg_photo.png") no-repeat right;
+			width:100%;
+			height:520px;
+			z-index:0;
+		}
+		
+			#datazul .self_expression .quote_mobile {
+				display:none;
+			}
+
+	/* my works */
+	#datazul .my_works {
+		width:100%;
+		height:auto;
+		background:#fff;
+		float:left;
+		margin:0;
+		padding:120px 0 0 0;
+	}
+
+		/* work image */
+		#datazul .my_works .work_image {
+			width:50%;
+			height:400px;
+			background:#f3f3f3;
+			float:left;
+			margin:auto;
+			padding:0;
+			display:table;
+		}
+		
+			#datazul .my_works .work_image p {
+				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-size:42pt;
+				font-weight:bold;
+				text-transform:uppercase;
+				color:#6986bf;
+				text-align:left;
+				margin:0;
+				padding:0 5% 0 40px;
+				vertical-align:middle;
+				display:table-cell;
+			}
+			
+				#datazul .my_works .work_image p span {
+					display:block;
+				}
+
+		/* work descr */
+		#datazul .my_works .work_descr {
+			width:50%;
+			height:400px;
+			background:#6986bf;
+			margin:auto;
+			padding:0;
+			display:table;
+			float:right;
+		}
+		
+			#datazul .my_works .work_descr p {
+				color:#f2f2f2;
+				text-align:left;
+				margin:0;
+				padding:0 60px;
+				vertical-align:middle;
+				display:table-cell;
+			}
+			
+				#datazul .my_works .work_descr p span:first-child {
+					font-family:"Ebrima", Arial, Helvetica, sans-serif;
+					font-size:36pt;
+					font-weight:bold;
+					text-transform:uppercase;
+					display:block;
+					margin:0 0 30px 0;
+				}
+				
+				#datazul .my_works .work_descr p span:last-child {
+					font-family:"Calibri", Arial, Helvetica, sans-serif;
+					font-size:16pt;
+					font-weight:bold;
+					line-height:35px;
+				}
+				
+				/*#datazul .my_works .work_descr p span b {
+					color:#1a1a1a;
+				}*/
+
+	/* about myself */
+	#datazul .about_myself {
+		width:100%;
+		height:400px;
+		background:#a8bcd0;
+		float:left;
+		margin:auto;
+		padding:120px 0 0 0;
+		display:table;
+	}
+	
+			#datazul .about_myself p {
+				text-align:left;
+				margin:0;
+				padding:120px 60px;
+				vertical-align:middle;
+				display:table-cell;
+				width:calc(50% - 120px);
+			}
+			
+				#datazul .about_myself p span:first-child {
+					font-family:"Ebrima", Arial, Helvetica, sans-serif;
+					font-size:36pt;
+					color:#1a1a1a;
+					font-weight:bold;
+					text-transform:uppercase;
+					display:block;
+					margin:0 0 30px 0;
+				}
+				
+				#datazul .about_myself p span:last-child {
+					font-family:"Calibri", Arial, Helvetica, sans-serif;
+					font-size:16pt;
+					color:#2d2e2e;
+					font-weight:bold;
+					line-height:35px;
+				}
+
+	/* get in touch */
+	#datazul .get_in_touch {
+		width:100%;
+		/*height:600px;*/
+		height:auto;
+		background-color:#7e92c0;
+		float:left;
+		margin:0;
+		padding:180px 0 90px;
+		/*display:block;*/
+		position:relative;
+	}
+	
+	#datazul .get_in_touch:after {
+		content:"";
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		background:url("../img/bg_deeper.jpg") no-repeat center;
+		width:100%;
+		height:100%;
+		opacity:0.2;
+		z-index:0;
+	}
+	
+		#datazul .get_in_touch .heading {
+			font-family:"Ebrima", Arial, Helvetica, sans-serif;
+			font-size:36pt;
+			color:#f2f2f2;
+			font-weight:bold;
+			text-align:center;
+			text-transform:uppercase;
+			margin:0 30px 60px;
+			padding:0;
+			position:relative;
+			z-index:1;
+		}
+		
+		#datazul .get_in_touch .div-responsive {
+			margin:0;
+			padding:0;
+			float:left;
+			height:auto;
+			width:50%;
+			color:#f2f2f2;
+		}	
+		
+			#datazul .get_in_touch .div-responsive .sub-heading-1 {
+				font-family:"Calibri", Arial, Helvetica, sans-serif;
+				font-size:20pt;
+				font-weight:bold;
+				text-transform:uppercase;
+				line-height:35px;
+				margin:0 0 0 60px;
+				padding:0 0 20px;
+				position:relative;
+				z-index:1;
+			}
+			
+			#datazul .get_in_touch .div-responsive .sub-heading-2 {
+				font-family:"Calibri", Arial, Helvetica, sans-serif;
+				font-size:14pt;
+				font-weight:bold;
+				text-transform:uppercase;
+				line-height:35px;
+				margin:0 0 0 60px;
+				padding:0;
+				position:relative;
+				z-index:1;
+			}
+			
+			#datazul .get_in_touch .div-responsive ul {
+				font-family:"Calibri", Arial, Helvetica, sans-serif;
+				font-size:12pt;
+				font-weight:bold;
+				text-transform:uppercase;
+				line-height:35px;
+				margin:0 0 0 90px;
+				padding:20px 0;
+				position:relative;
+				z-index:1;
+			}
+	
+		/*#datazul .get_in_touch form {
+			width:calc(100% - 120px);
+			height:auto;
+			margin:0 60px;
+			position:absolute;
+			z-index:1;
+		}
+		
+			#datazul .get_in_touch form input {
+				width:calc(50% - 60px);
+				height:50px;
+				margin:0 30px 20px;
+				padding:0;
+				border-left:none;
+				border-top:none;
+				border-right:none;
+				border-bottom:1px solid #fff;
+				background:none;
+				float:left;
+				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-size:14pt;
+				color:#fff;
+			}
+				
+				::-webkit-input-placeholder {
+					color:#fff;
+				}
+				
+				:-moz-placeholder {
+					color:#fff;
+				}
+				
+			#datazul .get_in_touch form .body {
+				display:none;
+			}
+				
+			#datazul .get_in_touch form textarea {
+				width:calc(100% - 60px);
+				height:150px;
+				margin:10px 30px 0;
+				padding:0;
+				border:none;
+				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-size:14pt;
+				color:#fff;
+				background:none;
+				resize:none;
+			}	
+			
+				#datazul .get_in_touch form input[type=submit] {
+					width:calc(100% - 60px);
+					height:100px;
+					margin:0 30px 0;
+					padding:0 30px 0;
+					background:#6a86bf;
+					font-size:28pt;
+					color:#f2f2f2;
+					font-weight:bold;
+					text-transform:uppercase;
+					text-align:right;
+					border:none;
+				}
+				
+		#datazul .get_in_touch .email {
+			font-family:"Calibri", Arial, Helvetica, sans-serif;
+			font-size:16pt;
+			color:#1a1a1a;
+			font-weight:bold;
+			text-transform:uppercase;
+			line-height:35px;
+			margin:0;
+			padding:0;
+			width:100%;
+			position:relative;
+			z-index:1;
+			clear:both;
+			text-align:center;
+		}
+		
+			#datazul .get_in_touch .email a {
+				text-decoration:none;
+				color:#f2f2f2;
+			}*/
+			
+		#datazul .get_in_touch a {
+			text-decoration:none;
+			color:#f2f2f2;
+		}
+			
+			#datazul .get_in_touch .request {
+				width:calc(100% - 804px);
+				height:100px;
+				background:#6a86bf;
+				float:left;
+				margin:30px 400px 0;
+				padding:0;
+				clear:both;
+				position:relative;
+				z-index:1;
+				text-align:center;
+				border:2px dashed #f3f3f3;
+			}
+			
+				#datazul .get_in_touch .request p {
+					font-family:"Calibri", Arial, Helvetica, sans-serif;
+					font-size:16pt;
+					color:#f2f2f2;
+					font-weight:bold;
+					text-transform:uppercase;	
+					margin:35px auto 0;
+					padding:0;
+				}
+			
+	/* copyright*/
+	#datazul .copyright {
+		width:100%;
+		height:120px;
+		background:#f3f3f3;
+		float:left;
+		margin:auto;
+		padding:0;
+		display:table;
+	}
+	
+		#datazul .copyright p {
+			font-family:"Ebrima", Arial, Helvetica, sans-serif;
+			font-size:24pt;
+			font-weight:bold;
+			text-align:center;
+			text-transform:uppercase;
+			color:#6a86bf;
+			margin:0;
+			padding:0 60px;
+			vertical-align:middle;
+			display:table-cell;
+		}
+		
+/*----------------------------------- CONTACT PROCESS PAGE ----------------------------------*/
+
+	/* contact header */
+	#datazul .contact_header {
+		width:100%;
+		height:120px;
+		background:#6a85be;
+		float:left;
+		margin:0;
+		padding:0;
+		display:table;
+	}
+	
+		#datazul .contact_header p {
+			text-align:center;
+			margin:auto;
+			padding:0;
+			vertical-align:middle;
+			display:table-cell;
+		}
+			
+			#datazul .contact_header p img {
+				width:220px;
+				height:auto;
+			}
+	
+	/* contact process */
+	#datazul .contact_process {
+		width:100%;
+		height:auto;
+		background:#fff;
+		float:left;
+		margin:auto;
+		padding:250px 0;
+		display:table;
+	}
+		
+		#datazul .contact_process p {
+			color:#1a1a1a;
+			margin:0;
+			padding:0 60px;
+			vertical-align:middle;
+			display:table-cell;
+			text-align:center;
+		}
+			
+			#datazul .contact_process p span:first-child {
+				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-size:36pt;
+				font-weight:bold;
+				text-transform:uppercase;
+				display:block;
+				margin:0 0 30px 0;
+			}
+				
+			#datazul .contact_process p span:last-child {
+				font-family:"Calibri", Arial, Helvetica, sans-serif;
+				font-size:16pt;
+				font-weight:bold;
+				line-height:35px;
+			}
+			
+			#datazul .contact_process p span:last-child a {
+				text-decoration:none;
+				color:#6a86bf;
+			}
+
