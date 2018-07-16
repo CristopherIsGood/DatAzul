@@ -175,7 +175,7 @@ and (max-width: 989px) {
 			}	
 			
 				#datazul .self_expression .quote_mobile p {
-					font-family:Ebrima;
+					font-family:"Ebrima", Arial, Helvetica, sans-serif;
 					font-size:12pt;
 					font-weight:bold;
 					font-style:italic;
