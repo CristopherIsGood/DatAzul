@@ -42,7 +42,7 @@ body{
 		
 			#datazul .nav-list ul {
 				font-family:"Ebrima", Arial, Helvetica, sans-serif;
-				font-size:34pt;
+				font-size:32pt;
 				color:#6986bf;
 				vertical-align:middle;
 				display:table-cell;	
@@ -54,7 +54,7 @@ body{
 			
 				#datazul .nav-list ul li {
 					display:inline;	
-					margin:0 5% 0 0;
+					margin:0 4% 0 0;
 					padding:0;
 				}
 				
