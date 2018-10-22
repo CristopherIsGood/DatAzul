@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* Cris M - Stylesheet version 1.02 */
+/* Cris M - Stylesheet version 1.03 */
 
 /* body */
 body{
@@ -111,6 +111,11 @@ body{
 		padding:0;
 	}
 	
+			/* image mobile */
+			#datazul .image_mobile {
+				display:none;
+			}
+	
 		/* image block */
 		#datazul .self_expression .image_block {
 			width:100%;
@@ -133,7 +138,49 @@ body{
 				padding:0 55% 0 50px;
 				vertical-align:middle;
 				display:table-cell;
+				animation: fadein 3s;
+				-moz-animation: fadein 3s; /* Firefox */
+				-webkit-animation: fadein 3s; /* Safari and Chrome */
+				-o-animation: fadein 3s; /* Opera */
 			}
+			
+/*--- fade in keyframes ---*/
+				@keyframes fadein {
+					from {
+						opacity:0;
+					}
+					to {
+						opacity:1;
+					}
+				}
+				
+				@-moz-keyframes fadein { /* Firefox */
+					from {
+						opacity:0;
+					}
+					to {
+						opacity:1;
+					}
+				}
+				
+				@-webkit-keyframes fadein { /* Safari and Chrome */
+					from {
+						opacity:0;
+					}
+					to {
+						opacity:1;
+					}
+				}
+				
+				@-o-keyframes fadein { /* Opera */
+					from {
+						opacity:0;
+					}
+					to {
+						opacity: 1;
+					}
+				}
+/*--- fade in keyframes ---*/
 				
 				#datazul .self_expression .image_block p span {
 					display:block;
