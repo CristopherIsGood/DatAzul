@@ -386,7 +386,7 @@ body{
 				text-transform:uppercase;
 				line-height:35px;
 				margin:0 0 0 60px;
-				padding:0;
+				padding:0 0 10px;
 				position:relative;
 				z-index:1;
 			}
