@@ -37,12 +37,10 @@ and (max-width: 479px) {
 		/* get in touch */	
 		#datazul .get_in_touch p {
 			font-size:26pt !important;
-			margin-bottom:20px !important;
 		}
 		
 			#datazul .get_in_touch .div-responsive .sub-heading-1 {
 				font-size:20pt !important;
-				padding-bottom:0 !important;
 			}
 			
 			#datazul .get_in_touch .div-responsive .sub-heading-2 {
