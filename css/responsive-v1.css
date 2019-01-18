@@ -339,6 +339,7 @@ and (max-width: 1365px) {
 				#datazul .self_expression .slide_default .para_default p {
 					font-size:12pt;
 					padding-left:40px;
+					padding-right:0px;
 				}
 	
 			#datazul .self_expression .slide_default .foto_default {
