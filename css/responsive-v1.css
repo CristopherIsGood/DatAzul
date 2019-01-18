@@ -4,12 +4,11 @@
 /* @media Rule to 480px --- the device screen for mobile --- */
 @media only screen 
 and (max-width: 479px) {
-	
-			/* image mobile */
-					#datazul .image_mobile p img {
+
+			/* slide default */
+					#datazul .self_expression .slide_default .foto_default p img {
 						width:80% !important;
 					}
-			
 
 			/* work image */		
 			#datazul .my_works .work_image p {
@@ -152,52 +151,44 @@ and (max-width: 989px) {
 		height:100%;
 	}
 	
-			/* image block */
-			#datazul .self_expression .image_block {
-				display:none;
-			}	
-			
-			/* image mobile */
-			#datazul .image_mobile {
-				width:100%;
+		/* slide default */
+			#datazul .self_expression .slide_default .para_default {
+				display:none !important;
+			}
+	
+			#datazul .self_expression .slide_default .foto_default {
+				width:100% !important;
 				height:auto;
 				float:left;
 				margin:0;
 				padding:0;
-				display:block;
 			}
-			
-				#datazul .image_mobile p {
-					margin:0 auto;
-					padding:0;
-					text-align:center;
-				}
-			
-					#datazul .image_mobile p img {
+	
+					#datazul .self_expression .slide_default .foto_default p img {
 						width:450px;
 						height:auto;
 						margin:0 auto;
 						padding:0;
+						float:none !important;
 					}
-			
-			/* quote mobile */
-			#datazul .self_expression .quote_mobile {
+	
+			#datazul .self_expression .slide_default .mobile_default {
 				width:100%;
-				height:100px;
-				margin:auto;
-				display:block;
-				padding:0;
+				height:auto;
 				float:left;
-				display:table;
-			}	
-			
-				#datazul .self_expression .quote_mobile p {
-					font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				margin:auto;
+				padding:0;
+				position:relative;
+				display:table !important;
+			}
+	
+				#datazul .self_expression .slide_default .mobile_default p {
 					font-size:12pt;
+					font-family:"Ebrima", Arial, Helvetica, sans-serif;
 					font-weight:bold;
 					font-style:italic;
 					color:#2e2e2e;
-					text-align:left;
+					text-align:center;
 					margin:0;
 					padding:30px;
 					vertical-align:middle;
@@ -207,49 +198,6 @@ and (max-width: 989px) {
 					-webkit-animation: fadein 3s; /* Safari and Chrome */
 					-o-animation: fadein 3s; /* Opera */
 				}
-				
-/*--- fade in keyframes ---*/
-				@keyframes fadein {
-					from {
-						opacity:0;
-					}
-					to {
-						opacity:1;
-					}
-				}
-				
-				@-moz-keyframes fadein { /* Firefox */
-					from {
-						opacity:0;
-					}
-					to {
-						opacity:1;
-					}
-				}
-				
-				@-webkit-keyframes fadein { /* Safari and Chrome */
-					from {
-						opacity:0;
-					}
-					to {
-						opacity:1;
-					}
-				}
-				
-				@-o-keyframes fadein { /* Opera */
-					from {
-						opacity:0;
-					}
-					to {
-						opacity: 1;
-					}
-				}
-/*--- fade in keyframes ---*/
-				
-					#datazul .self_expression .quote_mobile p span {
-						display:block;
-						text-align:right;
-					}
 			
 	/* my works */
 	#datazul .my_works {
@@ -365,6 +313,8 @@ and (max-width: 989px) {
 
 @media only screen
 and (min-width: 990px) {
+	
+	
 		/* navigational list - dropdown button in mobile layout */
 		#datazul .nav-list .dropbtn {
 			display:none;
@@ -382,17 +332,18 @@ and (max-width: 1365px) {
 			}
 	
 			/* image block */
-			#datazul .self_expression .image_block p {
-				font-size:12pt;
-				padding-left:40px;
+			#datazul .self_expression .slide_default .para_default {
+				width:40%;
 			}
-		
-		#datazul .self_expression .image_block:after {
-			left:50%;
-			background-position:left;
-			width:50%;
-		}
-
+	
+				#datazul .self_expression .slide_default .para_default p {
+					font-size:12pt;
+					padding-left:40px;
+				}
+	
+			#datazul .self_expression .slide_default .foto_default {
+				width:60%;
+			}
 
 			/* work image */				
 			#datazul .my_works .work_image p {

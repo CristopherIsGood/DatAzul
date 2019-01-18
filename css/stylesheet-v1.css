@@ -112,38 +112,103 @@ body{
 	}
 	
 			/* image mobile */
-			#datazul .image_mobile {
-				display:none;
+			#datazul .mobile_default {
+				display:none !important;
 			}
 	
-		/* image block */
-		#datazul .self_expression .image_block {
+		/* slide default */
+		#datazul .self_expression .slide_default {
 			width:100%;
-			height:520px;
+			height:auto;
 			float:left;
 			margin:auto;
 			padding:0;
-			position:relative;
-			display:table;
+		}
+
+			#datazul .self_expression .slide_default .para_default {
+				width:50%;
+				height:520px;
+				float:left;
+				margin:auto;
+				padding:0;
+				position:relative;
+				display:table !important;
+			}
+		
+				#datazul .self_expression .slide_default .para_default p {
+					font-family:"Ebrima", Arial, Helvetica, sans-serif;
+					font-size:14pt;
+					font-weight:bold;
+					font-style:italic;
+					color:#2e2e2e;
+					text-align:left;
+					margin:0;
+					padding:0 50px;
+					vertical-align:middle;
+					display:table-cell;
+					animation: fadein 3s;
+					-moz-animation: fadein 3s; /* Firefox */
+					-webkit-animation: fadein 3s; /* Safari and Chrome */
+					-o-animation: fadein 3s; /* Opera */
+				}
+
+					#datazul .self_expression .slide_default .para_default p span {
+						display:block;
+						text-align:right;
+					}	
+
+			#datazul .self_expression .slide_default .foto_default {
+				width:50%;
+				height:520px;
+				float:left;
+				margin:auto;
+				padding:0;
+				position:relative;
+				display:table !important;
+			}
+
+				#datazul .self_expression .slide_default .foto_default p {
+					margin:0 auto;
+					padding:0;
+					vertical-align:middle;
+					display:table-cell;
+					animation: fadein 3s;
+					-moz-animation: fadein 3s; /* Firefox */
+					-webkit-animation: fadein 3s; /* Safari and Chrome */
+					-o-animation: fadein 3s; /* Opera */
+				}
+
+					#datazul .self_expression .slide_default .foto_default p img {
+						margin:0 auto;
+						padding:0;
+						height:520px;
+						float:right;
+					}
+		
+		/*#datazul .self_expression .slide_default:after {
+			content:"";
+			display:block;
+			position:absolute;
+			top:0;
+			left:0;
+			background:url("../img/bg_photo.png") no-repeat right;
+			width:100%;
+			height:520px;
+			z-index:0;
 		}
 		
-			#datazul .self_expression .image_block p {
-				font-family:"Ebrima", Arial, Helvetica, sans-serif;
-				font-size:14pt;
-				font-weight:bold;
-				font-style:italic;
-				color:#2e2e2e;
-				text-align:left;
-				margin:0;
-				padding:0 55% 0 50px;
-				vertical-align:middle;
-				display:table-cell;
-				animation: fadein 3s;
-				-moz-animation: fadein 3s; /* Firefox */
-				-webkit-animation: fadein 3s; /* Safari and Chrome */
-				-o-animation: fadein 3s; /* Opera */
-			}
-			
+		#datazul .self_expression .slide_default:after {
+			content:"";
+			display:block;
+			position:absolute;
+			top:0;
+			left:0;
+			background:url("../img/bg_harmony.png") no-repeat right;
+			width:100%;
+			height:520px;
+			z-index:0;
+		}*/
+
 /*--- fade in keyframes ---*/
 				@keyframes fadein {
 					from {
@@ -181,27 +246,6 @@ body{
 					}
 				}
 /*--- fade in keyframes ---*/
-				
-				#datazul .self_expression .image_block p span {
-					display:block;
-					text-align:right;
-				}	
-		
-		#datazul .self_expression .image_block:after {
-			content:"";
-			display:block;
-			position:absolute;
-			top:0;
-			left:0;
-			background:url("../img/bg_photo.png") no-repeat right;
-			width:100%;
-			height:520px;
-			z-index:0;
-		}
-		
-			#datazul .self_expression .quote_mobile {
-				display:none;
-			}
 
 	/* my works */
 	#datazul .my_works {
