@@ -22,10 +22,21 @@
 			$('.nav-list_mobile').removeClass('show');
  
 		  });
-		  
+			
+			$('.datAzlider').bxSlider({
+			mode:'fade',
+			auto:true,
+			autoHover:false,
+			hideControlOnEnd:true,
+			infiniteLoop:false,
+			pause:4000,
+			speed:600
+			});	  
+			
 		});
-		
 
+
+		
 		function myFunction() {
 			
 			document.getElementById("nav-drop_down").classList.toggle("show");
