@@ -66,8 +66,8 @@ and (max-width: 479px) {
 					font-size:18pt !important;
 				}*/	
 				
-		/* copyright*/
-		#datazul .copyright p {
+		/* footer*/
+		#datazul .footer p {
 			font-size:14pt !important;
 		}
 	
@@ -377,31 +377,6 @@ and (max-width: 1365px) {
 		#datazul .get_in_touch .div-responsive {
 			width:100%;
 		}
-		
-		/*#datazul .get_in_touch form {
-			width:calc(100% - 60px);
-			margin:0 30px;
-		}
-		
-			#datazul .get_in_touch form input {
-				width:calc(49% - 60px);
-			}
-			
-				#datazul .get_in_touch form input[type=submit] {
-					width:calc(98% - 60px);
-				}
-		
-			#datazul .get_in_touch form input {
-				font-size:12pt;
-			}
-				
-			#datazul .get_in_touch form textarea {
-				font-size:12pt;
-			}	
-			
-				#datazul .get_in_touch form input[type=submit] {
-					font-size:24pt;
-				}*/
 				
 		#datazul .get_in_touch .request {
 			width:calc(100% - 364px);
@@ -409,8 +384,8 @@ and (max-width: 1365px) {
 			margin-right:180px;
 		}
 			
-		/* copyright*/
-		#datazul .copyright p {
+		/* footer*/
+		#datazul .footer p {
 			font-size:20pt;
 		}
 	

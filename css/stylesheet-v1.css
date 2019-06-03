@@ -560,8 +560,8 @@ body{
 					padding:0;
 				}
 			
-	/* copyright*/
-	#datazul .copyright {
+	/* footer*/
+	#datazul .footer {
 		width:100%;
 		height:120px;
 		background:#f3f3f3;
@@ -571,7 +571,7 @@ body{
 		display:table;
 	}
 	
-		#datazul .copyright p {
+		#datazul .footer p {
 			font-family:"Ebrima", Arial, Helvetica, sans-serif;
 			font-size:24pt;
 			font-weight:bold;
