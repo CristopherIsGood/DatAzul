@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:8.5in) {
+	:root {
+		font-size:18px;
+	}
+/* ----------- tags ------------------ */			
+	article {
+		grid-template-columns:1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
+	}
+			
+	footer p {
+		font-size:18pt !important;
+	}		
+/* ----------- tags ------------------ */
+/* ---------- classes ---------------- */
+	.datazul-blog p img {
+		width:150px !important;
+	}
+/* ---------- classes ---------------- */
+	
+}
+
+@media (max-width:5.0in) {
+	:root {
+		font-size:16px;
+	}
+}
