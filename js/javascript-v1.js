@@ -1,0 +1,16 @@
+// JQuery BxSlider v1.0
+/* global $ */
+/* global document */
+/* global window */
+/* eslint no-mixed-spaces-and-tabs: ["error", "smart-tabs"] */
+
+$(document).ready(function(){
+	$('.slider-0').bxSlider({
+		pager:false,
+		controls:false,
+		auto:true,
+		speed:2000,
+		adaptiveHeight:true,
+		adaptiveHeightSpeed:500
+	});
+});
