@@ -9,7 +9,8 @@ $(document).ready(function(){
 		pager:false,
 		controls:false,
 		auto:true,
-		speed:2000,
+		speed:3000,
+		pause:9000,
 		adaptiveHeight:true,
 		adaptiveHeightSpeed:500
 	});
