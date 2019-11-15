@@ -10,7 +10,7 @@ $(document).ready(function(){
 		controls:false,
 		auto:true,
 		speed:3000,
-		pause:12000,
+		pause:20000,
 		adaptiveHeight:true,
 		adaptiveHeightSpeed:500
 	});
