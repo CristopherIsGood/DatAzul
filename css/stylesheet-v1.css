@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	background:#f3f3f3;
+	background:url("../img/article_bg.png") no-repeat center;
 }
 
 body,
