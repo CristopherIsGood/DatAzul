@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	-webkit-backface-visibility:hidden;
+}
+
+.fadeIn {
+	-webkit-animation-duration:2s;
+	   -moz-animation-duration:2s;
+	     -o-animation-duration:2s;
+	        animation-duration:2s;
+	-webkit-animation-fill-mode:both;
+	   -moz-animation-fill-mode:both;
+	     -o-animation-fill-mode:both;
+	        animation-fill-mode:both;
+  	-webkit-animation-name:fadeIn;
+		-moz-animation-name:fadeIn;
+		 -o-animation-name:fadeIn;
+  			animation-name:fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+
+  to {
+    opacity:1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+
+  to {
+    opacity:1;
+  }
+}
