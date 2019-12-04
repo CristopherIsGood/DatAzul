@@ -3,6 +3,15 @@
 /* global document */
 /* global window */
 /* eslint no-mixed-spaces-and-tabs: ["error", "smart-tabs"] */
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 190 || document.documentElement.scrollTop > 190) {
+    document.getElementById("myDIV").className = "visible";
+  } else {
+    document.getElementById("myDIV").className = "hidden";
+  }
+}
 
 $(document).ready(function(){
 	$('.slider-0').bxSlider({
@@ -10,7 +19,7 @@ $(document).ready(function(){
 		controls:false,
 		auto:true,
 		speed:3000,
-		pause:20000,
+		pause:15000,
 		adaptiveHeight:true,
 		adaptiveHeightSpeed:500
 	});
