@@ -6,10 +6,10 @@ body {
 }
 
 .fadeIn {
-	-webkit-animation-duration:2s;
-	   -moz-animation-duration:2s;
-	     -o-animation-duration:2s;
-	        animation-duration:2s;
+	-webkit-animation-duration:1s;
+	   -moz-animation-duration:1s;
+	     -o-animation-duration:1s;
+	        animation-duration:1s;
 	-webkit-animation-fill-mode:both;
 	   -moz-animation-fill-mode:both;
 	     -o-animation-fill-mode:both;
@@ -47,19 +47,19 @@ body {
 .visible {
 	visibility:visible;
 	opacity:1 !important;
-	-webkit-transition:opacity 2s linear;
-	-moz-transition:opacity 2s linear;
-	-ms-transition:opacity 2s linear;
-	-o-transition:opacity 2s linear;
-	transition:opacity 2s linear;
+	-webkit-transition:opacity 1s linear;
+	-moz-transition:opacity 1s linear;
+	-ms-transition:opacity 1s linear;
+	-o-transition:opacity 1s linear;
+	transition:opacity 1s linear;
 }
 
 .hidden {
 	visibility: hidden;
 	opacity:0;
-	-webkit-transition:visibility 0s 2s, opacity 2s linear;
-	-moz-transition:visibility 0s 2s, opacity 2s linear;
-	-ms-transition:visibility 0s 2s, opacity 2s linear;
-	-o-transition:visibility 0s 2s, opacity 2s linear;
-	transition:visibility 0s 2s, opacity 2s linear;
+	-webkit-transition:visibility 0s 1s, opacity 1s linear;
+	-moz-transition:visibility 0s 1s, opacity 1s linear;
+	-ms-transition:visibility 0s 1s, opacity 1s linear;
+	-o-transition:visibility 0s 1s, opacity 1s linear;
+	transition:visibility 0s 1s, opacity 1s linear;
 }
