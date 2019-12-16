@@ -22,6 +22,16 @@
 	
 }
 
+@media (max-width:10.312498700787in){
+	.bx-wrapper .bx-prev {
+	  left: -5% !important;
+	}
+	
+	.bx-wrapper .bx-next {
+	  right: -5% !important;
+	}
+}
+
 @media (max-width:5.0in) {
 	:root {
 		font-size:16px;
