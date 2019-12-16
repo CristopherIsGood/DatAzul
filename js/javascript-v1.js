@@ -15,13 +15,10 @@ function myFunction() {
 
 $(document).ready(function(){
 	$('.slider-0').bxSlider({
-		/*pager:false,
-		controls:false,
-		auto:true,*/
-	    auto:true,
-	    autoControls:false,
-	    stopAutoOnClick:true,
 		pager:false,
+	    Controls:false,
+	    auto:true,
+	    stopAutoOnClick:true,
 		speed:3000,
 		pause:15000,
 		adaptiveHeight:true,
