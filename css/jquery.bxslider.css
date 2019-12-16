@@ -34,10 +34,6 @@ ul.bxslider {
   list-style:none;
 }
 
-.bx-viewport {
-  height:auto !important;
-}
-
 /** THEME
 ===================================*/
 .bx-wrapper .bx-pager,
