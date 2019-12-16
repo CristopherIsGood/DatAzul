@@ -18,10 +18,7 @@ $(document).ready(function(){
 		pager:false,
 	    Controls:false,
 	    auto:true,
-	    stopAutoOnClick:true,
 		speed:3000,
-		pause:15000,
-		adaptiveHeight:true,
-		adaptiveHeightSpeed:500
+		pause:15000
 	});
 });
