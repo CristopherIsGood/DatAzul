@@ -16,9 +16,11 @@ function myFunction() {
 $(document).ready(function(){
 	$('.slider-0').bxSlider({
 		pager:false,
-	    Controls:false,
-	    auto:true,
+		controls:false,
+		auto:true,
 		speed:3000,
-		pause:15000
+		pause:15000,
+		adaptiveHeight:true,
+		adaptiveHeightSpeed:500
 	});
 });
