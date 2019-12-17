@@ -1,1 +1,371 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta charset="utf-8">
+	<title>MockSite2</title>
+	<link rel="icon" href="img/DatAzul_favicon_v2.ico">
+	<link href="css/site2-stylesheet-v1.css" rel="stylesheet" type="text/css">
+	<link href="css/site2-responsive-v1.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Gugi');
+	</style>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/site2-javascript-v1.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+</head>
+	
+<body>
+	<div id="m-site-2">
+		<div class="top-menu">
+			<div class="head-logo">
+				<p>
+					<a href="#gallery">
+						mocksite2
+					</a>
+				</p>
+				<button class="dropbtn" onclick="myButton()"></button>
+			</div><!-- head-logo -->
+			<div id="nav-drop_down" class="head-nav">
+					<ul>
+						<li>
+							<a href="#about">about</a>
+							<div class="nav-content">
+								<div class="nav-sub">
+									<ul id="pageAbout" class="clearfix">
+										<li onClick="myAbout()">
+											<a data-slide-index="0" href="#about">About 1</a>
+										</li>
+										<li onClick="myAbout()">
+											<a data-slide-index="1" href="#about">About 2</a>
+										</li>
+										<li onClick="myAbout()">
+											<a data-slide-index="2" href="#about">About 3</a>
+										</li>
+									</ul>
+								</div><!-- nav-sub -->
+							</div><!-- nav-content -->
+						</li>
+						<li>
+							<a href="#menu1">menu</a>
+							<div class="nav-content">
+								<div class="nav-sub">
+									<ul id="pageMenu1" class="clearfix">
+										<li onClick="myMenu1()">
+											<a data-slide-index="0" href="#menu1">Slide 1</a>
+										</li>
+										<li onClick="myMenu1()">
+											<a data-slide-index="1" href="#menu1">Slide 2</a>
+										</li>
+										<li onClick="myMenu1()">
+											<a data-slide-index="2" href="#menu1">Slide 3</a>
+										</li>
+									</ul>
+								</div><!-- nav-sub -->
+							</div><!-- nav-content -->
+						</li>
+						<li>
+							<a href="#menu2">menu</a>
+							<div class="nav-content">
+								<div class="nav-sub">
+									<ul id="pageMenu2" class="clearfix">
+										<li onClick="myMenu2()">
+											<a data-slide-index="0" href="#menu2">Slide 4</a>
+										</li>
+										<li onClick="myMenu2()">
+											<a data-slide-index="1" href="#menu2">Slide 5</a>
+										</li>
+										<li onClick="myMenu2()">
+											<a data-slide-index="2" href="#menu2">Slide 6</a>
+										</li>
+									</ul>
+								</div><!-- nav-sub -->
+							</div><!-- nav-content -->
+						</li>
+						<li>
+							<a href="#contact">contact</a>
+						</li>
+					</ul>
+			</div><!-- head-nav -->
+		</div><!-- top-menu -->
+		<div class="wrapper">
+			<div id="gallery" class="LightBox">
+				<div class="row">
+				  <div class="column">
+					<img src="img/img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_snow.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_snow.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				</div><!-- row -->
+				<div class="row">
+				  <div class="column">
+					<img src="img/img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_snow.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				  <div class="column">
+					<img src="img/img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor" alt="" />
+				  </div><!-- column -->
+				</div><!-- row -->
+			</div><!-- LightBox -->
+			<div id="about" class="content">
+				<div class="bxslider slider-0">
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>About 1</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>About 2</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>About 3</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+				</div><!-- bxslider slider-0 -->
+			</div><!-- content -->
+			<div id="menu1" class="content">
+				<div class="bxslider slider-1">
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 1</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 2</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 3</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+				</div><!-- bxslider slider-1 -->
+			</div><!-- content -->
+			<div id="menu2" class="content">
+				<div class="bxslider slider-2">
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 4</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 5</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 6</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+				</div><!-- bxslider slider-2 -->
+			</div><!-- content -->
+			<div id="contact" class="end-content">
+				<div class="container">
+				  <form>
+					<div class="row">
+					  <div class="col-25">
+						<label for="fullname">Full Name</label>
+					  </div>
+					  <div class="col-75">
+						<input type="text" id="fullname" name="fullname" placeholder="Your full name..." required>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="col-25">
+						<label for="phone">Phone Number</label>
+					  </div>
+					  <div class="col-75">
+						<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Your phone number.." required>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="col-25">
+						<label for="email">Email Address</label>
+					  </div>
+					  <div class="col-75">
+						<input type="email" id="email" name="email"  placeholder="Your email address.." required>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="col-25">
+						<label for="findus">How did you find us?</label>
+					  </div>
+					  <div class="col-75">
+						<select id="findus" name="findus" required>
+						  <option value="option1">Option 1</option>
+						  <option value="option2">Option 2</option>
+						  <option value="option3">Option 3</option>
+						</select>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="col-25">
+						<label for="message">Message</label>
+					  </div>
+					  <div class="col-75">
+						<textarea id="message" name="message" placeholder="What is this about?" style="height:200px" required></textarea>
+					  </div>
+					</div>
+					<div class="row">
+					  <input type="submit" value="Submit">
+					</div>
+				  </form>
+				</div>
+			</div><!-- end-content -->
+		</div><!-- wrapper -->
+		<div class="bottom-footer">
+			<p>
+				<a href="https://datazul.info/">
+					back to datazul
+				</a>
+			</p>
+		</div><!-- bottom-footer -->
+	</div><!-- m-site-2 -->
+	
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 12</div><!-- numbertext -->
+      <!--<img src="img/img_nature_wide.jpg" style="width:100%" alt="" />-->
+	  <video disablePictureInPicture width="400" controls>
+       <source src="video/mov_bbb.mp4" type="video/mp4">
+       Your browser does not support HTML5 video.
+      </video>
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div><!-- numbertext -->
+      <img src="img/img_snow_wide.jpg" style="width:100%" alt="" />
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">3 / 12</div><!-- numbertext -->
+      <img src="img/img_mountains_wide.jpg" style="width:100%" alt="" />
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">4 / 12</div><!-- numbertext -->
+      <img src="img/img_lights_wide.jpg" style="width:100%" alt="" />
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">5 / 12</div><!-- numbertext -->
+      <!--<img src="img/img_nature_wide.jpg" style="width:100%" alt="" />-->
+	  <video disablePictureInPicture width="400" controls>
+       <source src="video/mov_bbb.mp4" type="video/mp4">
+       Your browser does not support HTML5 video.
+      </video>
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">6 / 12</div><!-- numbertext -->
+      <img src="img/img_snow_wide.jpg" style="width:100%" alt="" />
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">7 / 12</div><!-- numbertext -->
+      <img src="img/img_mountains_wide.jpg" style="width:100%" alt="" />
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">8 / 12</div><!-- numbertext -->
+      <img src="img/img_lights_wide.jpg" style="width:100%" alt="" />
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">9 / 12</div><!-- numbertext -->
+      <!--<img src="img/img_nature_wide.jpg" style="width:100%" alt="" />-->
+	  <video disablePictureInPicture width="400" controls>
+       <source src="video/mov_bbb.mp4" type="video/mp4">
+       Your browser does not support HTML5 video.
+      </video>
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">10 / 12</div><!-- numbertext -->
+      <img src="img/img_snow_wide.jpg" style="width:100%" alt="" />
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">11 / 12</div><!-- numbertext -->
+      <img src="img/img_mountains_wide.jpg" style="width:100%" alt="" />
+    </div><!-- mySlides -->
+    <div class="mySlides">
+      <div class="numbertext">12 / 12</div><!-- numbertext -->
+      <!--<img src="img/img_nature_wide.jpg" style="width:100%" alt="" />-->
+	  <video disablePictureInPicture width="400" controls>
+       <source src="video/mov_bbb.mp4" type="video/mp4">
+       Your browser does not support HTML5 video.
+      </video>
+    </div><!-- mySlides -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div><!-- caption-container -->
+		<div class="rowLight">
+			<div class="column">
+			  <img class="demo cursor" src="img/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Media 1">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Media 2">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Media 3">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Media 4">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(5)" alt="Media 5">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(6)" alt="Media 6">
+			</div><!-- column -->
+		</div><!-- rowLight -->
+		<div class="rowLight">
+			<div class="column">
+			  <img class="demo cursor" src="img/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(7)" alt="Media 7">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(8)" alt="Media 8">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(9)" alt="Media 9">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(10)" alt="Media 10">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(11)" alt="Media 11">
+			</div><!-- column -->
+			<div class="column">
+			  <img class="demo cursor" src="img/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(12)" alt="Media 12">
+			</div><!-- column -->
+	  </div><!-- rowLight -->
+  </div><!-- modal-content -->
+</div><!-- myModal modal -->
+    
+</body>
+</html>
