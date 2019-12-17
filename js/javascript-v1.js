@@ -17,10 +17,11 @@ $(document).ready(function(){
 	$('.slider-0').bxSlider({
 		pager:false,
 		controls:true,
-		auto:true,
+		auto:false,
 		speed:3000,
 		pause:15000,
 		adaptiveHeight:true,
-		adaptiveHeightSpeed:500
+		adaptiveHeightSpeed:500,
+		touchEnabled:false
 	});
 });
