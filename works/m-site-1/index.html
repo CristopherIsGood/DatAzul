@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta charset="utf-8">
+	<title>MockSite1</title>
+	<link rel="icon" href="img/DatAzul_favicon_v2.ico">
+	<link href="css/site1-stylesheet-v1.css" rel="stylesheet" type="text/css">
+	<link href="css/site1-responsive-v1.css" rel="stylesheet" type="text/css">
+	<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/javascript-v1.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+	<div id="m-site-1">
+		<div class="top-menu">
+			<div class="head-logo">
+				<p>
+					mocksite1
+				</p>
+				<button class="dropbtn" onclick="myButton()"></button>
+			</div><!-- head-logo -->
+			<div id="nav-drop_down" class="head-nav">
+					<ul>
+						<li>
+							<a href="#">about</a>
+							<div class="nav-content">
+								<div class="nav-sub">
+									<ul id="pageAbout" class="clearfix">
+										<li onClick="myAbout()">
+											<a data-slide-index="0" href="#about">About 1</a>
+										</li>
+										<li onClick="myAbout()">
+											<a data-slide-index="1" href="#about">About 2</a>
+										</li>
+										<li onClick="myAbout()">
+											<a data-slide-index="2" href="#about">About 3</a>
+										</li>
+									</ul>
+								</div><!-- nav-sub -->
+							</div><!-- nav-content -->
+						</li>
+						<li>
+							<a href="#menu1">menu</a>
+							<div class="nav-content">
+								<div class="nav-sub">
+									<ul id="pageMenu1" class="clearfix">
+										<li onClick="myMenu1()">
+											<a data-slide-index="0" href="#menu1">Slide 1</a>
+										</li>
+										<li onClick="myMenu1()">
+											<a data-slide-index="1" href="#menu1">Slide 2</a>
+										</li>
+										<li onClick="myMenu1()">
+											<a data-slide-index="2" href="#menu1">Slide 3</a>
+										</li>
+									</ul>
+								</div><!-- nav-sub -->
+							</div><!-- nav-content -->
+						</li>
+						<li>
+							<a href="#menu2">menu</a>
+							<div class="nav-content">
+								<div class="nav-sub">
+									<ul id="pageMenu2" class="clearfix">
+										<li onClick="myMenu2()">
+											<a data-slide-index="0" href="#menu2">Slide 4</a>
+										</li>
+										<li onClick="myMenu2()">
+											<a data-slide-index="1" href="#menu2">Slide 5</a>
+										</li>
+										<li onClick="myMenu2()">
+											<a data-slide-index="2" href="#menu2">Slide 6</a>
+										</li>
+									</ul>
+								</div><!-- nav-sub -->
+							</div><!-- nav-content -->
+						</li>
+						<li>
+							<a href="#gallery">gallery</a>
+						</li>
+						<li>
+							<a href="#contact">contact</a>
+						</li>
+					</ul>
+			</div><!-- head-nav -->
+		</div><!-- top-menu -->
+		<div class="wrapper">
+			<div id="about" class="content">
+				<div class="bxslider slider-0">
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>About 1</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>About 2</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>About 3</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+				</div><!-- bxslider slider-0 -->
+			</div><!-- content -->
+			<div id="menu1" class="content">
+				<div class="bxslider slider-1">
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 1</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 2</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 3</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+				</div><!-- bxslider slider-1 -->
+			</div><!-- content -->
+			<div id="menu2" class="content">
+				<div class="bxslider slider-2">
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 4</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 5</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+					<div class="slide-bg">
+						<div class="slide-div">
+							<p><span>Slide 6</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nibh ante, efficitur at libero ac, ornare feugiat velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus in ornare ligula, in consequat turpis. Fusce efficitur facilisis semper. Cras ultricies neque efficitur lectus tempor, vel imperdiet erat mattis. Fusce a congue sapien. Etiam ullamcorper at magna nec egestas. Sed rutrum nec purus eget rutrum. Nam faucibus nisi sed lacus consequat porta. Pellentesque nibh odio, elementum vitae risus quis, venenatis eleifend urna. Nam porta fermentum fringilla. Sed elementum sollicitudin justo, eu maximus augue ornare sit amet. Sed molestie porttitor eros, at egestas nisl tincidunt et. Vestibulum id dictum massa, quis maximus mauris. Cras tempor augue nulla, consectetur lacinia neque ullamcorper ut. Sed dictum auctor lectus, maximus venenatis neque mollis et.</p>
+						</div><!-- slide-div -->
+					</div><!-- slide-bg -->
+				</div><!-- bxslider slider-2 -->
+			</div><!-- content -->
+			<div id="gallery" class="content">
+				<!-- Photo Grid -->
+				<div class="galarow"> 
+				  <div class="galacolumn">
+					<img src="img/foto-1.jpg" style="width:100%" alt="" />
+					<img src="img/foto-2.jpg" style="width:100%" alt="" />
+					<img src="img/foto-3.jpg" style="width:100%" alt="" />
+					<img src="img/foto-4.JPG" style="width:100%" alt="" />
+					<img src="img/foto-1.jpg" style="width:100%" alt="" />
+					<img src="img/foto-2.jpg" style="width:100%" alt="" />
+					<img src="img/foto-3.jpg" style="width:100%" alt="" />
+				  </div><!-- galacolumn -->
+				  <div class="galacolumn">
+					<img src="img/foto-1.jpg" style="width:100%" alt="" />
+					<img src="img/foto-2.jpg" style="width:100%" alt="" />
+					<img src="img/foto-3.jpg" style="width:100%" alt="" />
+					<img src="img/foto-4.JPG" style="width:100%" alt="" />
+					<img src="img/foto-1.jpg" style="width:100%" alt="" />
+					<img src="img/foto-2.jpg" style="width:100%" alt="" />
+					<img src="img/foto-3.jpg" style="width:100%" alt="" />
+				  </div><!-- galacolumn -->
+				  <div class="galacolumn">
+					<img src="img/foto-1.jpg" style="width:100%" alt="" />
+					<img src="img/foto-2.jpg" style="width:100%" alt="" />
+					<img src="img/foto-3.jpg" style="width:100%" alt="" />
+					<img src="img/foto-4.JPG" style="width:100%" alt="" />
+					<img src="img/foto-1.jpg" style="width:100%" alt="" />
+					<img src="img/foto-2.jpg" style="width:100%" alt="" />
+					<img src="img/foto-3.jpg" style="width:100%" alt="" />
+				  </div><!-- galacolumn -->
+				  <div class="galacolumn">
+					<img src="img/foto-1.jpg" style="width:100%" alt="" />
+					<img src="img/foto-2.jpg" style="width:100%" alt="" />
+					<img src="img/foto-3.jpg" style="width:100%" alt="" />
+					<img src="img/foto-4.JPG" style="width:100%" alt="" />
+					<img src="img/foto-1.jpg" style="width:100%" alt="" />
+					<img src="img/foto-2.jpg" style="width:100%" alt="" />
+					<img src="img/foto-3.jpg" style="width:100%" alt="" />
+				  </div><!-- galacolumn -->
+				</div><!-- galarow -->
+			</div><!-- content -->
+			<div id="contact" class="end-content">
+				<div class="container">
+				  <form>
+					<div class="row">
+					  <div class="col-25">
+						<label for="fullname">Full Name</label>
+					  </div>
+					  <div class="col-75">
+						<input type="text" id="fullname" name="fullname" placeholder="Your full name..." required>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="col-25">
+						<label for="phone">Phone Number</label>
+					  </div>
+					  <div class="col-75">
+						<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Your phone number.." required>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="col-25">
+						<label for="email">Email Address</label>
+					  </div>
+					  <div class="col-75">
+						<input type="email" id="email" name="email"  placeholder="Your email address.." required>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="col-25">
+						<label for="findus">How did you find us?</label>
+					  </div>
+					  <div class="col-75">
+						<select id="findus" name="findus" required>
+						  <option value="option1">Option 1</option>
+						  <option value="option2">Option 2</option>
+						  <option value="option3">Option 3</option>
+						</select>
+					  </div>
+					</div>
+					<div class="row">
+					  <div class="col-25">
+						<label for="message">Message</label>
+					  </div>
+					  <div class="col-75">
+						<textarea id="message" name="message" placeholder="What is this about?" style="height:200px" required></textarea>
+					  </div>
+					</div>
+					<div class="row">
+					  <input type="submit" value="Submit">
+					</div>
+				  </form>
+				</div>
+			</div><!-- end-content -->
+		</div><!-- wrapper -->
+		<div class="bottom-footer">
+			<p>
+				<a href="https://datazul.info/">
+					back to datazul
+				</a>
+			</p>
+		</div><!-- bottom-footer -->
+	</div><!-- m-site-1 -->
+</body>
+</html>
