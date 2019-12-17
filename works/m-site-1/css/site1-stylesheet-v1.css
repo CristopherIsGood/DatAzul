@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  	box-sizing:border-box;
+}
+
+html {
+  	scroll-behavior:smooth;
+}
+
+body {
+	margin:0;
+	padding:0;
+	background:url("../img/img_background.png");
+}
+
+#m-site-1 {
+	width:100%;
+	height:auto;
+	background-color:rgba(223, 246, 143, 0.75);
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+
+	#m-site-1 .top-menu {
+		background:#a7c151;
+		margin:0 auto;
+		width:100%;
+		height:100px;
+		padding:0;
+		position:fixed;
+		display:block;
+		z-index:5;
+	}
+	
+		#m-site-1 .top-menu .head-logo {
+			margin:0 0 0 100px;
+			padding:0;
+			width:calc(35% - 100px);
+			height:100px;
+			float:left;
+			display:table;
+		}
+		
+			#m-site-1 .top-menu .head-logo p {
+				font-family:"Square721 BT";
+				font-size:36pt;
+				text-transform:uppercase;
+				vertical-align:middle;
+				display:table-cell;	
+				margin:0;
+				padding:0;
+			}
+
+				#m-site-1 .top-menu .head-logo p img {
+					width:150px;
+					height:auto;
+				}
+			
+		#m-site-1 .top-menu .head-nav {
+			margin:0 100px 0 0;
+			padding:0;
+			width:calc(65% - 100px);
+			height:100px;
+			float:left;
+		}
+			
+				#m-site-1 .top-menu .head-nav ul {
+					font-family:"Square721 BT";
+					font-size:24px;
+					text-transform:uppercase;
+					margin:0;
+					padding:0;
+					float:right;
+				}
+				
+					#m-site-1 .top-menu .head-nav ul li {
+						float:left;
+						margin:0 0 0 20px;
+						list-style-type:none;
+						display:inline-block;
+						padding:0;
+						position:relative;
+					}
+					
+						#m-site-1 .top-menu .head-nav ul li a {
+							display:inline-block;
+							padding:0;
+							height:100px;
+							line-height:100px;
+							color:#fff;
+							text-decoration:none;
+						}
+
+							#m-site-1 .top-menu .head-nav ul li:hover .nav-content {
+								display:block;
+							}
+
+								#m-site-1 .top-menu .head-nav ul li:hover > a {
+									color:#82973f;
+								}
+
+						#m-site-1 .top-menu .head-nav ul li .nav-content {
+							display:none;
+							position:absolute;
+							list-style-type:none;
+							width:140px;
+							margin:0 0 0 -20px;
+							padding:5px 0 0 0;
+							top:100px;
+							overflow:hidden;
+							background:#a7c151;
+						}
+
+							#m-site-1 .top-menu .head-nav ul li .nav-content ul {
+								font-size:16px;
+								margin:0;
+								padding:10px;
+							}
+
+								#m-site-1 .top-menu .head-nav ul li .nav-content ul li {
+									float:none;
+									margin:10px;
+									padding:0;
+								}
+
+									#m-site-1 .top-menu .head-nav ul li .nav-content ul li a {
+										margin:0;
+										padding:0;
+										height:auto;
+										line-height:normal;
+									}
+
+									#m-site-1 .top-menu .head-nav ul li .nav-content ul li a:hover {
+										color:#82973f;
+									}
+
+	#m-site-1 .wrapper {
+		background:#fff;
+		margin:0 100px;
+		width:calc(100% - 200px);
+		height:auto;
+		overflow:hidden;
+		padding:0;
+	}
+
+		#m-site-1 .wrapper .top-content {
+			background:#fff;
+			margin:0 auto;
+			padding:0;
+			width:100%;
+			height:400px;
+			float:left;
+		}
+
+		#m-site-1 .wrapper .content {
+			background:#fff;
+			margin:0 auto;
+			padding:0;
+			width:100%;
+			height:auto;
+			float:left;
+		}
+
+/* ------------------ SLIDER ----------------------------- */
+
+			#m-site-1 .wrapper .content .bxslider .slide-bg {
+				width:100%;
+				height:auto;
+				margin:0 auto;
+				padding:0;
+			}
+
+				#m-site-1 .wrapper .content .bxslider .slide-bg img {
+					margin:0 auto;
+					padding:0;
+					position:absolute;
+					z-index:1;
+				}
+
+				#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div {
+					width:100%;
+					height:auto;
+					margin:0 auto;
+					padding:50px 0;
+					background:#a0b74f;
+					position:relative;
+					display:table;
+					z-index:2;
+				}
+
+					#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p {
+						font-family:"Square721 BT";
+						font-size:16px;
+						vertical-align:middle;
+						display:table-cell;	
+						margin:0;
+						padding:100px 50px 0;
+					}
+
+						#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p span {
+							font-size:24px;
+							text-transform:uppercase;
+							font-weight:bold; 
+							display:block;
+							margin:0 auto 20px;
+							padding:0;
+						}
+
+/* ------------------ SLIDER ----------------------------- */
+
+		#m-site-1 .wrapper .end-content {
+			background:#fff;
+			margin:0 auto;
+			padding:0;
+			width:100%;
+			height:auto;
+			float:left;
+		}
+
+
+/* -------------------- GALLERY ------------------------ */
+
+.header {
+  text-align:center;
+  padding:32px;
+}
+
+.galarow {
+  display:-ms-flexbox; /* IE10 */
+  display:flex;
+  -ms-flex-wrap:wrap; /* IE10 */
+  flex-wrap:wrap;
+  padding:0 4px;
+  background:#a0b74f;
+}
+
+.galacolumn {
+  -ms-flex:25%; /* IE10 */
+  flex:25%;
+  max-width:25%;
+  padding:0 4px 8px;
+  background:#fff;
+}
+
+.galacolumn img {
+  margin-top:8px;
+  vertical-align:middle;
+}
+
+/* -------------------- GALLERY ------------------------ */
+/* -------------------- CONTACT FORM --------------------------- */
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+	width:100%;
+	padding:12px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	resize:vertical;
+	font-family:"Square721 BT";
+}
+
+label {
+  	padding:12px 12px 12px 0;
+  	display:inline-block;
+	font-family:"Square721 BT";
+	color:#fff;
+}
+
+input[type=submit] {
+	background:#c5e158;
+  	color:white;
+  	padding:12px 20px;
+	border-style:solid;
+	border-color:#fff;
+  	border-radius:4px;
+  	cursor:pointer;
+  	float:right;
+	font-family:"Square721 BT";
+}
+
+input[type=submit]:hover {
+	border-color:#fff;
+  	background:#a7c151;
+}
+
+.container {
+  background-color:#a0b74f;
+  padding:124px 20px 100px;
+}
+
+.col-25 {
+  float:left;
+  width:25%;
+  margin:6px 0 0 0;
+}
+
+.col-75 {
+  float:left;
+  width:75%;
+  margin:6px 0 0 0;
+}
+
+.row:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+/* -------------------- CONTACT FORM --------------------------- */
+
+	#m-site-1 .bottom-footer {
+		background:#c5e158;
+		width:100%;
+		height:100px;
+		float:left;
+		margin:auto;
+		padding:0;
+		display:table;
+	}
+
+		#m-site-1 .bottom-footer p {
+			font-family:"Square721 BT", Arial, Helvetica, sans-serif;
+			font-size:24pt;
+			font-weight:bold;
+			text-align:center;
+			text-transform:uppercase;
+			
+			margin:0;
+			padding:0 60px;
+			vertical-align:middle;
+			display:table-cell;
+		}
+
+			#m-site-1 .bottom-footer p a {
+				color:#a0b74f;
+				text-decoration:none;
+			}
