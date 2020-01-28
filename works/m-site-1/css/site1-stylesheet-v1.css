@@ -45,7 +45,7 @@ body {
 		}
 		
 			#m-site-1 .top-menu .head-logo p {
-				font-family:'Gugi',cursive;
+				font-family:'Open Sans',sans-serif;
 				font-size:36pt;
 				text-transform:uppercase;
 				vertical-align:middle;
@@ -54,9 +54,9 @@ body {
 				padding:0;
 			}
 
-				#m-site-1 .top-menu .head-logo p img {
-					width:150px;
-					height:auto;
+				#m-site-1 .top-menu .head-logo p a {
+					text-decoration:none;
+					color:#fff;
 				}
 			
 		#m-site-1 .top-menu .head-nav {
@@ -68,7 +68,7 @@ body {
 		}
 			
 				#m-site-1 .top-menu .head-nav ul {
-					font-family:'Gugi',cursive;
+					font-family:'Open Sans',sans-serif;
 					font-size:24px;
 					text-transform:uppercase;
 					margin:0;
@@ -192,7 +192,7 @@ body {
 				}
 
 					#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p {
-						font-family:'Gugi',cursive;
+						font-family:'Open Sans',sans-serif;
 						font-size:16px;
 						vertical-align:middle;
 						display:table-cell;	
@@ -259,13 +259,13 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 	border:1px solid #ccc;
 	border-radius:4px;
 	resize:vertical;
-	font-family:'Gugi',cursive;
+	font-family:'Open Sans',sans-serif;
 }
 
 label {
   	padding:12px 12px 12px 0;
   	display:inline-block;
-	font-family:'Gugi',cursive;
+	font-family:'Open Sans',sans-serif;
 	color:#fff;
 }
 
@@ -278,7 +278,8 @@ input[type=submit] {
   	border-radius:4px;
   	cursor:pointer;
   	float:right;
-	font-family:'Gugi',cursive;
+	font-family:'Open Sans',sans-serif;
+	text-transform:uppercase;
 }
 
 input[type=submit]:hover {
@@ -322,7 +323,7 @@ input[type=submit]:hover {
 	}
 
 		#m-site-1 .bottom-footer p {
-			font-family:'Gugi',cursive;
+			font-family:'Open Sans',sans-serif;
 			font-size:24pt;
 			font-weight:bold;
 			text-align:center;
