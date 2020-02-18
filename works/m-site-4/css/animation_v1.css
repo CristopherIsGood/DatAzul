@@ -7,36 +7,40 @@ body {
 
 #section1{
 	opacity:1;
-	-webkit-transition:opacity 0.5s linear;
-	-moz-transition:opacity 0.5s linear;
-	-ms-transition:opacity 0.5s linear;
-	-o-transition:opacity 0.5s linear;
-	transition:opacity 0.5s linear;
+	transform:translateX(0%);
+	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
+	-moz-transition:opacity 0.5s linear, transform 0.5s linear;
+	-ms-transition:opacity 0.5s linear, transform 0.5s linear;
+	-o-transition:opacity 0.5s linear, transform 0.5s linear;
+	transition:opacity 0.5s linear, transform 0.5s linear;
 }
 
 #section2{
 	opacity:0;
-	-webkit-transition:opacity 0.5s linear;
-	-moz-transition:opacity 0.5s linear;
-	-ms-transition:opacity 0.5s linear;
-	-o-transition:opacity 0.5s linear;
-	transition:opacity 0.5s linear;
+	transform:translateX(-100%);
+	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
+	-moz-transition:opacity 0.5s linear, transform 0.5s linear;
+	-ms-transition:opacity 0.5s linear, transform 0.5s linear;
+	-o-transition:opacity 0.5s linear, transform 0.5s linear;
+	transition:opacity 0.5s linear, transform 0.5s linear;
 }
 
 .visible {
 	opacity:1 !important;
-	-webkit-transition:opacity 0.5s linear;
-	-moz-transition:opacity 0.5s linear;
-	-ms-transition:opacity 0.5s linear;
-	-o-transition:opacity 0.5s linear;
-	transition:opacity 0.5s linear;
+	transform:translateX(0%) !important;
+	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
+	-moz-transition:opacity 0.5s linear, transform 0.5s linear;
+	-ms-transition:opacity 0.5s linear, transform 0.5s linear;
+	-o-transition:opacity 0.5s linear, transform 0.5s linear;
+	transition:opacity 0.5s linear, transform 0.5s linear;
 }
 
 .hidden {
 	opacity:0 !important;
-	-webkit-transition:opacity 0.5s linear;
-	-moz-transition:opacity 0.5s linear;
-	-ms-transition:opacity 0.5s linear;
-	-o-transition:opacity 0.5s linear;
-	transition:opacity 0.5s linear;
+	transform:translateX(-100%) !important;
+	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
+	-moz-transition:opacity 0.5s linear, transform 0.5s linear;
+	-ms-transition:opacity 0.5s linear, transform 0.5s linear;
+	-o-transition:opacity 0.5s linear, transform 0.5s linear;
+	transition:opacity 0.5s linear, transform 0.5s linear;
 }
