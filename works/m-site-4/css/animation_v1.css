@@ -5,73 +5,38 @@ body {
 	-webkit-backface-visibility:hidden;
 }
 
-.fadeIn {
-	-webkit-animation-duration:1s;
-	   -moz-animation-duration:1s;
-	     -o-animation-duration:1s;
-	        animation-duration:1s;
-	-webkit-animation-fill-mode:both;
-	   -moz-animation-fill-mode:both;
-	     -o-animation-fill-mode:both;
-	        animation-fill-mode:both;
-  	-webkit-animation-name:fadeIn;
-		-moz-animation-name:fadeIn;
-		 -o-animation-name:fadeIn;
-  			animation-name:fadeIn;
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity:0;
-  }
-
-  to {
-    opacity:1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity:0;
-  }
-
-  to {
-    opacity:1;
-  }
-}
-
 #section1{
 	opacity:1;
-	-webkit-transition:visibility 0s 1s, opacity 1s linear;
-	-moz-transition:visibility 0s 1s, opacity 1s linear;
-	-ms-transition:visibility 0s 1s, opacity 1s linear;
-	-o-transition:visibility 0s 1s, opacity 1s linear;
-	transition:visibility 0s 1s, opacity 1s linear;
+	-webkit-transition:opacity 0.5s linear;
+	-moz-transition:opacity 0.5s linear;
+	-ms-transition:opacity 0.5s linear;
+	-o-transition:opacity 0.5s linear;
+	transition:opacity 0.5s linear;
 }
 
 #section2{
 	opacity:0;
-	-webkit-transition:visibility 0s 1s, opacity 1s linear;
-	-moz-transition:visibility 0s 1s, opacity 1s linear;
-	-ms-transition:visibility 0s 1s, opacity 1s linear;
-	-o-transition:visibility 0s 1s, opacity 1s linear;
-	transition:visibility 0s 1s, opacity 1s linear;
+	-webkit-transition:opacity 0.5s linear;
+	-moz-transition:opacity 0.5s linear;
+	-ms-transition:opacity 0.5s linear;
+	-o-transition:opacity 0.5s linear;
+	transition:opacity 0.5s linear;
 }
 
 .visible {
 	opacity:1 !important;
-	-webkit-transition:opacity 1s linear;
-	-moz-transition:opacity 1s linear;
-	-ms-transition:opacity 1s linear;
-	-o-transition:opacity 1s linear;
-	transition:opacity 1s linear;
+	-webkit-transition:opacity 0.5s linear;
+	-moz-transition:opacity 0.5s linear;
+	-ms-transition:opacity 0.5s linear;
+	-o-transition:opacity 0.5s linear;
+	transition:opacity 0.5s linear;
 }
 
 .hidden {
 	opacity:0 !important;
-	-webkit-transition:visibility 0s 1s, opacity 1s linear;
-	-moz-transition:visibility 0s 1s, opacity 1s linear;
-	-ms-transition:visibility 0s 1s, opacity 1s linear;
-	-o-transition:visibility 0s 1s, opacity 1s linear;
-	transition:visibility 0s 1s, opacity 1s linear;
+	-webkit-transition:opacity 0.5s linear;
+	-moz-transition:opacity 0.5s linear;
+	-ms-transition:opacity 0.5s linear;
+	-o-transition:opacity 0.5s linear;
+	transition:opacity 0.5s linear;
 }
