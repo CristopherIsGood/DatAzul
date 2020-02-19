@@ -19,6 +19,10 @@
 			  });
 			}
 			  
+			$("#nav-drop_down ul li a").click(function() {
+				$('.nav-list_mobile').removeClass('show');
+			});
+			  
 			$('.head-nav').removeClass('show');
  
 		  });
