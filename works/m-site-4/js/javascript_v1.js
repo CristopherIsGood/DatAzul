@@ -42,6 +42,10 @@ $(window).scroll(function(){
 $(document).ready(function(){	
 	// remove class when it closes the drop down list after "getElementById("nav-drop_down")"
 	$('.navigation').removeClass('show');
+	
+    $("#nav-drop_down ul li a").click(function() {
+        $('.navigation').removeClass('show');
+    });
 });
 
 function myButton() {
