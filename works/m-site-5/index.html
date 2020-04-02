@@ -1,1 +1,74 @@
+<!doctype html>
+<html ng-app="angularAnime">
+<head>
+	<meta charset="utf-8">
+	<title>MockSite5</title>
+	<link rel="stylesheet" href="css/stylesheet-v1.css">
+	<link rel="stylesheet" href="css/responsive-v1.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-animate.js"></script>
+    <!--<script>document.write('<base href="' + document.location + '" />');</script>-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/javascript-v1.js"></script>
+</head>
 
+<body ng-controller="myCtrl">
+	<div id="top">
+		<div class="sticky-header">
+			<div class="logo">
+				<p>
+					<a href="#top">
+						mocksite5
+					</a>
+				</p>
+				<button class="dropbtn" onclick="myButton()"></button>
+			</div><!-- logo -->
+			<div id="nav-drop_down" class="navigation">
+				<ul>
+					<li><a href="#section1">section 1</a></li>
+					<span>&vert;</span>
+					<li><a href="#section2">section 2</a></li>
+				</ul>
+			</div><!-- navigation -->
+		</div><!-- sticky-header -->
+		<div id="section1" class="wrapper">
+			<div class="name-country-age">
+				<p>full name: <input type="text" ng-model="addMe"></p>
+				<button ng-click="addItem()">Add</button>
+				<p>{{errortext}}</p>
+				<p>country: <input type="text" ng-model="addTest"></p>
+				<button ng-click="addCount()">Add</button>
+				<p>{{errorCount}}</p>
+				<div class="date-of-birth">
+					<p>date of birth</p>
+					<p>day <select ng-model="selectedDay" ng-options="day as day.date for day in days"></select></p>
+					<p>month <select ng-model="selectedMonth" ng-options="month as month.date for month in months"></select></p>
+					<p>year <select ng-model="selectedYear" ng-options="year as year.date for year in years"></select></p>
+					<button ng-click="dateDiff(selectedMonth, selectedDay, selectedYear); addNum()">Press My Age</button>
+				</div><!-- date-of-birth -->
+				<p>full name: {{addMe + " country: " + addTest + " age: " + age}}</p>
+			</div><!-- name-country-age -->
+			<div id="section2" class="hidden-content">
+				<p>click this box <input type="checkbox" ng-model="checked" aria-label="Toggle ngShow"></p>
+				<div class="check-element" ng-show="checked">
+					<ul>
+						<li>Your Name</li>
+						<li ng-repeat="x in names">{{x}}<span ng-click="removeItem($index)">×</span></li>
+					</ul>
+					<ul>
+						<li>Your Country</li>
+						<li ng-repeat="x in countries">{{x}}<span ng-click="removeCount($index)">×</span></li>
+					</ul>
+				</div>
+			</div><!-- hidden-content -->
+		</div><!-- wrapper -->
+		<div class="footer">
+			<p>
+				<a href="https://datazul.info/">
+					back to datazul
+				</a>
+			</p>
+		</div><!-- footer -->
+	</div><!-- top -->
+</body>
+</html>
