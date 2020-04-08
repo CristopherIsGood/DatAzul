@@ -73,11 +73,11 @@ and (max-width: 990px) {
 			}
 	
 			#top .wrapper .name-country-age input[type=text], select, button, p {
-				font-size:30px;
+				font-size:24px;
 			}
 	
 				#top .wrapper .hidden-content .check-element ul {
-					font-size:30px;
+					font-size:24px;
 				}
 	
 /* ----------- footer --------------- */
