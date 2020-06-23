@@ -9,6 +9,11 @@
 	article {
 		grid-template-columns:1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
 	}
+	
+
+	.div-center p {
+    	font-size:28px;
+	}
 			
 	footer p {
 		font-size:16pt !important;
