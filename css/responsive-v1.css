@@ -39,11 +39,11 @@
 
 @media (max-width:5.0in) {
 	:root {
-		font-size:16py;
+		font-size:16pt;
 	}
 	
 	.div-center p {
-    	font-size:16px !important;
+    	font-size:16pt !important;
 	}
 	
 	footer p {
