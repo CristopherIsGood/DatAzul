@@ -3,7 +3,7 @@
 
 @media (max-width:8.5in) {
 	:root {
-		font-size:18px;
+		font-size:18px !important;
 	}
 /* ----------- tags ------------------ */			
 	article {
@@ -39,7 +39,7 @@
 
 @media (max-width:5.0in) {
 	:root {
-		font-size:16pt;
+		font-size:18px !important;
 	}
 	
 	.div-center p {
