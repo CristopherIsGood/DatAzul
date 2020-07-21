@@ -189,6 +189,10 @@ body{
 						height:520px;
 						float:right;
 					}
+
+		.bx-controls-direction {
+			display:none;
+		}
 		
 		/*#datazul .self_expression .slide_default:after {
 			content:"";
