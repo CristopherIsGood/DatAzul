@@ -222,6 +222,10 @@ body {
 			float:left;
 		}
 
+		.bx-controls-direction {
+			display:none;
+		}
+
 /* -------------------- CONTACT FORM --------------------------- */
 
 input[type=text], input[type=tel], input[type=email], select, textarea {
