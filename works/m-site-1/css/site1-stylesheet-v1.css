@@ -220,6 +220,10 @@ body {
 			float:left;
 		}
 
+		.bx-controls-direction {
+			display:none;
+		}
+
 
 /* -------------------- GALLERY ------------------------ */
 
