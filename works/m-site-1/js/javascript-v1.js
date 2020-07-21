@@ -7,6 +7,7 @@
 /* exported myMenu1 */
 /* exported myMenu2 */
 /* exported myButton */
+/* eslint no-mixed-spaces-and-tabs: ["error", "smart-tabs", "no-unused-vars"] */
 
 	function myAbout() {
 	  $(window).scrollTop($('#about').offset().top);
@@ -22,15 +23,15 @@
 
 $(document).ready(function(){
 	$('.slider-0').bxSlider({
-	  pagerCustom: '#pageAbout'
+	  pagerCustom:'#pageAbout'
 	});
 	
 	$('.slider-1').bxSlider({
-	  pagerCustom: '#pageMenu1'
+	  pagerCustom:'#pageMenu1'
 	});
 	
 	$('.slider-2').bxSlider({
-	  pagerCustom: '#pageMenu2'
+	  pagerCustom:'#pageMenu2'
 	});
 
 			$("a").click(function(event){
@@ -51,6 +52,6 @@ $(document).ready(function(){
 		  });
 });
 
-		function myButton() {
-			document.getElementById("nav-drop_down").classList.toggle("show");
-		}
+function myButton() {
+    document.getElementById("nav-drop_down").classList.toggle("show");
+}
