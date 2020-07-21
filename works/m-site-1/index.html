@@ -313,7 +313,7 @@
 							// Set Initial Variables
 							var target = e.target || e.srcElement;
 							var to = 'cristobal.montesino@gmail.com';
-							var uri = 'mailto:cristobal.montesino@gmail.com' + to;
+							var uri = 'mailto:' + to;
 							var body = '';
 
 							// Set Form Values to Variables
@@ -328,7 +328,7 @@
 							body += "Phone Number: " + phone + "\r\n";
 
 							// Build final Mailto URI
-							uri += '?email=' + encodeURIComponent(subject);
+							uri += '?email=' + encodeURIComponent(email);
 							uri += '&body=' + encodeURIComponent(body);
 
 							// Open Mailto in New Window / Tab
