@@ -1,0 +1,55 @@
+/* CSS Document */
+
+@media only screen and (max-width:980px) {
+	.top-nav-bar {
+		height:118px;
+		border-bottom:0;
+	}
+	
+	.search-box {
+		width:100%;
+	}
+	
+	.menu-bar {
+		width:100%;
+	}
+	
+		.menu-bar ul {
+			margin:10px 0;
+			width:100%;
+		}
+	
+			.menu-bar ul li {
+				border-top:1px solid #fff;
+				height:57px;
+				width:100%;
+			}
+	
+			.menu-bar ul li:first-child {
+				border-left:none;
+			}
+	
+			.menu-bar ul li ul {
+				top:118px;
+				left:0;
+			}
+	
+/* ------------- slider ----------------- */	
+	.slider {
+		width:100%;
+		margin-left:0;
+	}
+	
+}
+
+@media only screen and (min-width:980px) {
+	
+.side-menu {
+	display:block !important;
+}
+	
+		#menu-btn, #close-btn {
+		display:none !important;
+	}
+	
+}
