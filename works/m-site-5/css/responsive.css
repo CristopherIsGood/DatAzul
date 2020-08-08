@@ -30,6 +30,7 @@
 			}
 	
 			.menu-bar ul li ul {
+				width:100%;
 				top:118px;
 				left:0;
 			}
