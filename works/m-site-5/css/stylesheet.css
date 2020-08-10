@@ -5,6 +5,10 @@
 	padding:0;
 }
 
+html {
+	scroll-behavior:smooth;
+}
+
 body {
 	background-color:#fff;
 	font-family:sans-serif;
@@ -59,7 +63,6 @@ body {
 .menu-bar {
 	width:60%;
 	height:57px;
-	float:right;
 }
 
 	.menu-bar ul {
@@ -73,10 +76,10 @@ body {
 		.menu-bar ul li {
 			border-left:1px solid #fff;
 			list-style-type:none;
-			padding:15px 35px;
 			text-align:center;
 			background-color:#6a86bf;
 			cursor:pointer;
+			padding:15px 0;
 		}
 
 			.menu-bar ul li a {
@@ -85,6 +88,7 @@ body {
 				color:#fff;
 				text-decoration:none;
 				text-transform:uppercase;
+				padding:35px;
 			}
 
 			.menu-bar ul li ul {
