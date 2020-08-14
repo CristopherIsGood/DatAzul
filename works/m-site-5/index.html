@@ -82,6 +82,9 @@
 	</section>
 	<!----- featured-categories ------->
 	<section class="featured-categories">
+		<div class="title-box">
+			<p>title box</p>
+		</div>
 		<!-- swipe container -->
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
@@ -139,38 +142,20 @@
 	</footer>
 	<script>		
 	
-/*        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            pagination: {
-              clickable: true,
-            },
-        });*/
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 1,
+			spaceBetween: 30,
+			pagination: {
+			  clickable: true,
+			},
+			breakpoints: {
+			  980: {
+				slidesPerView: 3,
+				spaceBetween: 10
+			  }
+			}
+		});
 
-		
-		function myFunction(x) {
-		  if (x.matches) { // If media query matches
-				var swiper = new Swiper('.swiper-container', {
-				  slidesPerView: 1,
-				  spaceBetween: 30,
-				  pagination: {
-					clickable: true,
-				  },
-				});
-		  } else {
-				var swiper = new Swiper('.swiper-container', {
-				  slidesPerView: 3,
-				  spaceBetween: 30,
-				  pagination: {
-					clickable: true,
-				  },
-				});
-		  }
-		}
-
-		var x = window.matchMedia("(max-width: 980px)")
-		myFunction(x)
-		x.addListener(myFunction)
 	</script>
 </body>
 </html>
