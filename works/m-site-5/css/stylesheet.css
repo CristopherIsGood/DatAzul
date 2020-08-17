@@ -151,12 +151,12 @@ body {
     }
 
 	.swiper-slide p {
-		color:#555;
 		font-size:2rem;
 		font-weight:500;
 	}
 
     .swiper-slide .letter-title {
+		color:#555;
 		position:absolute;
 		top:30px;
 		left:30px;
@@ -164,6 +164,7 @@ body {
     }
 
     .swiper-slide .number-price {
+		color:#a8a8a8;
 		position:absolute;
 		bottom:30px;
 		left:30px;
