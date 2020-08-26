@@ -1,5 +1,32 @@
 /* CSS Document */
 
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+  .buttons {
+    margin-right: 20px;
+  }
+}
+
+
 @media only screen and (max-width:980px) {
 	.top-nav-bar {
 		height:118px;
@@ -55,6 +82,10 @@
 		width:100%;
 		margin-left:0;
 	}
+	
+	  .column-50 {
+    width:100%;
+  }
 
 /* -------------- footer ------------------- */
 		footer p a {
