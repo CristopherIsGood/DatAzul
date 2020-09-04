@@ -2,7 +2,7 @@
 /* CSS Document */
 
 :root {
-	font:20px/1.2 "Calibri", sans-serif;
+	font:20px/1.2 'Open Sans', sans-serif;
 } /* or html */
 /* ----------- tags ------------------ */
 
@@ -51,31 +51,31 @@ h2, p {
 }
 		
 h1 {
-	font:700 2.5rem/1.2 "Calibri";
+	font:700 2.5rem/1.2 'Open Sans', sans-serif;
 	color:#6986bf;
 	text-transform:uppercase;
 }
 		
 h2 {
-	font:400 1.5rem/1.2 "Calibri";
+	font:400 1.5rem/1.2 'Open Sans', sans-serif;
 	color:#1a1a1a;
 	text-transform:uppercase;
 }
 		
 time {
-	font:700 1.0rem/1.2 "Calibri";
+	font:700 1.0rem/1.2 'Open Sans', sans-serif;
 	color:#6986bf;
 }
 		
 h3 {
-	font:700 1.0rem/1.2 "Calibri";
+	font:700 1.0rem/1.2 'Open Sans', sans-serif;
 	color:#1a1a1a;
 	text-transform:uppercase;
 	margin: 0 0 10px 0;
 }
 		
 p {
-	font:400 1.0rem/1.5 "Calibri";
+	font:400 1.0rem/1.5 'Open Sans', sans-serif;
 	color:#1a1a1a;
 	text-align:justify;
 }
@@ -85,7 +85,7 @@ img {
 }
 
 figcaption p {
-	font:400 1.0rem/1.5 "Calibri";
+	font:400 1.0rem/1.5 'Open Sans', sans-serif;
 	color:#1a1a1a;
 }
 		
