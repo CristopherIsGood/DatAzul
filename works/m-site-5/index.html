@@ -28,20 +28,61 @@
 					<a href="index.html">Home</a>
 				</li>
 				<li>
-					<a href="category.html">Menu 1</a>
+					<a href="category.html">Menu</a>
 					<ul>
-						<li><a href="category.html"> Sub Menu 1</a></li>
-						<li><a href="category.html"> Sub Menu 1</a></li>
-						<li><a href="category.html"> Sub Menu 1</a></li>
-						<li><a href="category.html"> Sub Menu 1</a></li>
+						<li><a href="category.html"> Sub Menu</a></li>
+						<li><a href="category.html"> Sub Menu</a></li>
+						<li><a href="category.html"> Sub Menu</a></li>
+						<li><a href="category.html"> Sub Menu</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="cart.html">Cart</a>
+					<a class="noti no-hover">Cart</a>
 				</li>
 			</ul>
 		</div><!-- menu-bar -->
 	</div><!-- top-nav-bar -->
+    <div class="shopping-cart no-display">
+        <div class="title">
+            Shopping Bag
+        </div>
+        <div>
+<!--				<ul>
+                <li>
+                    <a class="add-to-cart" href="#" data-name="ProductName1" data-price="100">
+                        <img class="shop-item-image" src="img/foto-1.jpg" width="120px" height="80px" alt="ProductName1" />ProductName1 $100.21	
+                    </a>
+                </li>
+                <li>
+                    <a class="add-to-cart" href="#" data-name="ProductName2" data-price="200">
+                        <img class="shop-item-image" src="img/foto-2.jpg" width="120px" height="80px" alt="ProductName2" />ProductName2 $200.22	
+                    </a>
+                </li>
+                <li>
+                    <a class="add-to-cart" href="#" data-name="ProductName3" data-price="300">
+                        <img class="shop-item-image" src="img/foto-3.jpg" width="120px" height="80px" alt="ProductName3" />ProductName3 $300.23
+                    </a>
+                </li>
+                <li>
+                    <a class="add-to-cart" href="#" data-name="ProductName4" data-price="400">
+                        <img class="shop-item-image" src="img/foto-4.JPG" width="120px" height="80px" alt="ProductName4" />ProductName4 $400.24	
+                    </a>
+                </li>
+            </ul>-->
+            <div class="all-cart">
+                <ul id="show-cart">
+
+                </ul>
+                <p>
+                    Total:
+                    <span id="total-cart">
+                    </span>
+                </p>
+
+                <button id="clear-cart">Clear Cart</button>
+            </div><!-- all-cart -->
+        </div>
+    </div><!-- shopping-cart -->
 	<section class="header">
 		<div class="slider">
 			<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
@@ -200,22 +241,196 @@
 			</p>
 		</div><!-- container text-center -->
 	</footer>
-	<script>		
-	
-		var swiper = new Swiper('.swiper-container', {
-			slidesPerView: 1,
-			spaceBetween: 30,
-			pagination: {
-			  clickable: true,
-			},
-			breakpoints: {
-			  980: {
-				slidesPerView: 3,
-				spaceBetween: 10
-			  }
-			}
-		});
-
+	<script>
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    pagination: {
+                      clickable: true,
+                    },
+                    breakpoints: {
+                      980: {
+                        slidesPerView: 3,
+                        spaceBetween: 10
+                      }
+                    }
+                });
+		
+				var noti = document.querySelector('.noti');
+				var select = document.querySelector(".shopping-cart");
+				var button = document.getElementsByClassName("btn-primary");
+				for(but of button)
+				{
+					but.addEventListener('click', (e)=>{
+						var add = Number(noti.getAttribute('data-count')|| 0);
+						noti.setAttribute('data-count', add + 1);
+						noti.classList.add('zero');
+					})
+				}
+				
+				$('.noti').click(function() {
+					if($('.shopping-cart').hasClass('no-display')){
+					   	$('.shopping-cart').removeClass('no-display');
+						$('.shopping-cart').addClass('display');
+					} else {
+						$('.shopping-cart').removeClass('display');
+						$('.shopping-cart').addClass('no-display');
+					}
+				});
+				
+				$(".add-to-cart").click(function(event){
+					event.preventDefault();
+					var name = $(this).attr("data-name");
+					var price = Number($(this).attr("data-price"));
+					
+					
+					addItemToCart(name,price,1);
+					displayCart();
+				});
+				
+				$("#clear-cart").click(function(event){
+					clearCart();
+					displayCart();
+					noti.removeAttribute('data-count');
+					noti.classList.remove('zero');
+				});
+				
+				function displayCart(){
+					var cartArray = listCart();
+					var output = "";
+					for(var i in cartArray) {
+						output += 
+							"<li><button class='delete-item' data-name='"
+							+cartArray[i].name+"'>X</button>"
+							+cartArray[i].name+" "
+							+"Qty:"+cartArray[i].count+" "
+							+"$"+cartArray[i].total
+							+"</li>";
+					}
+					
+					$("#show-cart").html(output);
+					$("#total-cart").html(totalCart());	
+				}
+				
+                $("#show-cart").on("click", ".delete-item",function(event){
+					var name = $(this).attr("data-name");
+					var subtract = Number(noti.getAttribute('data-count'));
+					noti.setAttribute('data-count', subtract - 1);
+					removeItemFromCartAll(name);
+					displayCart();
+					
+                });
+				
+                $("#show-cart").on("click", ".subtract-item",function(event){
+					var name = $(this).attr("data-name");
+					removeItemFromCart(name);
+					displayCart();
+                });		
+				
+                $("#show-cart").on("click", ".plus-item",function(event){
+					var name = $(this).attr("data-name");
+					addItemToCart(name,0,1);
+					displayCart();
+                });		
+				
+// --------------------------------------------------------------------------------- //
+				var cart = [];
+				
+				var Item = function(name, price, count){
+					this.name = name
+					this.price = price
+					this.count = count
+				}
+				
+				
+				function addItemToCart(name, price, count){
+					for(var i in cart){
+						if(cart[i].name === name){
+							cart[i].count += count;
+							saveCart();
+							return;
+						}
+					}
+					var item = new Item(name, price, count);
+					cart.push(item);
+					saveCart();
+				}
+				
+				
+//				addItemToCart("ProductName1", 100.21, 1);
+//				addItemToCart("ProductName2", 200.22, 1);
+//				addItemToCart("ProductName3", 300.23, 1);
+//				addItemToCart("ProductName4", 400.24, 1);
+				
+				function removeItemFromCart(name){
+					for(var i in cart){
+						if(cart[i].name === name){
+							cart[i].count --;
+							if(cart[i].count === 0){
+								cart.splice(i, 1);
+							}
+							break;
+						}
+					}
+					saveCart();
+				}
+				
+				function removeItemFromCartAll(name){
+					for(var i in cart){
+						if(cart[i].name === name){
+							cart.splice(i, 1);
+							break;
+						}
+					}
+					saveCart();
+				}
+				
+				function clearCart(){
+					cart = [];
+					saveCart();
+				}
+				
+				function countCart(){
+					var totalCount = 0;
+					for(var i in cart){
+						totalCount += cart[i].count;
+					}
+					
+					return totalCount;
+				}
+				
+				function totalCart(){
+					var totalCost = 0;
+					for(var i in cart){
+						totalCost += cart[i].price * cart[i].count;
+					}
+					return totalCost.toFixed(2);
+				}
+				
+				function listCart(){
+					var cartCopy = [];
+					for(var i in cart){
+						var item = cart[i];
+						var itemCopy = {};
+						for(var p in item){
+							itemCopy[p] = item[p];
+						}
+						itemCopy.total = (item.price * item.count).toFixed(2);
+						cartCopy.push(itemCopy);
+					}
+					return cartCopy;
+				}
+				
+				function saveCart(){
+					localStorage.setItem("ShoppingCart", JSON.stringify(cart));
+				}
+				
+				function loadCart(){
+					cart = JSON.parse(localStorage.getItem("ShoppingCart"));
+				}
+				
+				loadCart();
+				displayCart();
 	</script>
 </body>
 </html>
