@@ -5,9 +5,9 @@ body {
 	-webkit-backface-visibility:hidden;
 }
 
-#section1{
-	opacity:1;
-	transform:translateX(0%);
+#section2{
+	opacity:0;
+	transform:translateX(-100%);
 	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
 	-moz-transition:opacity 0.5s linear, transform 0.5s linear;
 	-ms-transition:opacity 0.5s linear, transform 0.5s linear;
@@ -15,7 +15,17 @@ body {
 	transition:opacity 0.5s linear, transform 0.5s linear;
 }
 
-#section2{
+#section3{
+	opacity:0;
+	transform:translateX(-100%);
+	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
+	-moz-transition:opacity 0.5s linear, transform 0.5s linear;
+	-ms-transition:opacity 0.5s linear, transform 0.5s linear;
+	-o-transition:opacity 0.5s linear, transform 0.5s linear;
+	transition:opacity 0.5s linear, transform 0.5s linear;
+}
+
+#section4{
 	opacity:0;
 	transform:translateX(-100%);
 	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
@@ -28,16 +38,6 @@ body {
 .visible {
 	opacity:1 !important;
 	transform:translateX(0%) !important;
-	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
-	-moz-transition:opacity 0.5s linear, transform 0.5s linear;
-	-ms-transition:opacity 0.5s linear, transform 0.5s linear;
-	-o-transition:opacity 0.5s linear, transform 0.5s linear;
-	transition:opacity 0.5s linear, transform 0.5s linear;
-}
-
-.hidden {
-	opacity:0 !important;
-	transform:translateX(-100%) !important;
 	-webkit-transition:opacity 0.5s linear, transform 0.5s linear;
 	-moz-transition:opacity 0.5s linear, transform 0.5s linear;
 	-ms-transition:opacity 0.5s linear, transform 0.5s linear;
