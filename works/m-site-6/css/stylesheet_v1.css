@@ -1,7 +1,7 @@
 /* CSS Stylesheet */
 body, html {
     height:100%;
-    font-family:"Calibri";
+    font-family:'Open Sans',sans-serif;
     color:#1a1a1a;
     text-align:justify;
     margin:0 auto;
@@ -150,7 +150,7 @@ body, html {
 
 /* -------------------- CONTACT FORM --------------------------- */
 	input[type=text], input[type=tel], input[type=email], select, textarea {
-		font-family:"Calibri";
+		font-family:'Open Sans',sans-serif;
 		width:calc(100% - 26px);
 		color:#000;
 		padding:12px;
