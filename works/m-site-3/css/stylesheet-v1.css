@@ -41,7 +41,7 @@ body{
 		}
 		
 			#datazul .nav-list ul {
-				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-family:'Open Sans',sans-serif;
 				font-size:32pt;
 				color:#6986bf;
 				vertical-align:middle;
@@ -76,7 +76,7 @@ body{
 			#datazul .logo-select p {
 				text-align:center;
 				font-size:36pt;
-				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-family:'Open Sans',sans-serif;
 				text-transform:uppercase;
 				font-weight:bold;
 				margin:auto;
@@ -141,7 +141,7 @@ body{
 			}
 		
 				#datazul .self_expression .slide_default .para_default p {
-					font-family:"Ebrima", Arial, Helvetica, sans-serif;
+					font-family:'Open Sans',sans-serif;
 					font-size:14pt;
 					font-weight:bold;
 					font-style:italic;
@@ -278,7 +278,7 @@ body{
 		}
 		
 			#datazul .my_works .work_image p {
-				font-family:"Ebrima", Arial, Helvetica, sans-serif;
+				font-family:'Open Sans',sans-serif;
 				font-size:42pt;
 				font-weight:bold;
 				text-transform:uppercase;
@@ -315,7 +315,7 @@ body{
 			}
 			
 				#datazul .my_works .work_descr p span:first-child {
-					font-family:"Ebrima", Arial, Helvetica, sans-serif;
+					font-family:'Open Sans',sans-serif;
 					font-size:36pt;
 					font-weight:bold;
 					text-transform:uppercase;
@@ -324,7 +324,7 @@ body{
 				}
 				
 				#datazul .my_works .work_descr p span:last-child {
-					font-family:"Calibri", Arial, Helvetica, sans-serif;
+					font-family:'Open Sans',sans-serif;
 					font-size:16pt;
 					font-weight:bold;
 					line-height:35px;
@@ -355,7 +355,7 @@ body{
 			}
 			
 				#datazul .about_myself p span:first-child {
-					font-family:"Ebrima", Arial, Helvetica, sans-serif;
+					font-family:'Open Sans',sans-serif;
 					font-size:36pt;
 					color:#1a1a1a;
 					font-weight:bold;
@@ -365,7 +365,7 @@ body{
 				}
 				
 				#datazul .about_myself p span:last-child {
-					font-family:"Calibri", Arial, Helvetica, sans-serif;
+					font-family:'Open Sans',sans-serif;
 					font-size:16pt;
 					color:#2d2e2e;
 					font-weight:bold;
@@ -399,7 +399,7 @@ body{
 	}
 	
 		#datazul .get_in_touch .heading {
-			font-family:"Ebrima", Arial, Helvetica, sans-serif;
+			font-family:'Open Sans',sans-serif;
 			font-size:36pt;
 			color:#f2f2f2;
 			font-weight:bold;
@@ -412,40 +412,40 @@ body{
 		}
 		
 		#datazul .get_in_touch .div-responsive {
-			margin:0;
+			margin:0 60px 0;
 			padding:0;
 			float:left;
 			height:auto;
-			width:50%;
+			width:calc(50% - 120px);
 			color:#f2f2f2;
 		}	
 		
 			#datazul .get_in_touch .div-responsive .sub-heading-1 {
-				font-family:"Calibri", Arial, Helvetica, sans-serif;
+				font-family:'Open Sans',sans-serif;
 				font-size:20pt;
 				font-weight:bold;
 				text-transform:uppercase;
 				line-height:35px;
-				margin:0 0 0 60px;
+				margin:0;
 				padding:0 0 20px;
 				position:relative;
 				z-index:1;
 			}
 			
 			#datazul .get_in_touch .div-responsive .sub-heading-2 {
-				font-family:"Calibri", Arial, Helvetica, sans-serif;
+				font-family:'Open Sans',sans-serif;
 				font-size:14pt;
 				font-weight:bold;
 				text-transform:uppercase;
 				line-height:35px;
-				margin:0 0 0 60px;
+				margin:0;
 				padding:0 0 10px;
 				position:relative;
 				z-index:1;
 			}
 			
 			#datazul .get_in_touch .div-responsive ul {
-				font-family:"Calibri", Arial, Helvetica, sans-serif;
+				font-family:'Open Sans',sans-serif;
 				font-size:12pt;
 				font-weight:bold;
 				text-transform:uppercase;
@@ -560,7 +560,7 @@ body{
 			}
 			
 				#datazul .get_in_touch .request p {
-					font-family:"Calibri", Arial, Helvetica, sans-serif;
+					font-family:'Open Sans',sans-serif;
 					font-size:16pt;
 					color:#f2f2f2;
 					font-weight:bold;
@@ -581,7 +581,7 @@ body{
 	}
 	
 		#datazul .footer p {
-			font-family:"Ebrima", Arial, Helvetica, sans-serif;
+			font-family:'Open Sans',sans-serif;
 			font-size:24pt;
 			font-weight:bold;
 			text-align:center;
