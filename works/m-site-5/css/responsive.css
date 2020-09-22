@@ -1,6 +1,7 @@
 /* CSS Document */
 
 @media (max-width: 800px) {
+
 /* ----------- shopping cart --------------- */
   .shopping-cart {
     width:100%;
@@ -86,6 +87,16 @@
 	.slider {
 		width:100%;
 		margin-left:0;
+	}
+	
+/* --------------- select ------------------- */
+
+	.no-display {
+		top:119px !important;
+	}
+
+	.display {
+		top:119px !important;
 	}
 	
 /* ----------- shopping cart --------------- */
