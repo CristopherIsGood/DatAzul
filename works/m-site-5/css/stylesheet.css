@@ -498,14 +498,20 @@ body {
 		margin:0 0 0 -4px;
 	}
 
-	#clear-cart {
-		margin:20px 30px;
+	#clear-cart,
+	.payment-button{
+		padding:10px 20px;
+		margin:20px 0px 20px 30px;
+		color:#000;
+		text-transform:none;
+		font-family:inherit;
+		font-size:inherit;
+		line-height:inherit;
+		border:2px dotted;
 	}
 
-	#clear-cart {
-		border-style:dotted;
-		padding:10px 20px;
-		margin:20px 30px;
+	.payment-button:hover {
+		color:#000;
 	}
 
 	.all-cart p {
