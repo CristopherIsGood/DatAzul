@@ -47,39 +47,18 @@
             Shopping Bag
         </div>
         <div>
-<!--				<ul>
-                <li>
-                    <a class="add-to-cart" href="#" data-name="ProductName1" data-price="100">
-                        <img class="shop-item-image" src="img/foto-1.jpg" width="120px" height="80px" alt="ProductName1" />ProductName1 $100.21	
-                    </a>
-                </li>
-                <li>
-                    <a class="add-to-cart" href="#" data-name="ProductName2" data-price="200">
-                        <img class="shop-item-image" src="img/foto-2.jpg" width="120px" height="80px" alt="ProductName2" />ProductName2 $200.22	
-                    </a>
-                </li>
-                <li>
-                    <a class="add-to-cart" href="#" data-name="ProductName3" data-price="300">
-                        <img class="shop-item-image" src="img/foto-3.jpg" width="120px" height="80px" alt="ProductName3" />ProductName3 $300.23
-                    </a>
-                </li>
-                <li>
-                    <a class="add-to-cart" href="#" data-name="ProductName4" data-price="400">
-                        <img class="shop-item-image" src="img/foto-4.JPG" width="120px" height="80px" alt="ProductName4" />ProductName4 $400.24	
-                    </a>
-                </li>
-            </ul>-->
             <div class="all-cart">
                 <ul id="show-cart">
-
+					
                 </ul>
                 <p>
-                    Total:
+                    Total:&nbsp;$
                     <span id="total-cart">
                     </span>
                 </p>
 
                 <button id="clear-cart">Clear Cart</button>
+				<a class="payment-button" href="payment.html">Go To Payment</a>
             </div><!-- all-cart -->
         </div>
     </div><!-- shopping-cart -->
@@ -347,9 +326,10 @@
 					for(var i in cartArray) {
 						output += 
 							"<li><button class='delete-item' data-name='"
-							+cartArray[i].name+"'>X</button>"
-							+cartArray[i].name+" "
-							+"Qty:"+cartArray[i].count+" "
+							+cartArray[i].name+"'>Remove</button>"
+							+cartArray[i].name+" x "
+							+"<span class='hello' data-count='"+cartArray[i].count+"'>"
+							+cartArray[i].count+"</span>"
 							+"$"+cartArray[i].total
 							+"</li>";
 					}
@@ -361,23 +341,28 @@
                 $("#show-cart").on("click", ".delete-item",function(event){
 					var name = $(this).attr("data-name");
 					var subtract = Number(noti.getAttribute('data-count'));
-					noti.setAttribute('data-count', subtract - 1);
+					var hello = document.querySelector('.hello');
+					var test = Number(hello.getAttribute('data-count'));
+					noti.setAttribute('data-count', subtract - test);
+					if((noti.getAttribute('data-count') == 0)){
+						noti.removeAttribute('data-count');
+						noti.classList.remove('zero');
+					 }
 					removeItemFromCartAll(name);
 					displayCart();
-					
                 });
 				
-                $("#show-cart").on("click", ".subtract-item",function(event){
-					var name = $(this).attr("data-name");
-					removeItemFromCart(name);
-					displayCart();
-                });		
-				
-                $("#show-cart").on("click", ".plus-item",function(event){
-					var name = $(this).attr("data-name");
-					addItemToCart(name,0,1);
-					displayCart();
-                });		
+//                $("#show-cart").on("click", ".subtract-item",function(event){
+//					var name = $(this).attr("data-name");
+//					removeItemFromCart(name);
+//					displayCart();
+//                });		
+//				
+//                $("#show-cart").on("click", ".plus-item",function(event){
+//					var name = $(this).attr("data-name");
+//					addItemToCart(name,0,1);
+//					displayCart();
+//                });		
 				
 // --------------------------------------------------------------------------------- //
 				var cart = [];

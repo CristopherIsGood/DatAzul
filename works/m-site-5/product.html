@@ -57,6 +57,7 @@
                 </p>
 
                 <button id="clear-cart">Clear Cart</button>
+				<a class="payment-button" href="payment.html">Go To Payment</a>
             </div><!-- all-cart -->
         </div>
     </div><!-- shopping-cart -->
@@ -91,9 +92,10 @@
 				</div><!-- col-md-5 -->
 				<div class="col-md-7">
 					<h2 class="data-name">Product Name 1</h2>
-					<p class="data-price">$100</p>
-					<button class="btn-primary add-to-cart" data-name="ProductName1" data-price="100">Add to Cart</button>
-					<button class="btn-primary add-to-cart" data-name="ProductName2" data-price="200">Add to Cart</button>
+					<p><span>Code:</span>123ABC</p>
+					<p><span>Type:</span>Uncategorised</p>
+					<p class="data-price">$199.95</p>
+					<button class="btn-primary add-to-cart" data-name="ProductName1" data-price="199.95">Add to Cart</button>
 				</div><!-- col-md-7 -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -194,22 +196,25 @@
 					var hello = document.querySelector('.hello');
 					var test = Number(hello.getAttribute('data-count'));
 					noti.setAttribute('data-count', subtract - test);
+					if((noti.getAttribute('data-count') == 0)){
+						noti.removeAttribute('data-count');
+						noti.classList.remove('zero');
+					 }
 					removeItemFromCartAll(name);
 					displayCart();
-					
                 });
 				
-                $("#show-cart").on("click", ".subtract-item",function(event){
-					var name = $(this).attr("data-name");
-					removeItemFromCart(name);
-					displayCart();
-                });		
-				
-                $("#show-cart").on("click", ".plus-item",function(event){
-					var name = $(this).attr("data-name");
-					addItemToCart(name,0,1);
-					displayCart();
-                });		
+//                $("#show-cart").on("click", ".subtract-item",function(event){
+//					var name = $(this).attr("data-name");
+//					removeItemFromCart(name);
+//					displayCart();
+//                });		
+//				
+//                $("#show-cart").on("click", ".plus-item",function(event){
+//					var name = $(this).attr("data-name");
+//					addItemToCart(name,0,1);
+//					displayCart();
+//                });		
 				
 // --------------------------------------------------------------------------------- //
 				var cart = [];
@@ -233,12 +238,6 @@
 					cart.push(item);
 					saveCart();
 				}
-				
-				
-//				addItemToCart("ProductName1", 100.21, 1);
-//				addItemToCart("ProductName2", 200.22, 1);
-//				addItemToCart("ProductName3", 300.23, 1);
-//				addItemToCart("ProductName4", 400.24, 1);
 				
 				function removeItemFromCart(name){
 					for(var i in cart){
