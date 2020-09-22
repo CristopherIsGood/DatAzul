@@ -490,6 +490,10 @@ body {
 				margin:20px 0;
 			}
 
+	#total-cart{
+		margin:0 0 0 -4px;
+	}
+
 	#clear-cart {
 		margin:20px 30px;
 	}
