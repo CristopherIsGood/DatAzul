@@ -48,10 +48,10 @@
         <div>
             <div class="all-cart">
                 <ul id="show-cart">
-
+					
                 </ul>
                 <p>
-                    Total:
+                    Total:&nbsp;$
                     <span id="total-cart">
                     </span>
                 </p>
@@ -93,6 +93,7 @@
 					<h2 class="data-name">Product Name 1</h2>
 					<p class="data-price">$100</p>
 					<button class="btn-primary add-to-cart" data-name="ProductName1" data-price="100">Add to Cart</button>
+					<button class="btn-primary add-to-cart" data-name="ProductName2" data-price="200">Add to Cart</button>
 				</div><!-- col-md-7 -->
 			</div><!-- row -->
 		</div><!-- container -->
@@ -175,9 +176,10 @@
 					for(var i in cartArray) {
 						output += 
 							"<li><button class='delete-item' data-name='"
-							+cartArray[i].name+"'>X</button>"
-							+cartArray[i].name+" "
-							+"Qty:"+cartArray[i].count+" "
+							+cartArray[i].name+"'>Remove</button>"
+							+cartArray[i].name+" x "
+							+"<span class='hello' data-count='"+cartArray[i].count+"'>"
+							+cartArray[i].count+"</span>"
 							+"$"+cartArray[i].total
 							+"</li>";
 					}
@@ -189,7 +191,9 @@
                 $("#show-cart").on("click", ".delete-item",function(event){
 					var name = $(this).attr("data-name");
 					var subtract = Number(noti.getAttribute('data-count'));
-					noti.setAttribute('data-count', subtract - 1);
+					var hello = document.querySelector('.hello');
+					var test = Number(hello.getAttribute('data-count'));
+					noti.setAttribute('data-count', subtract - test);
 					removeItemFromCartAll(name);
 					displayCart();
 					
