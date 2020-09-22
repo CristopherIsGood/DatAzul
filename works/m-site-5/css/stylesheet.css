@@ -490,6 +490,10 @@ body {
 				margin:20px 0;
 			}
 
+	.hello {
+		margin:0 20px 0 0;
+	}
+
 	#total-cart{
 		margin:0 0 0 -4px;
 	}
@@ -510,7 +514,7 @@ body {
 
 	.delete-item{
 		border:none;
-		margin:0 15px 0 30px;
+		margin:0 20px 0 30px;
 	}
 	
 	.column-50 {
