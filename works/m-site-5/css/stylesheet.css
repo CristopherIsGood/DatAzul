@@ -324,7 +324,6 @@ body {
 			}
 
 	.product-page .btn-primary {
-		background:#6a86bf !important;
 		color:#fff;
 		font-size:15px;
 		margin:20px 0 0;
@@ -590,6 +589,12 @@ body {
 	  float:right;
 	  color:grey;
 	}
+
+		.active {
+			background:#a8bcd0 !important;
+			color:#212529 !important;
+    		text-decoration:none !important;
+		}
 
 /* ------------ shopping cart --------------------- */
 
