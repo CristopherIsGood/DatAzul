@@ -4,6 +4,7 @@
 /* global window */
 /* eslint no-mixed-spaces-and-tabs: ["error", "smart-tabs", "no-unused-vars"] */
 $(document).ready(function(){
+	
   $('.noti').click(function() {
       if($('.shopping-cart').hasClass('no-display')){
           $('.shopping-cart').removeClass('no-display');
@@ -26,8 +27,6 @@ $(document).ready(function(){
   $("#clear-cart").click(function(event){
       clearCart();
       displayCart();
-      noti.removeAttribute('data-count');
-      noti.classList.remove('zero');
   });
 
   function displayCart(){
