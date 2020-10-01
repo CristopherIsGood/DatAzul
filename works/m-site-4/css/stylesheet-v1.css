@@ -419,3 +419,28 @@ body {
 	}
 
 /* --------------- Products ---------------- */
+
+	footer {
+		width:100%;
+		height:150px;
+		background:#6a85be;
+		float:left;
+		margin:auto;
+		padding:0;
+		display:table;
+	}
+	
+		footer p {
+			font-size:24pt;
+			text-align:center;
+			text-transform:uppercase;
+			margin:0;
+			padding:0 60px;
+			vertical-align:middle;
+			display:table-cell;
+		}
+
+			footer p a {
+				color:#fff;
+				text-decoration:none;
+			}
