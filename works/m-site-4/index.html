@@ -6,9 +6,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>WebTemplate4</title>
 	<link rel="icon" href="img/DatAzul_favicon_v2.ico">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha348-50oBUHEmvpQ+1lW4y57PTFmhCaXp0Ml5d60M1M7uH2+nqUivzIebhnd0JK28anvf" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
 	<link rel="stylesheet" href="css/stylesheet-v1.css" />
 	<link rel="stylesheet" href="css/responsive-v1.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app-javascript.js"></script>
 </head>
 <body>
 	<nav class="topnav">
@@ -174,7 +176,7 @@
 			</article><!-- products-product -->
 		</div><!-- products-center -->
     </section><!-- products -->
-	<div class="shopcart-overlay">
+	<div class="shopcart-overlay hidden">
 		<div class="shopcart-cart">
 			<span class="shopcart-close-cart">
 				<i class="fas fa-window-close"></i>
@@ -203,6 +205,76 @@
 			</div>		  
 		</div><!-- shopcart-cart -->
 	</div><!-- shopcart-overlay -->
-	<script src="js/app-javascript.js"></script>
+	<div class="leftnav-overlay hidden">
+		<div class="leftnav-nav">
+			<span class="leftnav-close-nav">
+				<i class="fas fa-window-close"></i>
+			</span><!-- leftnav-close-nav -->
+			<div class="leftnav-nav-content">
+				<ul>
+					<li>
+						<a href="#">about</a>
+						<div class="nav-content">
+							<div class="nav-sub">
+								<ul id="pageAbout" class="clearfix">
+									<li onClick="myAbout()">
+										<a data-slide-index="0" href="#about">About 1</a>
+									</li>
+									<li onClick="myAbout()">
+										<a data-slide-index="1" href="#about">About 2</a>
+									</li>
+									<li onClick="myAbout()">
+										<a data-slide-index="2" href="#about">About 3</a>
+									</li>
+								</ul>
+							</div><!-- nav-sub -->
+						</div><!-- nav-content -->
+					</li>
+					<li>
+						<a href="#menu">menu</a>
+						<div class="nav-content">
+							<div class="nav-sub">
+								<ul id="pageMenu" class="clearfix">
+									<li onClick="myMenu()">
+										<a data-slide-index="0" href="#menu">Menu 1</a>
+									</li>
+									<li onClick="myMenu()">
+										<a data-slide-index="1" href="#menu">Menu 2</a>
+									</li>
+									<li onClick="myMenu()">
+										<a data-slide-index="2" href="#menu">Menu 3</a>
+									</li>
+								</ul>
+							</div><!-- nav-sub -->
+						</div><!-- nav-content -->
+					</li>
+					<li>
+						<a href="#category">category</a>
+						<div class="nav-content">
+							<div class="nav-sub">
+								<ul id="pageCategory" class="clearfix">
+									<li onClick="myCategory()">
+										<a data-slide-index="0" href="#category">Category 1</a>
+									</li>
+									<li onClick="myCategory()">
+										<a data-slide-index="1" href="#category">Category 2</a>
+									</li>
+									<li onClick="myCategory()">
+										<a data-slide-index="2" href="#category">Category 3</a>
+									</li>
+								</ul>
+							</div><!-- nav-sub -->
+						</div><!-- nav-content -->
+					</li>
+					<li>
+						<a href="#gallery">gallery</a>
+					</li>
+					<li>
+						<a href="#contact">contact</a>
+					</li>
+				</ul>	
+			</div><!-- leftnav-nav-contentt -->
+		</div><!-- leftnav-cart -->
+	</div><!-- leftnav-overlay -->
 </body>
 </html>
