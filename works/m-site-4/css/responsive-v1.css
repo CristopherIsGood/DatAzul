@@ -5,6 +5,11 @@
 
 /* --------------- ShopCart ---------------- */
 	
+	.leftnav-nav-content {
+		width:30vw;
+		min-width:450px;
+	}
+	
 	.shopcart-cart {
 		width:30vw;
 		min-width:450px;

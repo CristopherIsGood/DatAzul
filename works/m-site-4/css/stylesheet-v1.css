@@ -57,6 +57,8 @@ body {
 
 	.topnav-icon {
 		font-size:1.5rem;
+		color:var(--mainWhite);
+		cursor:pointer;
 	}
 
 	.topnav-cart-btn {
@@ -203,6 +205,110 @@ body {
 
 /* --------------- Products ---------------- */
 
+/* --------------- LeftNav ----------------- */
+
+	.leftnav-overlay{
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		transition:var(--mainTransition);
+		background:rgb(184,192,205,0.5);
+		z-index:2;
+	}
+
+	.visible {
+    	visibility:visible;
+	}
+
+	.hidden {
+		visibility:hidden;
+	}
+
+	.leftnav-close-nav {
+        position:relative;
+        top:27px;
+        left:27px;
+        z-index:4;
+		font-size:1.7rem;
+		cursor:pointer;
+	}
+
+	.leftnav-nav-content {
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:3;
+		background:rgb(231,226,221);
+		padding:1.5rem;
+		transition:var(--mainTransition);
+		/*transform:translateX(100%);*/
+	}
+
+		.leftnav-nav-content ul {
+			font-size:24px;
+			text-transform:uppercase;
+			margin:20% 0 20%;
+			padding:0;
+			list-style-type:none;
+			display:inline-block;
+		}
+
+        .leftnav-nav-content ul li a {
+            display:inline-block;
+            padding:0;
+            height:80px;
+            line-height:80px;
+            color:#000;
+            text-decoration:none;
+        }
+
+            .leftnav-nav-content ul li:hover .nav-content {
+                display:block;
+            }
+
+                .leftnav-nav-content ul li:hover > a {
+                    color:#000;
+                }
+
+        .leftnav-nav-content ul li .nav-content {
+            display:none;
+            list-style-type:none;
+            width:auto;
+            margin:0;
+            padding:0;
+            top:100px;
+            overflow:hidden;
+        }
+
+            .leftnav-nav-content ul li .nav-content ul {
+                font-size:16px;
+                margin:0;
+                padding:0;
+            }
+
+                .leftnav-nav-content ul li .nav-content ul li {
+                    float:none;
+                    margin:10px;
+                    padding:0;
+                }
+
+                    .leftnav-nav-content ul li .nav-content ul li a {
+                        margin:0;
+                        padding:10px 0;
+                        height:auto;
+                        line-height:normal;
+                    }
+
+                    .leftnav-nav-content ul li .nav-content ul li a:hover {
+                        color:#000;
+                    }
+
+/* --------------- LeftNav ----------------- */
+
 /* --------------- ShopCart ---------------- */
 
 	.shopcart-overlay{
@@ -214,7 +320,14 @@ body {
 		transition:var(--mainTransition);
 		background:rgb(184,192,205,0.5);
 		z-index:2;
-		/*visibility:hidden;*/
+	}
+
+	.visible {
+    	visibility:visible;
+	}
+
+	.hidden {
+		visibility:hidden;
 	}
 
 	.shopcart-cart {
