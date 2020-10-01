@@ -29,6 +29,106 @@
 			</div>
 		</div><!-- topnav-center -->
 	</nav><!-- topnav -->
+	<div class="shopcart-overlay hidden">
+		<div class="shopcart-cart">
+			<span class="shopcart-close-cart">
+				<i class="fas fa-window-close"></i>
+			</span><!-- shopcart-close-cart -->
+			<h2>my cart</h2>
+			<div class="cartitem-cart-content">
+				<div class="cartitem-cart-item">
+					<img src="img/foto-1.jpg" alt="foto-1" />
+					<div>
+						<h4>Product 1</h4>
+						<h5>$199.95</h5>
+						<span class="cartitem-remove-item">
+							remove
+						</span>
+					</div>
+					<div>
+						<i class="fas fa-chevron-up"></i>
+						<p class="cartitem-item-amount">1</p>
+						<i class="fas fa-chevron-down"></i>
+					</div>
+				</div><!-- cartitem-cart-item -->
+			</div><!-- cartitem-cart-content -->
+			<div class="shopcart-cart-footer">
+				<h3>your total : $ <span class="shopcart-cart-total">0</span></h3>
+				<button class="shopcart-clear-cart topsec-banner-btn">clear cart</button>
+			</div>		  
+		</div><!-- shopcart-cart -->
+	</div><!-- shopcart-overlay -->
+	<div class="leftnav-overlay hidden">
+		<div class="leftnav-nav">
+			<span class="leftnav-close-nav">
+				<i class="fas fa-window-close"></i>
+			</span><!-- leftnav-close-nav -->
+			<div class="leftnav-nav-content">
+				<ul>
+					<li>
+						<a href="#">about</a>
+						<div class="nav-content">
+							<div class="nav-sub">
+								<ul id="pageAbout" class="clearfix">
+									<li onClick="myAbout()">
+										<a data-slide-index="0" href="#about">About 1</a>
+									</li>
+									<li onClick="myAbout()">
+										<a data-slide-index="1" href="#about">About 2</a>
+									</li>
+									<li onClick="myAbout()">
+										<a data-slide-index="2" href="#about">About 3</a>
+									</li>
+								</ul>
+							</div><!-- nav-sub -->
+						</div><!-- nav-content -->
+					</li>
+					<li>
+						<a href="#menu">menu</a>
+						<div class="nav-content">
+							<div class="nav-sub">
+								<ul id="pageMenu" class="clearfix">
+									<li onClick="myMenu()">
+										<a data-slide-index="0" href="#menu">Menu 1</a>
+									</li>
+									<li onClick="myMenu()">
+										<a data-slide-index="1" href="#menu">Menu 2</a>
+									</li>
+									<li onClick="myMenu()">
+										<a data-slide-index="2" href="#menu">Menu 3</a>
+									</li>
+								</ul>
+							</div><!-- nav-sub -->
+						</div><!-- nav-content -->
+					</li>
+					<li>
+						<a href="#category">category</a>
+						<div class="nav-content">
+							<div class="nav-sub">
+								<ul id="pageCategory" class="clearfix">
+									<li onClick="myCategory()">
+										<a data-slide-index="0" href="#category">Category 1</a>
+									</li>
+									<li onClick="myCategory()">
+										<a data-slide-index="1" href="#category">Category 2</a>
+									</li>
+									<li onClick="myCategory()">
+										<a data-slide-index="2" href="#category">Category 3</a>
+									</li>
+								</ul>
+							</div><!-- nav-sub -->
+						</div><!-- nav-content -->
+					</li>
+					<li>
+						<a href="#gallery">gallery</a>
+					</li>
+					<li>
+						<a href="#contact">contact</a>
+					</li>
+				</ul>	
+			</div><!-- leftnav-nav-contentt -->
+		</div><!-- leftnav-cart -->
+	</div><!-- leftnav-overlay -->
     <header class="topsec">
         <div class="topsec-banner">
             <h1 class="topsec-banner-title">my collection</h1>
@@ -176,105 +276,5 @@
 			</article><!-- products-product -->
 		</div><!-- products-center -->
     </section><!-- products -->
-	<div class="shopcart-overlay hidden">
-		<div class="shopcart-cart">
-			<span class="shopcart-close-cart">
-				<i class="fas fa-window-close"></i>
-			</span><!-- shopcart-close-cart -->
-			<h2>my cart</h2>
-			<div class="cartitem-cart-content">
-				<div class="cartitem-cart-item">
-					<img src="img/foto-1.jpg" alt="foto-1" />
-					<div>
-						<h4>Product 1</h4>
-						<h5>$199.95</h5>
-						<span class="cartitem-remove-item">
-							remove
-						</span>
-					</div>
-					<div>
-						<i class="fas fa-chevron-up"></i>
-						<p class="cartitem-item-amount">1</p>
-						<i class="fas fa-chevron-down"></i>
-					</div>
-				</div><!-- cartitem-cart-item -->
-			</div><!-- cartitem-cart-content -->
-			<div class="shopcart-cart-footer">
-				<h3>your total : $ <span class="shopcart-cart-total">0</span></h3>
-				<button class="shopcart-clear-cart topsec-banner-btn">clear cart</button>
-			</div>		  
-		</div><!-- shopcart-cart -->
-	</div><!-- shopcart-overlay -->
-	<div class="leftnav-overlay hidden">
-		<div class="leftnav-nav">
-			<span class="leftnav-close-nav">
-				<i class="fas fa-window-close"></i>
-			</span><!-- leftnav-close-nav -->
-			<div class="leftnav-nav-content">
-				<ul>
-					<li>
-						<a href="#">about</a>
-						<div class="nav-content">
-							<div class="nav-sub">
-								<ul id="pageAbout" class="clearfix">
-									<li onClick="myAbout()">
-										<a data-slide-index="0" href="#about">About 1</a>
-									</li>
-									<li onClick="myAbout()">
-										<a data-slide-index="1" href="#about">About 2</a>
-									</li>
-									<li onClick="myAbout()">
-										<a data-slide-index="2" href="#about">About 3</a>
-									</li>
-								</ul>
-							</div><!-- nav-sub -->
-						</div><!-- nav-content -->
-					</li>
-					<li>
-						<a href="#menu">menu</a>
-						<div class="nav-content">
-							<div class="nav-sub">
-								<ul id="pageMenu" class="clearfix">
-									<li onClick="myMenu()">
-										<a data-slide-index="0" href="#menu">Menu 1</a>
-									</li>
-									<li onClick="myMenu()">
-										<a data-slide-index="1" href="#menu">Menu 2</a>
-									</li>
-									<li onClick="myMenu()">
-										<a data-slide-index="2" href="#menu">Menu 3</a>
-									</li>
-								</ul>
-							</div><!-- nav-sub -->
-						</div><!-- nav-content -->
-					</li>
-					<li>
-						<a href="#category">category</a>
-						<div class="nav-content">
-							<div class="nav-sub">
-								<ul id="pageCategory" class="clearfix">
-									<li onClick="myCategory()">
-										<a data-slide-index="0" href="#category">Category 1</a>
-									</li>
-									<li onClick="myCategory()">
-										<a data-slide-index="1" href="#category">Category 2</a>
-									</li>
-									<li onClick="myCategory()">
-										<a data-slide-index="2" href="#category">Category 3</a>
-									</li>
-								</ul>
-							</div><!-- nav-sub -->
-						</div><!-- nav-content -->
-					</li>
-					<li>
-						<a href="#gallery">gallery</a>
-					</li>
-					<li>
-						<a href="#contact">contact</a>
-					</li>
-				</ul>	
-			</div><!-- leftnav-nav-contentt -->
-		</div><!-- leftnav-cart -->
-	</div><!-- leftnav-overlay -->
 </body>
 </html>
