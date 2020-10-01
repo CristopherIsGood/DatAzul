@@ -1,50 +1,46 @@
-// variables
 // JavaScript v1.0
 /* global $ */
 /* global document */
 /* global window */
 /* eslint no-mixed-spaces-and-tabs: ["error", "smart-tabs", "no-unused-vars"] */
 
-const cartBtn = document.querySelector('.topnav-cart-btn');
-const closeCartBtn = document.querySelector('.shopcart-close-cart');
-const clearCartBtn = document.querySelector('.shopcart-clear-cart');
-const cartDOM = document.querySelector('.shopcart-cart');
-const cartOverlay = document.querySelector('.shopcart-overlay');
-const cartItems = document.querySelector('.topnav-cart-items');
-const cartTotal = document.querySelector('.shopcart-cart-total');
-const cartContent = document.querySelector('.cartitem-cart-content');
-const productsDOM = document.querySelector('.products-center');
-//
-let cart = [];
+$(document).ready(function(){
+	
+	/* ---------------- leftnav-overlay ---------------- */
+	
+		$('.fa-bars').click(function() {
+		  if($('.leftnav-overlay').hasClass('hidden')){
+			  $('.leftnav-overlay').removeClass('hidden');
+			  $('.leftnav-overlay').addClass('visible');
+		  } 
+		});
 
-// getting the products
-class Products{
-	async getProducts(){
-		try {
-			let result = await fetch('products.json');
-			let data = await result.json();
-			return data;
-		} catch (error) {
-			console.log(error);
+		$('.leftnav-close-nav').click(function() {
+			if($('.leftnav-overlay').hasClass('visible')){
+			  $('.leftnav-overlay').removeClass('visible');
+			  $('.leftnav-overlay').addClass('hidden');			
+			}
+		});
+	
+	/* ---------------- leftnav-overlay ---------------- */
+	
+	/* ----------------- topnav-overlay ---------------- */
+	
+	$('.topnav-cart-btn').click(function() {
+      if($('.shopcart-overlay').hasClass('hidden')){
+          $('.shopcart-overlay').removeClass('hidden');
+          $('.shopcart-overlay').addClass('visible');
+      } 
+	});
+	
+	$('.shopcart-close-cart').click(function() {
+		if($('.shopcart-overlay').hasClass('visible')){
+          $('.shopcart-overlay').removeClass('visible');
+          $('.shopcart-overlay').addClass('hidden');			
 		}
-	}
-}
-
-// display products
-class UI {
+	});
 	
-}
-
-// local storage
-class Storage {
-	
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-	const ui = new UI();
-	const products = new Products();
-	
-	// get all products
-	products.getProducts().then(data => console.log(data));
-})
+	/* ----------------- topnav-overlay ---------------- */
+ 
+});
 
