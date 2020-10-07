@@ -378,11 +378,18 @@ body {
 		transition:var(--mainTransition);
 		transform:translateX(101%);
 		cursor:pointer;
+		text-decoration:none;
 	}
 
-	.products-bag-btn:hover {
-		color:var(--mainWhite);
-	}
+		.products-img-container a {
+			color:var(--mainBlack);
+			text-decoration:none;
+		}
+
+		.products-img-container a:hover {
+			color:var(--mainWhite);
+			text-decoration:none;
+		}
 
 	.products-fa-shopping-cart {
 		margin-right:0.5rem;
