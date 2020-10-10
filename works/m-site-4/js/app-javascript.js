@@ -118,11 +118,11 @@ $(document).ready(function() {
 	}
 	
 	function saveCart() {
-		localStorage.setItem("datazulCart", JSON.stringify(cart));
+		localStorage.setItem("datazulCart1", JSON.stringify(cart));
 	}
 	
 	function loadCart() {
-		cart = JSON.parse(localStorage.getItem("datazulCart"));
+		cart = JSON.parse(localStorage.getItem("datazulCart1"));
 	}
 	
 	loadCart();
