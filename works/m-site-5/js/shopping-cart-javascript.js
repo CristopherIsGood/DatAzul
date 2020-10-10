@@ -5,6 +5,8 @@
 /* eslint no-mixed-spaces-and-tabs: ["error", "smart-tabs", "no-unused-vars"] */
 $(document).ready(function(){
 	
+	clearCart();
+	
   $('.noti').click(function() {
       if($('.shopping-cart').hasClass('no-display')){
           $('.shopping-cart').removeClass('no-display');
