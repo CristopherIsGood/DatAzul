@@ -6,6 +6,8 @@
 
 $(document).ready(function() {
 	
+	clearCart();
+	
 	$(".add-to-cart").click(function(event){
 		event.preventDefault();
 		var name = $(this).attr("data-name");
