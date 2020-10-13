@@ -76,6 +76,15 @@ body {
 		color:var(--mainWhite);
 	}
 
+	.topnav-cart-items:before{
+		content:attr(data-count);
+		opacity:0;
+	}
+
+	.topnav-cart-items.zero:before {
+		opacity:1;
+	}
+
 /* ---------------- TopNav ----------------- */
 
 /* ---------------- TopSec ----------------- */
@@ -438,7 +447,7 @@ body {
 	}
 	
 		footer p {
-			font-size:24pt;
+			font-size:24px;
 			text-align:center;
 			text-transform:uppercase;
 			margin:0;
