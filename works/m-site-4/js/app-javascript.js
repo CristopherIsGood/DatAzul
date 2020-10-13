@@ -8,17 +8,22 @@ $(document).ready(function() {
 	
 	clearCart();
 	
+	var noti = document.querySelector(".topnav-cart-items");
+	
 	$(".add-to-cart").click(function(event){
 		event.preventDefault();
 		var name = $(this).attr("data-name");
 		var cost = Number($(this).attr("data-cost"));
 		var img = $(this).attr("data-img");
-		
+        var add = Number(noti.getAttribute('data-count')|| 0);
+        noti.setAttribute('data-count', add + 1);
+        noti.classList.add('zero');
 		addItemToCart(name,cost,img,1);
 		displayCart();
 	});
 	
 	$("#clear-cart").click(function(event){
+        noti.setAttribute('data-count', 0);
 		clearCart();
 		displayCart();
 	});
@@ -27,11 +32,31 @@ $(document).ready(function() {
 		var cartArray = listCart();
 		var output = "";
 		for(var i in cartArray){
-			output += "<div class='cartitem-cart-item'><img src="+cartArray[i].img+" /><div><h4>"+cartArray[i].name+"</h4><h5>"+cartArray[i].cost+"</h5><span class='cartitem-remove-item'>remove</span></div><div><i class='fas fa-chevron-up'></i><p class='cartitem-item-amount'>"+cartArray[i].count+"</p><i class='fas fa-chevron-down'></i></div></div><!-- cartitem-cart-item -->"
+			output += "<div class='cartitem-cart-item'><img src="+cartArray[i].img+" /><div><h4>"+cartArray[i].name+"</h4><h5>"+cartArray[i].cost+"</h5></div><div><i class='fas fa-chevron-up' data-name='"+cartArray[i].name+"'></i><p class='cartitem-item-amount'>"+cartArray[i].count+"</p><i class='fas fa-chevron-down' data-name='"+cartArray[i].name+"'></i></div></div><!-- cartitem-cart-item -->"
 		}
 		$("#show-cart").html(output);
 		$("#total-cart").html(totalCart());
+		console.log(cartArray);
 	}
+	
+	$("#show-cart").on("click",".fa-chevron-down",function(){
+		var name = $(this).attr("data-name");
+        var sub = Number(noti.getAttribute('data-count')|| 0);
+        noti.setAttribute('data-count', sub - 1);
+		removeItemFromCart(name);
+		displayCart();
+	});
+	
+	
+	$("#show-cart").on("click",".fa-chevron-up",function(){
+		var name = $(this).attr("data-name");
+		var cost = Number($(this).attr("data-cost"));
+		var img = $(this).attr("data-img");
+        var add = Number(noti.getAttribute('data-count')|| 0);
+        noti.setAttribute('data-count', add + 1);
+		addItemToCart(name,cost,img,1);
+		displayCart();
+	});
 	
 	var cart = [];
 	
