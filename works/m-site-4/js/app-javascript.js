@@ -32,7 +32,7 @@ $(document).ready(function() {
 		var cartArray = listCart();
 		var output = "";
 		for(var i in cartArray){
-			output += "<div class='cartitem-cart-item'><img src="+cartArray[i].img+" /><div><h4>"+cartArray[i].name+"</h4><h5>"+cartArray[i].cost+"</h5></div><div><i class='fas fa-chevron-up' data-name='"+cartArray[i].name+"'></i><p class='cartitem-item-amount'>"+cartArray[i].count+"</p><i class='fas fa-chevron-down' data-name='"+cartArray[i].name+"'></i></div></div><!-- cartitem-cart-item -->"
+			output += "<div class='cartitem-cart-item'><img src="+cartArray[i].img+" /><div><h4>"+cartArray[i].name+"</h4><h5>$"+cartArray[i].cost+"</h5></div><div><i class='fas fa-chevron-up' data-name='"+cartArray[i].name+"'></i><p class='cartitem-item-amount'>"+cartArray[i].count+"</p><i class='fas fa-chevron-down' data-name='"+cartArray[i].name+"'></i></div></div><!-- cartitem-cart-item -->"
 		}
 		$("#show-cart").html(output);
 		$("#total-cart").html(totalCart());
