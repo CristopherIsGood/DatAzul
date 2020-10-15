@@ -451,6 +451,11 @@ body {
 				margin:20px 0;
 			}
 
+				.shopping-cart ul li div {
+					display:inline-block;
+					margin:0 0 0 20px;
+				}
+
 	.hello {
 		margin:0 20px 0 0;
 	}
@@ -459,8 +464,7 @@ body {
 		margin:0 0 0 -4px;
 	}
 
-	#clear-cart,
-	.payment-button{
+	#clear-cart{
 		padding:10px 20px;
 		margin:20px 0px 20px 30px;
 		color:#000;
@@ -471,9 +475,10 @@ body {
 		border:2px dotted;
 	}
 
-	.payment-button:hover {
-		color:#000;
-	}
+    .cartitem-cart-item {
+        width:75px;
+        height:75px;
+    }
 
 	.all-cart p {
 		margin:60px 30px 30px;
