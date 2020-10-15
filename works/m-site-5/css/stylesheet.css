@@ -287,26 +287,11 @@ body {
 			padding-bottom:10px;
 		}
 
-/* --------------- new-products -------------------- */
-
-	.new-products {
-		margin:50px 0;
-	}
-
 /* --------------- product-page --------------------- */
 
 	.product-page {
 		margin-top:70px;
 	}
-
-		.new-entry {
-			background:#6a86bf;
-			width:50px;
-			color:#fff;
-			font-size:12px;
-			font-weight:bold;
-			margin-top:20px;
-		}
 
 		.col-md-7 h2 {
 			color:#555;
