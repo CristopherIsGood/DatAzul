@@ -24,9 +24,12 @@ $(document).ready(function(){
         addItemToCart(name,price,1);
         displayCart();
         $(this).addClass('active');
+		$(".message").addClass('visible');
     });
 
     $("#clear-cart").click(function(event){
+		$(".message").removeClass('visible');
+		$(".btn-primary").removeClass('active');
         clearCart();
         displayCart();
     });
@@ -51,6 +54,8 @@ $(document).ready(function(){
 
     $("#show-cart").on("click", ".delete-item",function(event){
         var name = $(this).attr("data-name");
+		$(".message").removeClass('visible');
+		$(".btn-primary").removeClass('active');
         removeItemFromCartAll(name);
         displayCart();
     });		
