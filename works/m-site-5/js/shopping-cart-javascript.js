@@ -21,7 +21,8 @@ $(document).ready(function(){
         event.preventDefault();
         var name = $(this).attr("data-name");
         var price = Number($(this).attr("data-price"));
-        addItemToCart(name,price,1);
+		var img = $(this).attr("data-img");
+        addItemToCart(name,price,img,1);
         displayCart();
         $(this).addClass('active');
 		$(".message").addClass('visible');
@@ -41,6 +42,7 @@ $(document).ready(function(){
             output += 
                 "<li><button class='delete-item' data-name='"
                 +cartArray[i].name+"'>Remove</button>"
+				+"<img class='cartitem-cart-item' src='"+cartArray[i].img+"' /><div>"
                 +cartArray[i].name+" x "
                 +"<span class='hello' data-count='"+cartArray[i].count+"'>"
                 +cartArray[i].count+"</span>"
@@ -63,14 +65,15 @@ $(document).ready(function(){
     // --------------------------------------------------------------------------------- //
     var cart = [];
 
-    var Item = function(name, price, count){
+    var Item = function(name, price, img, count){
         this.name = name
         this.price = price
+		this.img = img
         this.count = count
     }
 
 
-    function addItemToCart(name, price, count){
+    function addItemToCart(name, price, img, count){
         for(var i in cart){
             if(cart[i].name === name){
                 cart[i].count += count;
@@ -78,7 +81,7 @@ $(document).ready(function(){
                 return;
             }
         }
-        var item = new Item(name, price, count);
+        var item = new Item(name, price, img, count);
         cart.push(item);
         saveCart();
     }
