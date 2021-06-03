@@ -39,7 +39,32 @@ article {
 	grid-template-columns:1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
 	height:auto; /* temp fix */
 	padding:0.5in 0;
-	border-bottom:10px dotted #6986bf;
+}
+
+article:nth-child(3),
+article:nth-child(5) {
+	background:#6a85be;
+}
+
+article:nth-child(3) h1,
+article:nth-child(5) h1 {
+	color:#a3bee0;
+}
+
+article:nth-child(3) h3,
+article:nth-child(5) h3,
+.bx-wrapper .bx-controls-direction a {
+	color:#a3bee0;
+}
+
+article:nth-child(3) h2,
+article:nth-child(5) h2 {
+	color:#f3f3f3;
+}
+
+article:nth-child(3) p,
+article:nth-child(5) p {
+	color:#f3f3f3;
 }
 		
 article * {

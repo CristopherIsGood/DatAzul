@@ -8,39 +8,39 @@ body {
 #section2{
 	opacity:0;
 	transform:translateX(-100%);
-	-webkit-transition:opacity 0.9s linear, transform 0.9s linear;
-	-moz-transition:opacity 0.9s linear, transform 0.9s linear;
-	-ms-transition:opacity 0.9s linear, transform 0.9s linear;
-	-o-transition:opacity 0.9s linear, transform 0.9s linear;
-	transition:opacity 0.9s linear, transform 0.9s linear;
+	-webkit-transition:opacity 0.6s linear, transform 0.6s linear;
+	-moz-transition:opacity 0.6s linear, transform 0.6s linear;
+	-ms-transition:opacity 0.6s linear, transform 0.6s linear;
+	-o-transition:opacity 0.6s linear, transform 0.6s linear;
+	transition:opacity 0.6s linear, transform 0.6s linear;
 }
 
 #section3{
 	opacity:0;
 	transform:translateX(-100%);
-	-webkit-transition:opacity 0.9s linear, transform 0.9s linear;
-	-moz-transition:opacity 0.9s linear, transform 0.9s linear;
-	-ms-transition:opacity 0.9s linear, transform 0.9s linear;
-	-o-transition:opacity 0.9s linear, transform 0.9s linear;
-	transition:opacity 0.9s linear, transform 0.9s linear;
+	-webkit-transition:opacity 0.6s linear, transform 0.6s linear;
+	-moz-transition:opacity 0.6s linear, transform 0.6s linear;
+	-ms-transition:opacity 0.6s linear, transform 0.6s linear;
+	-o-transition:opacity 0.6s linear, transform 0.6s linear;
+	transition:opacity 0.6s linear, transform 0.6s linear;
 }
 
 #section4{
 	opacity:0;
 	transform:translateX(-100%);
-	-webkit-transition:opacity 0.9s linear, transform 0.9s linear;
-	-moz-transition:opacity 0.9s linear, transform 0.9s linear;
-	-ms-transition:opacity 0.9s linear, transform 0.9s linear;
-	-o-transition:opacity 0.9s linear, transform 0.9s linear;
-	transition:opacity 0.9s linear, transform 0.9s linear;
+	-webkit-transition:opacity 0.6s linear, transform 0.6s linear;
+	-moz-transition:opacity 0.6s linear, transform 0.6s linear;
+	-ms-transition:opacity 0.6s linear, transform 0.6s linear;
+	-o-transition:opacity 0.6s linear, transform 0.6s linear;
+	transition:opacity 0.6s linear, transform 0.6s linear;
 }
 
 .visible {
 	opacity:1 !important;
 	transform:translateX(0%) !important;
-	-webkit-transition:opacity 0.9s linear, transform 0.9s linear;
-	-moz-transition:opacity 0.9s linear, transform 0.9s linear;
-	-ms-transition:opacity 0.9s linear, transform 0.9s linear;
-	-o-transition:opacity 0.9s linear, transform 0.9s linear;
-	transition:opacity 0.9s linear, transform 0.9s linear;
+	-webkit-transition:opacity 0.6s linear, transform 0.6s linear;
+	-moz-transition:opacity 0.6s linear, transform 0.6s linear;
+	-ms-transition:opacity 0.6s linear, transform 0.6s linear;
+	-o-transition:opacity 0.6s linear, transform 0.6s linear;
+	transition:opacity 0.6s linear, transform 0.6s linear;
 }
