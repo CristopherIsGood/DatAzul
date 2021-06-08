@@ -8,7 +8,7 @@
 	}
 	
 	.rowLight .column {
-		width:calc(100% - 4px) !important;
+		width:calc(16.6% - 4px) !important;
 	}
 
 	.LightBox {
@@ -106,7 +106,7 @@
 	}
 	
 	.rowLight .column {
-		width:calc(50% - 4px);
+		width:calc(16.6% - 4px);
 	}
 	
 	.LightBox, .content {
