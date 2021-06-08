@@ -50,9 +50,13 @@
 				float:right;
 			}
 	
-				#m-site-1 .top-menu .head-nav ul {
+				#m-site-1 .leftnav-nav-content ul {
 					float:left;
 					width:100%;
+				}
+
+				#m-site-1 .top-menu .head-nav ul {
+					float:left !important;
 				}
 	
 					#m-site-1 .top-menu .head-nav ul li {
@@ -71,8 +75,9 @@
 									#m-site-1 .top-menu .head-nav ul li .nav-content ul li a {
 										width:100%;
 										cursor:pointer;
-										height:20px !important;
+										height:30px !important;
 										line-height:20px !important;
+										margin-left:-20px;
 									}
 	
 		#m-site-1 .top-menu .head-logo, 
@@ -97,7 +102,7 @@
 						#m-site-1 .top-menu .head-nav ul li .nav-content {
 							position:static;
 							width:100%;
-							margin0left:0;
+							margin-left:0;
 						}
 
 	
@@ -147,12 +152,13 @@ and (min-width: 990px) {
 		}	
 
 	#m-site-1 .wrapper {
-		margin-left:40px;
-		margin-right:40px;
-		width:calc(100% - 80px);
+		margin-left:20px;
+		margin-right:20px;
+		width:calc(100% - 40px);
 	}
 				#m-site-1 .top-menu .head-nav ul {
 					font-size:20px;
+					float:right;
 				}
 	
 							#m-site-1 .top-menu .head-nav ul li .nav-content ul {
