@@ -387,7 +387,7 @@ video {
 }
 
 .close {
-  	color:#000;
+  	color:#6A85BE;
   	position:absolute;
   	top:-5px;
   	right:10px;
@@ -397,7 +397,7 @@ video {
 
 .close:hover,
 .close:focus {
-  	color:#6A85BE;
+  	color:#f3f3f3;
   	text-decoration:none;
   	cursor:pointer;
 }

@@ -185,9 +185,9 @@
 		}	
 
 	#m-site-2 .wrapper {
-		margin-left:40px;
-		margin-right:40px;
-		width:calc(100% - 80px);
+		margin-left:20px;
+		margin-right:20px;
+		width:calc(100% - 40px);
 	}
 				#m-site-2 .top-menu .head-nav ul {
 					font-size:20px;
