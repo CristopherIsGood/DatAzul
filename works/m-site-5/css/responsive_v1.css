@@ -84,6 +84,10 @@ and (max-width: 750px) {
 						.menu-bar ul li ul li a {
 							color:#6a86bf;
 						}
+						
+						.flip-box {
+							width:100%;
+						}
 	
 /* ------------- slider ----------------- */	
 	.slider {
