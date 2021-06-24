@@ -1,226 +1,289 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>WebTemplate5</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="img/DatAzul_favicon_v2.ico">
-	<link rel="stylesheet" href="css/stylesheet.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
-	<script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>WebTemplate5</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="img/DatAzul_favicon_v2.ico">
+		<link href="css/stylesheet_v1.css" rel="stylesheet" type="text/css">
+		<link href="css/responsive_v1.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+		</style>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/javascript-v1.js"></script>
+	</head>
 
-<body>
-	<div id="top" class="top-nav-bar">
-		<div class="search-box text-center">
-			<p>
-				<a href="#top">
-					WebTemp5
-				</a>
-			</p>
-		</div><!-- search-box -->
-		<div class="menu-bar">
-			<ul>
-				<li>
-					<a href="index.html">Home</a>
-				</li>
-				<li>
-					<a href="category.html">Menu</a>
-					<ul>
-						<li><a href="category.html"> Sub Menu</a></li>
-						<li><a href="category.html"> Sub Menu</a></li>
-						<li><a href="category.html"> Sub Menu</a></li>
-						<li><a href="category.html"> Sub Menu</a></li>
-					</ul>
-				</li>
-				<li>
-					<a class="noti no-hover">Cart</a>
-				</li>
-			</ul>
-		</div><!-- menu-bar -->
-	</div><!-- top-nav-bar -->
-    <div class="shopping-cart no-display">
-        <div class="title">
-            Shopping Bag
-        </div>
-        <div>
-            <div class="all-cart">
-                <ul id="show-cart">
-					
-                </ul>
-                <p>
-                    Total:&nbsp;$
-                    <span id="total-cart">
-                    </span>
-                </p>
-
-                <button id="clear-cart">Clear Cart</button>
-            </div><!-- all-cart -->
-        </div>
-    </div><!-- shopping-cart -->
-	<section class="header">
-		<div class="slider">
-			<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-					  <a href="product.html"><img src="img/foto-1.jpg" class="d-block w-100" alt="foto-1" /></a>
-					</div>
-					<div class="carousel-item">
-					  <a href="product.html"><img src="img/foto-2.jpg" class="d-block w-100" alt="foto-2" /></a>
-					</div>
-					<div class="carousel-item">
-					  <a href="product.html"><img src="img/foto-3.jpg" class="d-block w-100" alt="foto-3" /></a>
-					</div>
-					<div class="carousel-item">
-					  <a href="product.html"><img src="img/foto-4.JPG" class="d-block w-100" alt="foto-4" /></a>
-					</div>
-				</div><!-- carousel-inner -->
-                <ol class="carousel-indicators">
-					<li data-target="#slider" data-slide-to="0" class="active"></li>
-					<li data-target="#slider" data-slide-to="1"></li>
-					<li data-target="#slider" data-slide-to="2"></li>
-					<li data-target="#slider" data-slide-to="3"></li>
-                </ol><!-- carousel-indicators -->
-			</div><!-- carousel slide carousel-fade -->
-		</div><!-- slider -->
-	</section>
-	<!----- featured-categories ------->
-	<section class="featured-categories">
-		<div class="title-box">
-			<p>title box</p>
+	<body>
+		<div id="top" class="top-nav-bar">
+			<div class="search-box">
+				<p>
+					<a href="#top">
+						WebTemp5
+					</a>
+				</p>
+			</div><!-- search-box -->
+			<div class="menu-bar">
+				<ul>
+					<li>
+						<a href="#index">home</a>
+					</li>
+					<li>
+						<a href="#about">about us</a>
+					</li>
+					<li>
+						<a href="#service">services</a>
+						<ul>
+							<li><a href="">our process</a></li>
+							<li><a href="">our clients</a></li>
+							<li><a href="">accommodation deal</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">projects</a>
+						<ul>
+							<li><a href="">residential</a></li>
+							<li><a href="">commercial</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">request a quote</a>
+					</li>
+					<li>
+						<a href="">contact us</a>
+					</li>
+				</ul>
+			</div><!-- menu-bar -->
 		</div>
-		<!-- swipe container -->
-		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide col-md-4">
-					<a href="category.html">
-						<p class="letter-title">category title</p>
-						<img src="img/foto-1.jpg" width="100%" height="auto" alt="foto-1" />
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="category.html">
-						<p class="letter-title">category title</p>
-						<img src="img/foto-2.jpg" width="100%" height="auto" alt="foto-1" />
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="category.html">
-						<p class="letter-title">category title</p>
-						<img src="img/foto-3.jpg" width="100%" height="auto" alt="foto-1" />
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="category.html">
-						<p class="letter-title">category title</p>
-						<img src="img/foto-4.JPG" width="100%" height="auto" alt="foto-4" />
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="category.html">
-						<p class="letter-title">category title</p>
-						<img src="img/foto-1.jpg" width="100%" height="auto" alt="foto-1" />
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="category.html">
-						<p class="letter-title">category title</p>
-						<img src="img/foto-2.jpg" width="100%" height="auto" alt="foto-1" />
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="category.html">
-						<p class="letter-title">category title</p>
-						<img src="img/foto-3.jpg" width="100%" height="auto" alt="foto-1" />
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="category.html">
-						<p class="letter-title">category title</p>
-						<img src="img/foto-4.JPG" width="100%" height="auto" alt="foto-4" />
-					</a>
-				</div><!-- col-md-4 -->
-			</div><!-- swipe-wrapper -->
-		</div><!-- swiper-container -->
-		<div class="title-box">
-			<p>title box</p>
-		</div>
-		<!-- swipe container -->
-		<div class="swiper-container">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide col-md-4">
-					<a href="product.html">
-						<p class="letter-title">product title</p>
+		<section class="header">
+			<div class="slider">
+				<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+						<a href="product.html"><img src="img/foto-1.jpg" class="d-block w-100" alt="foto-1" /></a>
+						</div>
+						<div class="carousel-item">
+						<a href="product.html"><img src="img/foto-2.jpg" class="d-block w-100" alt="foto-2" /></a>
+						</div>
+						<div class="carousel-item">
+						<a href="product.html"><img src="img/foto-3.jpg" class="d-block w-100" alt="foto-3" /></a>
+						</div>
+						<div class="carousel-item">
+						<a href="product.html"><img src="img/foto-4.JPG" class="d-block w-100" alt="foto-4" /></a>
+						</div>
+					</div><!-- carousel-inner -->
+					<ol class="carousel-indicators">
+						<li data-target="#slider" data-slide-to="0" class="active"></li>
+						<li data-target="#slider" data-slide-to="1"></li>
+						<li data-target="#slider" data-slide-to="2"></li>
+						<li data-target="#slider" data-slide-to="3"></li>
+					</ol><!-- carousel-indicators -->
+				</div><!-- carousel slide carousel-fade -->
+			</div><!-- slider -->
+		</section>
+		<!----- featured-categories ------->
+		<section class="featured-categories">
+			<div class="title-box">
+				<p>title box</p>
+			</div>
+			<!-- swipe container -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
 							<img src="img/foto-1.jpg" width="100%" height="auto" alt="foto-1" />
-						<p class="number-price">$199.95</p>
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="product.html">
-						<p class="letter-title">product title</p>
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
 							<img src="img/foto-2.jpg" width="100%" height="auto" alt="foto-1" />
-						<p class="number-price">$199.95</p>
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="product.html">
-						<p class="letter-title">product title</p>
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
 							<img src="img/foto-3.jpg" width="100%" height="auto" alt="foto-1" />
-						<p class="number-price">$199.95</p>
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="product.html">
-						<p class="letter-title">product title</p>
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
 							<img src="img/foto-4.JPG" width="100%" height="auto" alt="foto-4" />
-						<p class="number-price">$199.95</p>
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="product.html">
-						<p class="letter-title">product title</p>
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
 							<img src="img/foto-1.jpg" width="100%" height="auto" alt="foto-1" />
-						<p class="number-price">$199.95</p>
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="product.html">
-						<p class="letter-title">product title</p>
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
 							<img src="img/foto-2.jpg" width="100%" height="auto" alt="foto-1" />
-						<p class="number-price">$199.95</p>
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="product.html">
-						<p class="letter-title">product title</p>
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
 							<img src="img/foto-3.jpg" width="100%" height="auto" alt="foto-1" />
-						<p class="number-price">$199.95</p>
-					</a>
-				</div><!-- col-md-4 -->
-				<div class="swiper-slide col-md-4">
-					<a href="product.html">
-						<p class="letter-title">product title</p>
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
 							<img src="img/foto-4.JPG" width="100%" height="auto" alt="foto-4" />
-						<p class="number-price">$199.95</p>
+						</a>
+					</div><!-- col-md-4 -->
+				</div><!-- swipe-wrapper -->
+			</div><!-- swiper-container -->
+			<div class="title-box">
+				<p>title box</p>
+			</div>
+			<!-- swipe container -->
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
+							<img src="img/foto-1.jpg" width="100%" height="auto" alt="foto-1" />
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
+							<img src="img/foto-2.jpg" width="100%" height="auto" alt="foto-1" />
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
+							<img src="img/foto-3.jpg" width="100%" height="auto" alt="foto-1" />
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
+							<img src="img/foto-4.JPG" width="100%" height="auto" alt="foto-4" />
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
+							<img src="img/foto-1.jpg" width="100%" height="auto" alt="foto-1" />
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
+							<img src="img/foto-2.jpg" width="100%" height="auto" alt="foto-1" />
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
+							<img src="img/foto-3.jpg" width="100%" height="auto" alt="foto-1" />
+						</a>
+					</div><!-- col-md-4 -->
+					<div class="swiper-slide col-md-4">
+						<a href="category.html">
+							<p class="letter-title">category title</p>
+							<img src="img/foto-4.JPG" width="100%" height="auto" alt="foto-4" />
+						</a>
+					</div><!-- col-md-4 -->
+				</div><!-- swipe-wrapper -->
+			</div><!-- swiper-container -->
+		</section><!-- featured-categories -->
+		<div class="parallax">
+		</div><!-- parallax -->
+		<div id="section1">
+			<div class="flip-box">
+			<div class="flip-box-inner">
+				<div class="flip-box-front">
+				<h2>Outside Content</h2>
+				</div><!-- flip-box-front -->
+				<div class="flip-box-back">
+				<h2>Inside Content</h2>
+				</div><!-- flip-box-back -->
+			</div><!-- flip-box-inner -->
+			</div><!-- flip-box -->
+			<div class="flip-box">
+			<div class="flip-box-inner">
+				<div class="flip-box-front">
+				<h2>Outside Content</h2>
+				</div><!-- flip-box-front -->
+				<div class="flip-box-back">
+				<h2>Inside Content</h2>
+				</div><!-- flip-box-back -->
+			</div><!-- flip-box-inner -->
+			</div><!-- flip-box -->
+		</div><!-- fixed-content -->
+		<div class="parallax">
+		</div><!-- parallax -->
+		<div id="section2">
+			<div class="flip-box">
+			<div class="flip-box-inner">
+				<div class="flip-box-front">
+				<h2>Outside Content</h2>
+				</div><!-- flip-box-front -->
+				<div class="flip-box-back">
+				<h2>Inside Content</h2>
+				</div><!-- flip-box-back -->
+			</div><!-- flip-box-inner -->
+			</div><!-- flip-box -->
+			<div class="flip-box">
+			<div class="flip-box-inner">
+				<div class="flip-box-front">
+				<h2>Outside Content</h2>
+				</div><!-- flip-box-front -->
+				<div class="flip-box-back">
+				<h2>Inside Content</h2>
+				</div><!-- flip-box-back -->
+			</div><!-- flip-box-inner -->
+			</div><!-- flip-box -->
+		</div><!-- fixed-content -->
+		<div class="parallax">
+		</div><!-- parallax -->
+		<div id="section3">
+			<div class="flip-box">
+			<div class="flip-box-inner">
+				<div class="flip-box-front">
+				<h2>Outside Content</h2>
+				</div><!-- flip-box-front -->
+				<div class="flip-box-back">
+				<h2>Inside Content</h2>
+				</div><!-- flip-box-back -->
+			</div><!-- flip-box-inner -->
+			</div><!-- flip-box -->
+			<div class="flip-box">
+			<div class="flip-box-inner">
+				<div class="flip-box-front">
+				<h2>Outside Content</h2>
+				</div><!-- flip-box-front -->
+				<div class="flip-box-back">
+				<h2>Inside Content</h2>
+				</div><!-- flip-box-back -->
+			</div><!-- flip-box-inner -->
+			</div><!-- flip-box -->
+		</div><!-- fixed-content -->
+		<div class="parallax">
+		</div><!-- parallax -->
+		<footer>
+			<div class="container text-center">
+				<p>
+					<a href="https://datazul.info/">
+						back to datazul
 					</a>
-				</div><!-- col-md-4 -->
-			</div><!-- swipe-wrapper -->
-		</div><!-- swiper-container -->
-	</section><!-- featured-categories -->
-	<footer>
-		<div class="container text-center">
-			<p>
-				<a href="https://datazul.info/">
-					back to datazul
-				</a>
-			</p>
-		</div><!-- container text-center -->
-	</footer>
-	<script type="text/javascript" src="js/swiper-javascript.js"></script>
-	<script type="text/javascript" src="js/shopping-cart-javascript.js"></script>
-</body>
+				</p>
+			</div><!-- container text-center -->
+		</footer>
+		<script type="text/javascript" src="js/swiper-javascript.js"></script>
+	</body>
 </html>
