@@ -1,4 +1,4 @@
-/* CSS Responsive */
+/* CSS Responsive Version 1 */
 
 /* @media Rule to 750px --- the device screen for mobile --- */
 @media only screen 
@@ -23,6 +23,10 @@ and (max-width: 750px) {
 }
 
 @media only screen and (max-width:980px) {
+	.header {
+		padding-top:135px;
+	}
+
 	.top-nav-bar {
 		height:auto;
 		border-bottom:0;
@@ -73,7 +77,7 @@ and (max-width: 750px) {
 				width:100%;
 				height:auto;
 				margin:0;
-				padding:10px 0;
+				padding:15px 0;
 			}
 	
 				.menu-bar ul li a {
@@ -95,7 +99,7 @@ and (max-width: 750px) {
 					.menu-bar ul li ul li {
 						background:#fff;
 						border-top:1px solid #6a86bf;
-						padding:10px 0;
+						padding:15px 0;
 					}
 
 						.menu-bar ul li ul li a {
@@ -106,14 +110,26 @@ and (max-width: 750px) {
 							width:100%;
 						}
 	
-/* ------------- slider ----------------- */	
+/* --------------- slider ----------------- */	
 	.slider {
 		width:100%;
 		margin-left:0;
 	}
-	
+
+	.end-content {
+		padding:0 15px;
+	}
+
+		.end-content .container {
+			padding:15px;
+		}
 
 /* -------------- footer ------------------- */
+	footer p {
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+
 		footer p a {
 			font-size:18px !important;
 		}
