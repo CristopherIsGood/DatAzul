@@ -34,12 +34,29 @@ and (max-width: 750px) {
 	}
 	
 		.search-box p {
-			margin:15px 0;
+			margin:34px 0 34px 34px;
+			float:left;
 		}
+
+		.search-box .dropbtn {
+			width:100px;
+			height:120px;
+			background:url("../img/drop-down-nav_mobile.png") no-repeat center;
+			cursor:pointer;
+			border:none;
+			float:right;
+			display:block;			
+		}
+
+		.show {
+			display:block !important;
+		}
+
 
 	.menu-bar {
 		width:100%;
 		height:auto;
+		display:none;
 	}
 	
 		.menu-bar ul {
