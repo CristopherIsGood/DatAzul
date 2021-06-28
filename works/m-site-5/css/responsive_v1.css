@@ -133,6 +133,11 @@ and (max-width: 750px) {
 		footer p a {
 			font-size:18px !important;
 		}
+
+		footer p img {
+			height:2.65em;
+			margin-top:-7px;
+		}
 	
 }
 

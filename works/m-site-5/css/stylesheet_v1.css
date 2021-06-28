@@ -397,6 +397,13 @@ body, html {
 				text-decoration:none; 
 			}
 
+				footer p img {
+					height:1.75em;
+					width:auto;
+					padding:0.75rem 0;
+					margin-top:-10px;
+				}
+
 		.datazul {
 			padding-top:20px;
 			margin-top:10px;
