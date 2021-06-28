@@ -19,6 +19,15 @@ and (max-width: 750px) {
     margin-top:0;
   }
 /* -------------------- CONTACT FORM --------------------------- */
+
+	footer p a {
+		font-size:18px !important;
+	}
+
+	footer p img {
+		height:2.65em !important;
+		margin-top:-7px !important;
+	}
 	
 }
 
@@ -131,12 +140,12 @@ and (max-width: 750px) {
 	}
 
 		footer p a {
-			font-size:18px !important;
+			font-size:24px;
 		}
 
 		footer p img {
-			height:2.65em;
-			margin-top:-7px;
+			height:2.1em;
+			margin-top:-8px;
 		}
 	
 }
@@ -148,8 +157,8 @@ and (max-width: 750px) {
 }
 	
 		#menu-btn, #close-btn {
-		display:none !important;
-	}
+			display:none !important;
+		}
 	
 }
 
