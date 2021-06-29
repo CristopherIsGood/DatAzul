@@ -47,8 +47,7 @@ and (max-width: 750px) {
 	}
 	
 		.search-box p {
-			margin:34px 0 34px 34px;
-			float:left;
+			margin:0 auto;
 		}
 
 		.search-box .dropbtn {
@@ -96,19 +95,24 @@ and (max-width: 750px) {
 			.menu-bar ul li ul {
 				width:100%;
 				height:auto;
+				background:#6a86bf;
+				margin:0 0 15px 0;
+				padding:0 0 15px 0;
 
 			}
 
 				.menu-bar ul li:hover ul {
 					position:static;
-					background:#ececec;
+					background:#6a86bf;
 					box-shadow:none;
+					margin:15px 0;				
 				}
 
 					.menu-bar ul li ul li {
 						background:#fff;
 						border-top:1px solid #6a86bf;
 						padding:15px 0;
+						margin:0;
 					}
 
 						.menu-bar ul li ul li a {
