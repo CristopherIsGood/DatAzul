@@ -186,6 +186,7 @@ body{
 					#datazul .self_expression .slide_default .foto_default p img {
 						margin:0 auto;
 						padding:0;
+						width:auto;
 						height:520px;
 						float:right;
 					}

@@ -158,15 +158,14 @@ and (max-width: 989px) {
 	
 			#datazul .self_expression .slide_default .foto_default {
 				width:100% !important;
-				height:auto;
+				height:auto !important;
 				float:left;
 				margin:0;
 				padding:0;
 			}
 	
 					#datazul .self_expression .slide_default .foto_default p img {
-						width:450px;
-						height:auto;
+						height:350px !important;
 						margin:0 auto;
 						padding:0;
 						float:none !important;
@@ -268,6 +267,7 @@ and (max-width: 989px) {
 			padding-bottom:0;
 			padding-right:30px;
 			display:block;
+			margin:0;
 		}	
 		
 			#datazul .get_in_touch .div-responsive .sub-heading-1 {
@@ -314,11 +314,11 @@ and (max-width: 989px) {
 @media only screen
 and (min-width: 990px) {
 	
-	
 		/* navigational list - dropdown button in mobile layout */
 		#datazul .nav-list .dropbtn {
 			display:none;
 		}
+
 }
 
 
@@ -334,6 +334,7 @@ and (max-width: 1365px) {
 			/* image block */
 			#datazul .self_expression .slide_default .para_default {
 				width:40%;
+				height:450px;
 			}
 	
 				#datazul .self_expression .slide_default .para_default p {
@@ -344,10 +345,21 @@ and (max-width: 1365px) {
 	
 			#datazul .self_expression .slide_default .foto_default {
 				width:60%;
+				height:450px;
 			}
+
+					#datazul .self_expression .slide_default .foto_default p img {
+						height:450px;
+					}
+
+	/* my works */
+	#datazul .my_works {
+		padding-top:70px;
+	}
 
 			/* work image */				
 			#datazul .my_works .work_image p {
+				padding-top:0;
 				font-size:29pt;
 			}
 			
@@ -372,10 +384,6 @@ and (max-width: 1365px) {
 		/* get in touch */
 		#datazul .get_in_touch p {
 			font-size:32pt;
-		}
-		
-		#datazul .get_in_touch .div-responsive {
-			width:100%;
 		}
 				
 		#datazul .get_in_touch .request {
