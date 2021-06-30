@@ -131,8 +131,12 @@ body {
 
 		.topsec-banner-btn a {
 			text-decoration:none;
-			color:#000;
+			color:var(--mainBlack);
 			padding:1rem 3rem;
+		}
+
+		.topsec-banner-btn a:hover {
+			color:var(--primaryColor);
 		}
 
 /* ---------------- TopSec ----------------- */
@@ -247,12 +251,12 @@ body {
 		cursor:pointer;
 	}
 	
-	.shopcart-cart h2 {
-		text-transform:capitalize;
-		text-align:center;
-		letter-spacing:var(--mainSpacing);
-		margin-bottom:2rem;
-	}
+		.shopcart-cart h2 {
+			text-transform:capitalize;
+			text-align:center;
+			letter-spacing:var(--mainSpacing);
+			margin-bottom:2rem;
+		}
 	
 /* --------------- CartItem ---------------- */	
 	
@@ -310,6 +314,10 @@ body {
 		.shopcart-cart-footer h3 {
 			text-transform:capitalize;
 			margin-bottom:1rem;
+		}
+
+		.shopcart-clear-cart {
+			padding:1rem 3rem;
 		}
 
 /* --------------- ShopCart ---------------- */
