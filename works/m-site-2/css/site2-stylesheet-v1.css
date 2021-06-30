@@ -316,6 +316,14 @@ input[type=submit]:hover {
 	padding:0;
 }
 
+.light {
+	margin:0 auto;
+	padding:0 30px 30px;
+	width:100%;
+	height:auto;
+	float:left;
+}
+
 .rowLight {
 	padding:0;
 	background:#f3f3f3;
