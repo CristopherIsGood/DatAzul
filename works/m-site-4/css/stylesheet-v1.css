@@ -112,7 +112,7 @@ body {
 	}
 
 	.topsec-banner-btn {
-		padding:1rem 3rem;
+		padding:1rem 0;
 		text-transform:uppercase;
 		letter-spacing:var(--mainSpacing);
 		font-size:1rem;
@@ -128,6 +128,12 @@ body {
 		color:var(--primaryColor);
 		transition:0.5s;
 	}
+
+		.topsec-banner-btn a {
+			text-decoration:none;
+			color:#000;
+			padding:1rem 3rem;
+		}
 
 /* ---------------- TopSec ----------------- */
 
@@ -190,50 +196,6 @@ body {
             color:#000;
             text-decoration:none;
         }
-
-            .leftnav-nav-content ul li:hover .nav-content {
-                display:block;
-				transition:0.5s;
-            }
-
-                .leftnav-nav-content ul li:hover > a {
-                    color:#000;
-					transition:0.5s;
-                }
-
-        .leftnav-nav-content ul li .nav-content {
-            display:none;
-            list-style-type:none;
-            width:auto;
-            margin:0;
-            padding:0;
-            top:100px;
-            overflow:hidden;
-        }
-
-            .leftnav-nav-content ul li .nav-content ul {
-                font-size:16px;
-                margin:0;
-                padding:0;
-            }
-
-                .leftnav-nav-content ul li .nav-content ul li {
-                    float:none;
-                    margin:10px;
-                    padding:0;
-                }
-
-                    .leftnav-nav-content ul li .nav-content ul li a {
-                        margin:0;
-                        padding:10px 0;
-                        height:auto;
-                        line-height:normal;
-                    }
-
-                    .leftnav-nav-content ul li .nav-content ul li a:hover {
-                        color:#000;
-						transition:0.5s;
-                    }
 
 /* --------------- LeftNav ----------------- */
 
@@ -352,13 +314,15 @@ body {
 
 /* --------------- ShopCart ---------------- */
 
-/* --------------- Products ---------------- */
+/* --------------- sections ---------------- */
 
-	.products {
-		padding:4rem 0;
+	.sections {
+		padding:8rem 0;
 	}
 
-	.products-section-title h2 {
+/* --------------- sections ---------------- */
+
+	.section-title h2 {
 		text-align:center;
 		font-size:2.5rem;
 		margin-bottom:5rem;
@@ -366,7 +330,7 @@ body {
 		letter-spacing:var(--mainSpacing);
 	}
 
-	.products-center {
+	.center {
 		width:90vw;
 		margin:0 auto;
 		max-width:1170px;
@@ -376,12 +340,12 @@ body {
 		grid-row-gap:2rem;
 	}
 
-	.products-img-container {
+	.img-container {
 		position:relative;
 		overflow:hidden;
 	}
 
-	.products-bag-btn {
+	.bag-btn {
 		position:absolute;
 		top:70%;
 		right:0;
@@ -397,39 +361,39 @@ body {
 		text-decoration:none;
 	}
 
-		.products-img-container a {
+		.img-container a {
 			color:var(--mainBlack);
 			text-decoration:none;
 		}
 
-		.products-img-container a:hover {
+		.img-container a:hover {
 			color:var(--mainWhite);
 			text-decoration:none;
 			transition:0.5s;
 		}
 
-	.products-fa-shopping-cart {
+	.fa-shopping-cart {
 		margin-right:0.5rem;
 	}
 
-	.products-img-container:hover .products-bag-btn {
+	.img-container:hover .bag-btn {
 		transform:translateX(0);
 		transition:0.5s;
 	}
 
-	.products-product-img {
+	.product-img {
 		display:block;
 		width:100%;
 		min-height:12rem;
 		transition:var(--mainTransition);
 	}
 
-	.products-img-container:hover .products-product-img {
+	.img-container:hover .product-img {
 		opacity:0.5;
 		transition:0.5s;
 	}
 
-	.products-product h3 {
+	.product h3 {
 		text-transform:capitalize;
 		font-size:1.1rem;
 		margin-top:1rem;
@@ -437,7 +401,7 @@ body {
 		text-align:center;
 	}
 
-	.products-product h4 {
+	.product h4 {
 		margin-top:0.7rem;
 		letter-spacing:var(--mainSpacing);
 		color:var(--primaryColor);
