@@ -52,61 +52,16 @@
 			<div class="leftnav-nav-content">
 				<ul>
 					<li>
-						<a href="#">about</a>
-						<div class="nav-content">
-							<div class="nav-sub">
-								<ul id="pageAbout" class="clearfix">
-									<li onClick="myAbout()">
-										<a data-slide-index="0" href="#about">About 1</a>
-									</li>
-									<li onClick="myAbout()">
-										<a data-slide-index="1" href="#about">About 2</a>
-									</li>
-									<li onClick="myAbout()">
-										<a data-slide-index="2" href="#about">About 3</a>
-									</li>
-								</ul>
-							</div><!-- nav-sub -->
-						</div><!-- nav-content -->
+						<a href="#products">products</a>
 					</li>
 					<li>
-						<a href="#menu">menu</a>
-						<div class="nav-content">
-							<div class="nav-sub">
-								<ul id="pageMenu" class="clearfix">
-									<li onClick="myMenu()">
-										<a data-slide-index="0" href="#menu">Menu 1</a>
-									</li>
-									<li onClick="myMenu()">
-										<a data-slide-index="1" href="#menu">Menu 2</a>
-									</li>
-									<li onClick="myMenu()">
-										<a data-slide-index="2" href="#menu">Menu 3</a>
-									</li>
-								</ul>
-							</div><!-- nav-sub -->
-						</div><!-- nav-content -->
+						<a href="#projects">projects</a>
 					</li>
 					<li>
-						<a href="#category">category</a>
-						<div class="nav-content">
-							<div class="nav-sub">
-								<ul id="pageCategory" class="clearfix">
-									<li onClick="myCategory()">
-										<a data-slide-index="0" href="#category">Category 1</a>
-									</li>
-									<li onClick="myCategory()">
-										<a data-slide-index="1" href="#category">Category 2</a>
-									</li>
-									<li onClick="myCategory()">
-										<a data-slide-index="2" href="#category">Category 3</a>
-									</li>
-								</ul>
-							</div><!-- nav-sub -->
-						</div><!-- nav-content -->
+						<a href="#news">news</a>
 					</li>
 					<li>
-						<a href="#gallery">gallery</a>
+						<a href="#about">about</a>
 					</li>
 					<li>
 						<a href="#contact">contact</a>
@@ -119,193 +74,213 @@
         <div class="topsec-banner">
             <h1 class="topsec-banner-title">my collection</h1>
             <button class="topsec-banner-btn">
-                click now
+                <a href="#products">click now</a>
             </button>
         </div><!-- topsec-banner -->
     </header><!-- topsec -->
-    <section class="products">
-        <div class="products-section-title">
+    <section id="products" class="sections">
+        <div class="section-title">
             <h2>my products</h2>
-        </div><!-- products-section-title -->
-		<div class="products-center">
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-1.jpg" alt="foto-1" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+        </div><!-- section-title -->
+		<div class="center">
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-1.jpg" alt="foto-1" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 1" data-cost="199.95" data-img="img/foto-1.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 1</h3>
 				<h4>$199.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-2.jpg" alt="foto-2" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-2.jpg" alt="foto-2" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 2" data-cost="299.95" data-img="img/foto-2.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a>
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 2</h3>
 				<h4>$299.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-3.jpg" alt="foto-3" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-3.jpg" alt="foto-3" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 3" data-cost="399.95" data-img="img/foto-3.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a>
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 3</h3>
 				<h4>$399.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-4.JPG" alt="foto-4" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-4.JPG" alt="foto-4" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 4" data-cost="499.95" data-img="img/foto-4.JPG"><i class="fas fa-shopping-cart"></i>
 						add to bag</a>
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 4</h3>
 				<h4>$499.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-1.jpg" alt="foto-1" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-1.jpg" alt="foto-1" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 1" data-cost="199.95" data-img="img/foto-1.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 1</h3>
 				<h4>$199.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-2.jpg" alt="foto-2" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-2.jpg" alt="foto-2" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 2" data-cost="299.95" data-img="img/foto-2.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 2</h3>
 				<h4>$299.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-3.jpg" alt="foto-3" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-3.jpg" alt="foto-3" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 3" data-cost="399.95" data-img="img/foto-3.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 3</h3>
 				<h4>$399.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-4.JPG" alt="foto-4" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-4.JPG" alt="foto-4" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 4" data-cost="499.95" data-img="img/foto-4.JPG"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 4</h3>
 				<h4>$499.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-1.jpg" alt="foto-1" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-1.jpg" alt="foto-1" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 1" data-cost="199.95" data-img="img/foto-1.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a>
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 1</h3>
 				<h4>$199.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-2.jpg" alt="foto-2" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-2.jpg" alt="foto-2" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 2" data-cost="299.95" data-img="img/foto-2.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 2</h3>
 				<h4>$299.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-3.jpg" alt="foto-3" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-3.jpg" alt="foto-3" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 3" data-cost="399.95" data-img="img/foto-3.jpg"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 3</h3>
 				<h4>$399.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-4.JPG" alt="foto-4" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-4.JPG" alt="foto-4" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 4" data-cost="499.95" data-img="img/foto-4.JPG"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 4</h3>
 				<h4>$499.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-1.jpg" alt="foto-4" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-1.jpg" alt="foto-4" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 1" data-cost="199.95" data-img="img/foto-1.JPG"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 4</h3>
 				<h4>$199.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-2.jpg" alt="foto-4" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-2.jpg" alt="foto-4" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 2" data-cost="299.95" data-img="img/foto-2.JPG"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 4</h3>
 				<h4>$299.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-3.jpg" alt="foto-4" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-3.jpg" alt="foto-4" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 3" data-cost="399.95" data-img="img/foto-3.JPG"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 4</h3>
 				<h4>$399.95</h4>
-			</article><!-- products-product -->
-			<article class="products-product">
-				<div class="products-img-container">
-					<img src="img/foto-4.JPG" alt="foto-4" class="products-product-img" />
-					<button class="products-bag-btn" data-id="1">
+			</article><!-- product -->
+			<article class="product">
+				<div class="img-container">
+					<img src="img/foto-4.JPG" alt="foto-4" class="product-img" />
+					<button class="bag-btn" data-id="1">
 						<a class="add-to-cart" href="#" data-name="Product 4" data-cost="499.95" data-img="img/foto-4.JPG"><i class="fas fa-shopping-cart"></i>
 						add to bag</a> 
 					</button>
-				</div><!-- products-img-container -->
+				</div><!-- img-container -->
 				<h3>product 4</h3>
 				<h4>$499.95</h4>
-			</article><!-- products-product -->
-		</div><!-- products-center -->
+			</article><!-- product -->
+		</div><!-- center -->
     </section><!-- products -->
+	<section id="projects" class="sections">
+        <div class="section-title">
+            <h2>projects</h2>
+        </div><!-- section-title -->
+	</section><!-- projects -->
+	<section id="news" class="sections">
+        <div class="section-title">
+            <h2>news</h2>
+        </div><!-- section-title -->
+	</section><!-- news -->
+	<section id="about" class="sections">
+        <div class="section-title">
+            <h2>about</h2>
+        </div><!-- section-title -->
+	</section><!-- about -->
+	<section id="contact" class="sections">
+        <div class="section-title">
+            <h2>contact</h2>
+        </div><!-- section-title -->
+	</section><!-- contact -->
 	<footer>
 		<p>
 			<a href="https://datazul.info/">
