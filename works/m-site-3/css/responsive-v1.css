@@ -75,7 +75,7 @@ and (max-width: 479px) {
 
 /* @media Rule to 990px --- the device screen for mobile --- */
 @media only screen 
-and (max-width: 989px) {
+and (max-width: 990px) {
 	
 		/* navigational list */
 		#datazul .nav-list {
@@ -207,7 +207,7 @@ and (max-width: 989px) {
 		/* work image */
 		#datazul .my_works .work_image {
 			width:100%;
-			height:auto;
+			height:auto !important;
 			margin-top:120px;
 		}
 		
@@ -217,6 +217,12 @@ and (max-width: 989px) {
 				padding-bottom:60px;
 			}
 			
+		/* work descr */
+		#datazul .my_works .work_descr {
+			width:100%;
+			height:auto !important;
+		}
+
 			/* work description */
 			#datazul .my_works .work_descr p {
 				padding-top:30px;
@@ -228,12 +234,6 @@ and (max-width: 989px) {
 					margin-top:30px;
 					margin-bottom:30px;
 				}
-
-		/* work descr */
-		#datazul .my_works .work_descr {
-			width:100%;
-			height:auto;
-		}
 		
 	/* about myself */
 	#datazul .about_myself {
@@ -354,16 +354,24 @@ and (max-width: 1365px) {
 
 	/* my works */
 	#datazul .my_works {
-		padding-top:70px;
+		padding-top:50px;
 	}
 
-			/* work image */				
+		/* work image */
+		#datazul .my_works .work_image {
+			height:600px;
+		}	
+
 			#datazul .my_works .work_image p {
 				padding-top:0;
 				font-size:29pt;
 			}
 			
-				/* work descr */
+		/* work descr */
+		#datazul .my_works .work_descr {
+			height:600px;
+		}
+
 				#datazul .my_works .work_descr p span:first-child {
 					font-size:32pt;
 				}
