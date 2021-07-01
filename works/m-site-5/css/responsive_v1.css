@@ -4,20 +4,10 @@
 @media only screen 
 and (max-width: 750px) {
 
-/* ------------- section / flip-box ------------- */
-	#section1, #section2, #section3, #section4{
-		height:1000px;
-	}
-	
-	.flip-box {
-	  	width:100%;
-		height:500px;
-	}
-
 /* ------------- footer ------------- */
 
 	footer p a {
-		font-size:18px !important;
+		font-size:20px !important;
 	}
 
 	footer p img {
@@ -139,19 +129,18 @@ and (max-width: 750px) {
 		}
 
 /* ------------- footer ------------- */
-	footer p {
-		padding-top:30px;
-		padding-bottom:30px;
-	}
-
-		footer p a {
-			font-size:24px;
+		footer .container {
+			padding:4% 0;
 		}
 
-		footer p img {
-			height:2.1em;
-			margin-top:-8px;
-		}
+				footer p a {
+					font-size:24px;
+				}
+
+				footer p img {
+					height:2.1em;
+					margin-top:-8px;
+				}
 	
 }
 
