@@ -105,7 +105,7 @@ body, html {
 
 /* ---------- header ---------- */
 	.header {
-		padding:8% 0 0;
+		padding:115px 0 0;
 	}
 
 /* ---------- slider ---------- */	
@@ -223,7 +223,7 @@ body, html {
 
 	.flip-box {
 		background-color:transparent;
-		width:100%;
+		width:50%;
 		height:500px;
 		float:left;
 		font-size:24px;
@@ -252,10 +252,32 @@ body, html {
 				display:table;
 			}
 
-				.flip-box-front h2, .flip-box-back h2 {
+				.flip-box-front p, .flip-box-back p {
 					vertical-align:middle;
 					display:table-cell;
+					text-transform:uppercase;
+					margin:0 auto;
+					padding:0 60px;
+					text-align:left;
 				}
+
+					.flip-box-front p span:first-child , 
+					.flip-box-back p span:first-child {
+						font-size:36px;
+						font-weight:bold;
+						text-transform:uppercase;
+						display:block;
+						margin:-20px auto 20px;
+						padding:0;
+					}
+					
+					.flip-box-front p span:last-child , 
+					.flip-box-back p span:last-child {
+						font-size:18px;
+						line-height:35px;
+						margin:0 auto;
+						padding:0;
+					}
 
 			.flip-box-front {
 				background-color:#a8bcd0;
@@ -283,12 +305,12 @@ body, html {
 
 		footer p {
 			padding:0;
-			font-size:24px;
 			text-transform:uppercase;
 		}
 
 			footer p a {
 				color:#fff;
+				font-size:24px;
 				text-decoration:none; 
 			}
 

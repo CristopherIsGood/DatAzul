@@ -3,12 +3,10 @@
 /* @media Rule to 750px --- the device screen for mobile --- */
 @media only screen 
 and (max-width: 750px) {
-
 /* ------------- footer ------------- */
-
-	footer p a {
-		font-size:20px !important;
-	}
+		footer p a {
+			font-size:15pt !important;
+		}
 
 	footer p img {
 		height:2.65em !important;
@@ -114,28 +112,10 @@ and (max-width: 750px) {
 		margin-left:0;
 	}
 
-/* ------------- section / flip-box ------------- */
-	.flip-box {
-		width:100%;
-	}
-	
-
-	.end-content {
-		padding:0 15px;
-	}
-
-		.end-content .container {
-			padding:15px;
-		}
-
 /* ------------- footer ------------- */
 		footer .container {
 			padding:4% 0;
 		}
-
-				footer p a {
-					font-size:24px;
-				}
 
 				footer p img {
 					height:2.1em;
@@ -145,14 +125,29 @@ and (max-width: 750px) {
 }
 
 /* Mobile */
-@media only screen 
-and (max-width: 1130px) {
+@media only screen
+and (min-width: 980px) {
 /* ------------- footer ------------- */
-		.footer p {
-			font-size:22px !important;
-		}
-	
+	footer p a {
+		font-size:24pt;
+	}	
 }
+
+@media only screen
+and (max-width: 1365px) {
+/* ------------- section / flip-box ------------- */
+#section1, #section2, #section3, #section4{
+	height:auto;
+	margin:0;
+}
+
+	.flip-box {
+		width:100%;
+		height:1000px;
+		padding:8% 0;
+	}
+}
+
 
 /* Turn off parallax scrolling for small devices... */
 @media only screen and (max-device-width: 1366px) {
