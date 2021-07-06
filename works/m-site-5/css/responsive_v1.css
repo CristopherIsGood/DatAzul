@@ -110,6 +110,11 @@ and (max-width: 750px) {
 		padding-top:135px;
 	}
 
+/* ----------- scroll-section id ----------- */
+.scroll-section-id {
+	height:120px;
+}
+
 /* ---------- slider ---------- */	
 	.slider {
 		width:100%;
@@ -140,7 +145,7 @@ and (min-width: 980px) {
 @media only screen
 and (max-width: 1365px) {
 /* ------------- section / flip-box ------------- */
-#section1, #section2, #section3, #section4{
+#section {
 	height:auto;
 	margin:0;
 }
@@ -148,7 +153,7 @@ and (max-width: 1365px) {
 	.flip-box {
 		width:100%;
 		height:1000px;
-		padding:8% 0;
+		padding:0;
 	}
 }
 
