@@ -26,10 +26,14 @@ and (max-width: 750px) {
 		.search-box {
 			width:100%;
 			height:auto;
+			position:relative;
 		}
 		
 			.search-box p {
 				margin:0 auto;
+				position:absolute;
+				top:30px;
+				left:20px;
 			}
 
 			.search-box .dropbtn {
