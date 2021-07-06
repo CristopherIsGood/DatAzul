@@ -125,7 +125,6 @@ body, html {
 			}
 
 /* ----------- scroll-section id ----------- */
-
 	.scroll-section-id {
 		width:100%;
 		height:100px;
@@ -226,7 +225,7 @@ body, html {
 	#section {
 		height:500px;
 		background:#a8bcd0;
-		margin:8% 0 0;
+		margin:10% 0 0;
 	}
 
 	.flip-box {
@@ -302,6 +301,7 @@ body, html {
 
 /* ------------- footer ------------- */
 	footer {
+		margin:5% 0 0;
 		background:#6a86bf;
 		color:#fff;
 		clear:both;
