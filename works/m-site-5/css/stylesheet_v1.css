@@ -62,7 +62,7 @@ body, html {
 					text-align:center;
 					background:#6a86bf;
 					cursor:pointer;
-					padding:35px 0;
+					padding:35px 8px;
 				}
 
 					.menu-bar ul li a {
@@ -71,7 +71,7 @@ body, html {
 						color:#fff;
 						text-decoration:none;
 						text-transform:uppercase;
-						padding:0 12px;
+						padding:12px;
 					}
 
 					.menu-bar ul li ul {
