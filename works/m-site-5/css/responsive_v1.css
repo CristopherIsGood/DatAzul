@@ -108,6 +108,7 @@ and (max-width: 750px) {
 /* ---------- header ---------- */
 	.header {
 		padding-top:135px;
+		padding-bottom:20px;
 	}
 
 /* ----------- scroll-section id ----------- */
@@ -120,6 +121,17 @@ and (max-width: 750px) {
 	.slider {
 		width:100%;
 		margin-left:0;
+	}
+
+/* ------------- section / flip-box ------------- */
+	.flip-box-front p span:first-child , 
+	.flip-box-back p span:first-child {
+		font-size:24px;
+	}
+	
+	.flip-box-front p span:last-child , 
+	.flip-box-back p span:last-child {
+		font-size:14px;
 	}
 
 /* ------------- footer ------------- */
