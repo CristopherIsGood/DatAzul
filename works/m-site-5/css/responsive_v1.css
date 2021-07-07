@@ -146,12 +146,11 @@ and (min-width: 980px) {
 and (max-width: 1365px) {
 /* ------------- section / flip-box ------------- */
 #section {
-	height:auto;
+	height:1000px;
 }
 
 	.flip-box {
 		width:100%;
-		padding:0;
 	}
 }
 
