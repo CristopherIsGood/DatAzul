@@ -65,9 +65,7 @@ $(document).ready(function(){
 
 		function closeModal() {
 			document.getElementById('myModal').style.display = "none";
-			$('video')[0].pause();
-			$('video')[4].pause();
-			$('video')[8].pause();
+			$('video').trigger('pause');
 		}
 
 		var slideIndex = 1;
@@ -75,16 +73,12 @@ $(document).ready(function(){
 
 		function plusSlides(n) {
 			showSlides(slideIndex += n);
-			$('video')[0].pause();
-			$('video')[4].pause();
-			$('video')[8].pause();
+			$('video').trigger('pause');
 		}
 
 		function currentSlide(n) {
 			showSlides(slideIndex = n);
-			$('video')[0].pause();
-			$('video')[4].pause();
-			$('video')[8].pause();
+			$('video').trigger('pause');
 		}
 
 		function showSlides(n) {
