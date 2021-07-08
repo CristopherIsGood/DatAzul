@@ -1,8 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media screen and (max-width: 500px) {
+	#m-site-2 .top-menu .head-logo, 
+	#m-site-2 .top-menu .head-nav  {
+		margin-left:20px !important;
+		margin-right:20px !important;
+		width:calc(100% - 40px) !important;
+	}	
+
+	#m-site-2 .wrapper {
+		margin-left:0 !important;
+		margin-right:0 !important;
+		width:100% !important;
+	}
+
+	#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p {
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+
+	.container {
+		padding-left:20px !important;
+		padding-right:20px !important
+  }
+}
+
 @media screen and (max-width: 600px) {
-	
 	.column {
 		width:100%!important;
 	}
@@ -19,7 +43,6 @@
 		#m-site-1 .bottom-footer p {
 			font-size:14pt !important;
 		}
-	
 }
 
 @media screen and (max-width: 989px) {
@@ -42,10 +65,6 @@
 				padding-top:0;
 				padding-bottom:0;
 			}
-
-		#m-site-2 .top-menu .head-logo {
-			width:calc(100% - 40px) !important;
-		}
 	
 				#m-site-2 .top-menu .head-logo p img {
 					width:179px;
@@ -90,16 +109,14 @@
 		#m-site-2 .top-menu .head-logo, 
 		#m-site-2 .top-menu .head-nav  {
 			margin-left:40px;
-			margin-right:40px !important;
-			width:calc(100% - 80px) !important;
+			margin-right:40px;
+			width:calc(100% - 80px);
 			float:left;
 			height:auto;
 		}	
 	
 						#m-site-2 .top-menu .head-nav ul li .nav-content {
-							position:static;
-							width:100%;
-							margin-left:0;
+							display:none !important;
 						}
 
 						#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p {
@@ -121,8 +138,6 @@
 		padding-right:40px;
 	}
 	
-/* -------------------- CONTACT FORM --------------------------- */
-	
 .container {
   	padding-top:80px;
   	padding-bottom:50px;
@@ -133,8 +148,6 @@
     margin-top:0;
 	text-transform:uppercase;
   }
-	
-/* -------------------- CONTACT FORM --------------------------- */
 	
 }
 
@@ -151,6 +164,26 @@
 		width:calc(16.6% - 4px);
 	}
 	
+}
+
+@media only screen and (min-width: 989px) and (max-width: 1365px) {
+
+	#m-site-2 .top-menu .head-logo {
+		margin-left:30px;
+		width:calc(35% - 30px);
+	}
+
+	#m-site-2 .top-menu .head-nav {
+		margin-right:30px;
+		width:calc(65% - 30px);
+	}	
+
+	#m-site-2 .wrapper {
+		margin-left:40px;
+		margin-right:40px;
+		width:calc(100% - 80px);
+	}
+
 }
 
 @media screen and (min-width: 1365px) {
@@ -181,17 +214,6 @@
 }
 
 @media screen and (max-width: 1365px) {
-		#m-site-2 .top-menu .head-logo {
-			margin-left:40px;
-			width:calc(35% - 40px);
-		}
-	
-		#m-site-2 .top-menu .head-nav {
-			margin-right:40px;
-			width:calc(45% - 40px);
-			float:right;
-		}	
-
 	#m-site-2 .wrapper {
 		margin-left:20px;
 		margin-right:20px;
