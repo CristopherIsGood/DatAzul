@@ -107,7 +107,11 @@
 							margin-left:0;
 						}
 
-	
+						#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p {
+							padding-top:60px;
+						}
+
+						
   .galarow {
 	padding-top:120px;
 	padding-right:0;
