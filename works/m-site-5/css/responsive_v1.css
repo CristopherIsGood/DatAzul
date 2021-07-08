@@ -126,12 +126,12 @@ and (max-width: 750px) {
 /* ------------- section / flip-box ------------- */
 	.flip-box-front p span:first-child , 
 	.flip-box-back p span:first-child {
-		font-size:24px;
+		font-size:20px;
 	}
 	
 	.flip-box-front p span:last-child , 
 	.flip-box-back p span:last-child {
-		font-size:14px;
+		font-size:12px;
 	}
 
 /* ------------- footer ------------- */
