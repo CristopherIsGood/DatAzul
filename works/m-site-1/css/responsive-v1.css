@@ -48,12 +48,8 @@
 				background-size:21px 24px;
 				cursor:pointer;
 				border:none;
-				float:right;
-			}
-
-			input[type="button"] {
-				border:none;
 				outline:none;
+				float:right;
 			}
 	
 				#m-site-1 .leftnav-nav-content ul {
