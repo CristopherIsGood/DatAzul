@@ -126,12 +126,12 @@ and (max-width: 750px) {
 /* ------------- section / flip-box ------------- */
 	.flip-box-front p span:first-child , 
 	.flip-box-back p span:first-child {
-		font-size:20px;
+		font-size:24px;
 	}
 	
 	.flip-box-front p span:last-child , 
 	.flip-box-back p span:last-child {
-		font-size:12px;
+		font-size:14px;
 	}
 
 /* ------------- footer ------------- */
@@ -158,14 +158,9 @@ and (min-width: 980px) {
 @media only screen
 and (max-width: 1365px) {
 /* ------------- section / flip-box ------------- */
-#section {
-	height:1000px;
-	margin:0;
-}
-
-	.flip-box {
-		width:100%;
-	}
+	#section {
+		margin:0;
+	
 }
 
 
