@@ -165,8 +165,6 @@ body {
 			float:left;
 		}
 
-/* ------------------ SLIDER ----------------------------- */
-
 			#m-site-1 .wrapper .content .bxslider .slide-bg {
 				width:100%;
 				height:auto;
@@ -210,8 +208,6 @@ body {
 							padding:0;
 						}
 
-/* ------------------ SLIDER ----------------------------- */
-
 		#m-site-1 .wrapper .end-content {
 			background:#fff;
 			margin:0 auto;
@@ -224,9 +220,6 @@ body {
 		.bx-controls-direction {
 			display:none;
 		}
-
-
-/* -------------------- GALLERY ------------------------ */
 
 .header {
   text-align:center;
@@ -254,9 +247,6 @@ body {
   margin-top:8px;
   vertical-align:middle;
 }
-
-/* -------------------- GALLERY ------------------------ */
-/* -------------------- CONTACT FORM --------------------------- */
 
 input[type=text], input[type=tel], input[type=email], select, textarea {
 	width:100%;
@@ -315,8 +305,6 @@ input[type=submit]:hover {
   display:table;
   clear:both;
 }
-
-/* -------------------- CONTACT FORM --------------------------- */
 
 	#m-site-1 .bottom-footer {
 		background:#f3f3f3;

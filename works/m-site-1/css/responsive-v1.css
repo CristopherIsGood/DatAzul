@@ -1,25 +1,45 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media screen and (max-width: 500px) {
+	#m-site-1 .top-menu .head-logo, 
+	#m-site-1 .top-menu .head-nav  {
+		margin-left:20px !important;
+		margin-right:20px !important;
+		width:calc(100% - 40px) !important;
+	}	
+
+	#m-site-1 .wrapper {
+		margin-left:0 !important;
+		margin-right:0 !important;
+		width:100% !important;
+	}
+
+	#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p {
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.galacolumn {
+	  -ms-flex:100%;
+	  flex:100%;
+	  max-width:100%;
+	  margin-top:0;
+	}
+	  
+		  #m-site-1 .bottom-footer p {
+			  font-size:14pt !important;
+		  }
+  }
+
 @media screen and (max-width: 800px) {
    .galacolumn {
 	 -ms-flex:50%;
 	 flex:50%;
 	 max-width:50%;
    }
-}
-
-@media screen and (max-width: 600px) {
-  .galacolumn {
-	-ms-flex:100%;
-    flex:100%;
-    max-width:100%;
-    margin-top:0;
-  }
-	
-		#m-site-1 .bottom-footer p {
-			font-size:14pt !important;
-		}
 }
 
 @media screen and (max-width: 989px) {
@@ -32,10 +52,6 @@
 				padding-top:0;
 				padding-bottom:0;
 			}
-
-		#m-site-1 .top-menu .head-logo {
-			width:calc(100% - 40px) !important;
-		}
 	
 				#m-site-1 .top-menu .head-logo p img {
 					width:175px;
@@ -85,8 +101,7 @@
 		#m-site-1 .top-menu .head-logo, 
 		#m-site-1 .top-menu .head-nav  {
 			margin-left:40px;
-			margin-right:40px !important;
-			width:calc(100% - 80px) !important;
+			width:calc(100% - 80px);
 			float:left;
 			height:auto;
 		}	
@@ -102,10 +117,14 @@
 		}
 
 						#m-site-1 .top-menu .head-nav ul li .nav-content {
-							position:static;
-							width:100%;
-							margin-left:0;
+							display:none !important;
 						}
+
+	#m-site-1 .wrapper {
+		margin-left:20px;
+		margin-right:20px;
+		width:calc(100% - 40px);
+	}
 
 						#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p {
 							padding-top:60px;
@@ -119,8 +138,6 @@
 	margin-bottom:4px;
   }
 	
-/* -------------------- CONTACT FORM --------------------------- */
-	
 .container {
   	padding-top:80px;
   	padding-bottom:50px;
@@ -131,37 +148,39 @@
     margin-top:0;
   }
 	
-/* -------------------- CONTACT FORM --------------------------- */
 }
 
-@media only screen
-and (min-width: 990px) {
-	
+@media only screen and (min-width: 990px) {
 			#m-site-1 .top-menu .head-logo .dropbtn {
 				display:none;
-			}
+			}	
 	
 	.galacolumn {
 	  margin-top:100px;
 	}
 }
 
-@media screen and (max-width: 1365px) {
-		#m-site-1 .top-menu .head-logo {
-			margin-left:40px;
-			width:calc(35% - 40px);
-		}
-	
-		#m-site-1 .top-menu .head-nav {
-			margin-right:40px;
-			width:calc(65% - 40px);
-		}	
+@media only screen and (min-width: 990px) and (max-width: 1365px) {
+
+	#m-site-1 .top-menu .head-logo {
+		margin-left:40px;
+		width:calc(35% - 40px);
+	}
+
+	#m-site-1 .top-menu .head-nav {
+		margin-right:40px;
+		width:calc(65% - 40px);
+	}	
 
 	#m-site-1 .wrapper {
-		margin-left:20px;
-		margin-right:20px;
-		width:calc(100% - 40px);
+		margin-left:40px;
+		margin-right:40px;
+		width:calc(100% - 80px);
 	}
+
+}
+
+@media screen and (max-width: 1365px) {
 				#m-site-1 .top-menu .head-nav ul {
 					font-size:20px;
 					float:right;
