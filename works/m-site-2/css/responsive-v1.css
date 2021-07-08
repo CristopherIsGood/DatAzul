@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 600px) {
+	
+	.column {
+		width:100%!important;
+	}
+	
+	.rowLight .column {
+		width:calc(16.6% - 4px) !important;
+	}
+
+	.LightBox {
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+	
+		#m-site-1 .bottom-footer p {
+			font-size:14pt !important;
+		}
+	
+}
+
+@media screen and (max-width: 989px) {
+	#m-site-2 .top-menu {
+		height:auto;
+	}
+	
+		#m-site-2 .top-menu .head-nav {
+			padding-top:20px;
+			padding-bottom:30px;
+			display:none;
+		}
+	
+		#m-site-2 .show {
+			display:block !important;
+		}
+	
+			#m-site-2 .top-menu .head-logo p {
+				font-size:24pt;
+				padding-top:0;
+				padding-bottom:0;
+			}
+
+		#m-site-2 .top-menu .head-logo {
+			width:calc(100% - 40px) !important;
+		}
+	
+				#m-site-2 .top-menu .head-logo p img {
+					width:179px;
+				}
+	
+			#m-site-2 .top-menu .head-logo .dropbtn {
+				width:100px;
+				height:60px;
+				background:url("../img/drop-down-nav_mobile.png") no-repeat right;
+				background-size:21px 24px;
+				cursor:pointer;
+				border:none;
+				outline:none;
+				float:right;
+			}
+	
+				#m-site-2 .top-menu .head-nav ul {
+					float:left;
+					width:100%;
+				}
+	
+					#m-site-2 .top-menu .head-nav ul li {
+						margin-left:0;
+						margin-right:20px;
+						width:100%;
+					}
+	
+						#m-site-2 .top-menu .head-nav ul li a {
+							height:40px;
+							line-height:40px;
+							width:100%;
+							cursor:pointer;
+						}
+	
+									#m-site-2 .top-menu .head-nav ul li .nav-content ul li a {
+										width:100%;
+										cursor:pointer;
+										height:20px !important;
+										line-height:20px !important;
+									}
+	
+		#m-site-2 .top-menu .head-logo, 
+		#m-site-2 .top-menu .head-nav  {
+			margin-left:40px;
+			margin-right:40px !important;
+			width:calc(100% - 80px) !important;
+			float:left;
+			height:auto;
+		}	
+	
+						#m-site-2 .top-menu .head-nav ul li .nav-content {
+							position:static;
+							width:100%;
+							margin-left:0;
+						}
+
+						#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p {
+							padding-top:60px;
+						}
+	
+	
+	.column {
+		width:50%;
+	}
+	
+	.rowLight .column {
+		width:calc(16.6% - 4px);
+	}
+	
+	.LightBox, .content {
+		padding-top:120px;
+		padding-left:40px;
+		padding-right:40px;
+	}
+	
+/* -------------------- CONTACT FORM --------------------------- */
+	
+.container {
+  	padding-top:130px;
+  	padding-bottom:50px;
+}
+	
+  .col-25, .col-75, input[type=submit] {
+    width:100%;
+    margin-top:0;
+	text-transform:uppercase;
+  }
+	
+/* -------------------- CONTACT FORM --------------------------- */
+	
+}
+
+@media only screen and (min-width: 989px) {
+			#m-site-2 .top-menu .head-logo .dropbtn {
+				display:none;
+			}	
+	
+	.column {
+		width:33.33%;
+	}
+	
+	.rowLight .column {
+		width:calc(16.6% - 4px);
+	}
+	
+}
+
+@media screen and (min-width: 1365px) {
+
+	.row {
+		padding-top:20px;
+	}
+
+		.row > .column {
+			padding-top:0;
+			padding-bottom:0;
+		}
+
+	.column {
+		width:16.66%;
+	}
+	
+	.rowLight .column {
+		width:calc(16.66% - 4px);
+	}
+	
+	.LightBox, .content {
+		padding-top:150px;
+		padding-left:50px;
+		padding-right:50px;
+	}
+	
+}
+
+@media screen and (max-width: 1365px) {
+		#m-site-2 .top-menu .head-logo {
+			margin-left:40px;
+			width:calc(35% - 40px);
+		}
+	
+		#m-site-2 .top-menu .head-nav {
+			margin-right:40px;
+			width:calc(45% - 40px);
+			float:right;
+		}	
+
+	#m-site-2 .wrapper {
+		margin-left:20px;
+		margin-right:20px;
+		width:calc(100% - 40px);
+	}
+				#m-site-2 .top-menu .head-nav ul {
+					font-size:20px;
+				}
+	
+							#m-site-2 .top-menu .head-nav ul li .nav-content ul {
+								font-size:14px;
+							}
+	
+		#m-site-2 .bottom-footer p {
+			font-size:20pt;
+		}
+}
