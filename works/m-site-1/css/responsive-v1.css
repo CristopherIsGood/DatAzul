@@ -107,8 +107,8 @@
 		}	
 	
 		#m-site-1 .head-nav  {
-			padding-top:25px !important;
-			padding-bottom:50px !important;
+			padding-top:0 !important;
+			padding-bottom:25px !important;
 			display:none;
 		}
 	
