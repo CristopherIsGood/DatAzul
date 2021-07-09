@@ -27,6 +27,10 @@
 }
 
 @media screen and (max-width: 600px) {
+	.column {
+		width:100% !important;
+	}
+
 	.LightBox {
 		padding-left:10px !important;
 		padding-right:10px !important;
