@@ -199,12 +199,18 @@ body {
 						padding:100px 50px 0;
 					}
 
-						#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p span {
-							font-size:24px;
+						#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p span:first-child {
+							font-size:20pt;
 							text-transform:uppercase;
 							font-weight:bold; 
 							display:block;
 							margin:0 auto 20px;
+							padding:0;
+						}
+
+						#m-site-1 .wrapper .content .bxslider .slide-bg .slide-div p span:last-child {
+							font-size:14pt;
+							display:block;
 							padding:0;
 						}
 
