@@ -299,6 +299,7 @@ input[type=submit] {
 	font-family:'Open Sans',sans-serif;
 	text-transform:uppercase;
 	transition:0.3s ease;
+	font-weight:bold;
 }
 
 input[type=submit]:hover {
