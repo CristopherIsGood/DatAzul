@@ -48,7 +48,7 @@
 	}
 	
 			#m-site-1 .top-menu .head-logo p {
-				font-size:24pt;
+				font-size:20pt;
 				padding-top:0;
 				padding-bottom:0;
 			}
@@ -108,7 +108,7 @@
 	
 		#m-site-1 .head-nav  {
 			padding-top:0 !important;
-			padding-bottom:25px !important;
+			padding-bottom:10px !important;
 			display:none;
 		}
 	
