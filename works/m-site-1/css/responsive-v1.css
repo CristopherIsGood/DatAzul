@@ -23,9 +23,9 @@
 
 @media screen and (max-width: 600px) {
 	.galacolumn {
-	  -ms-flex:100%;
-	  flex:100%;
-	  max-width:100%;
+	  -ms-flex:100% !important;
+	  flex:100% !important;
+	  max-width:100% !important;
 	  margin-top:0;
 	}
 	  
