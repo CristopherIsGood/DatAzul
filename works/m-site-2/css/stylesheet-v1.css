@@ -195,7 +195,7 @@ body {
 						display:table-cell;	
 						margin:0;
 						padding:100px 50px 0;
-						color:#4a4a4a;
+						color:#1a1a1a;
 					}
 
 						#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p .heading{
@@ -230,7 +230,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 	font-family:'Open Sans',sans-serif;
 	width:100%;
 	padding:12px;
-	border:1px solid #ccc;
+	border:1px solid #1a1a1a;
 	border-radius:4px;
 	resize:vertical;
 }
@@ -238,7 +238,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 label {
   	padding:12px 12px 12px 0;
   	display:inline-block;
-	color:#4a4a4a;
+	color:#1a1a1a;
 }
 
 input[type=submit] {
@@ -282,9 +282,6 @@ input[type=submit]:hover {
   clear:both;
 }
 
-/* -------------------- CONTACT FORM --------------------------- */
-/* ----------------------- FOOTER ------------------------------ */
-
 	#m-site-2 .bottom-footer {
 		background:#6A85BE;
 		width:100%;
@@ -309,7 +306,6 @@ input[type=submit]:hover {
 				color:#f3f3f3;
 				text-decoration:none;
 			}
-/* ----------------------- FOOTER ------------------------------ */
 
 .row {
 	padding:0;
@@ -403,7 +399,7 @@ video {
 
 .close:hover,
 .close:focus {
-  	color:#f3f3f3;
+  	color:#1a1a1a;
   	text-decoration:none;
   	cursor:pointer;
 }
