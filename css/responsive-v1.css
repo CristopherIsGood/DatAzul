@@ -5,7 +5,7 @@
 	:root {
 		font-size:18px !important;
 	}
-/* ----------- tags ------------------ */			
+
 	article {
 		grid-template-columns:1fr 5% [start] 15% 60% 15% [end] 5% 1fr;
 	}
@@ -18,13 +18,10 @@
 	footer p {
 		font-size:24px !important;
 	}		
-/* ----------- tags ------------------ */
-/* ---------- classes ---------------- */
+
 	.datazul-blog p img {
 		width:150px !important;
 	}
-/* ---------- classes ---------------- */
-	
 }
 
 @media (max-width:10.312498700787in){
@@ -45,8 +42,4 @@
 	.div-center p {
     	font-size:18px !important;
 	}
-	
-	footer p {
-		font-size:18px !important;
-	}	
 }

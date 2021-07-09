@@ -4,7 +4,6 @@
 :root {
 	font:20px/1.2 'Open Sans', sans-serif;
 } /* or html */
-/* ----------- tags ------------------ */
 
 html {
   	scroll-behavior:smooth;
@@ -176,9 +175,6 @@ footer {
 		display:table-cell;
 	}
 
-/* ----------- tags ------------------ */
-/* ---------- classes ---------------- */
-
 .size-1 {
 	grid-column:4/5;
 }
@@ -238,4 +234,3 @@ footer {
 	width:auto;
 	height:2.5em;
 }
-/* ---------- classes ---------------- */
