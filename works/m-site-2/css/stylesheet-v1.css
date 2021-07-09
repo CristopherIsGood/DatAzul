@@ -317,7 +317,7 @@ input[type=submit]:hover {
 
 .light {
 	margin:0 auto;
-	padding:0 30px 30px;
+	padding:0 20px 30px;
 	width:100%;
 	height:auto;
 	float:left;
@@ -344,8 +344,8 @@ input[type=submit]:hover {
 }
 
 .rowLight .column {
-	margin:0 2px;
-	padding:0;
+	margin:0;
+	padding:0 2px;
 }
 
 video {
@@ -358,7 +358,7 @@ video {
 }
 
 .LightBox {
-	padding:100px 0 20px 0;
+	padding:102px 0 20px 0;
 	float:left;
 	background-color:rgba(243,243,243,0.8);
 }
@@ -374,7 +374,7 @@ video {
   	display:none;
   	position:fixed;
   	z-index:5;
-  	padding:30px 0 0;
+  	padding:50px 0 0;
   	left:0;
   	top:0;
   	width:100%;

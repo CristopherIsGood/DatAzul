@@ -27,17 +27,9 @@
 }
 
 @media screen and (max-width: 600px) {
-	.column {
-		width:100%!important;
-	}
-	
-	.rowLight .column {
-		width:calc(16.6% - 4px) !important;
-	}
-
 	.LightBox {
-		padding-left:20px !important;
-		padding-right:20px !important;
+		padding-left:10px !important;
+		padding-right:10px !important;
 	}
 	
 		#m-site-2 .bottom-footer p {
@@ -129,7 +121,7 @@
 	}
 	
 	.rowLight .column {
-		width:calc(16.6% - 4px);
+		width:33.33%;
 	}
 	
 	.LightBox, .content {
@@ -161,7 +153,7 @@
 	}
 	
 	.rowLight .column {
-		width:calc(16.6% - 4px);
+		width:33.33%;
 	}
 	
 }
@@ -188,22 +180,12 @@
 
 @media screen and (min-width: 1365px) {
 
-	.row {
-		padding-top:20px;
-	}
-
 		.row > .column {
 			padding-top:0;
-			padding-bottom:0;
+			padding-right:4px;
+			padding-bottom:4px;
+			padding-left:4px;
 		}
-
-	.column {
-		width:16.66%;
-	}
-	
-	.rowLight .column {
-		width:calc(16.66% - 4px);
-	}
 	
 	.LightBox, .content {
 		padding-top:150px;
