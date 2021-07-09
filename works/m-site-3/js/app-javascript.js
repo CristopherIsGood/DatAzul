@@ -189,5 +189,12 @@ $(document).ready(function() {
 	});
 	
 	/* ----------------- topnav-overlay ---------------- */
+
+	$('.leftnav-nav-content a').click(function() {
+		if($('.leftnav-overlay').hasClass('visible')){
+			$('.leftnav-overlay').removeClass('visible');
+			$('.leftnav-overlay').addClass('hidden');			
+		}
+	});
  
 });
