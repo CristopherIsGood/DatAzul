@@ -51,8 +51,8 @@
 	}
 	
 		#m-site-2 .top-menu .head-nav {
-			padding-top:20px;
-			padding-bottom:30px;
+			padding-top:0;
+			padding-bottom:10px;
 			display:none;
 		}
 	
