@@ -297,7 +297,6 @@ input[type=submit]:hover {
 
 		#m-site-2 .bottom-footer p {
 			font-size:24pt;
-			font-weight:bold;
 			text-align:center;
 			text-transform:uppercase;
 			margin:0;
@@ -307,7 +306,7 @@ input[type=submit]:hover {
 		}
 
 			#m-site-2 .bottom-footer p a {
-				color:#ccc;
+				color:#fff;
 				text-decoration:none;
 			}
 /* ----------------------- FOOTER ------------------------------ */
