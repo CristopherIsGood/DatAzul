@@ -18,7 +18,7 @@ body {
 #m-site-2 {
 	width:100%;
 	height:auto;
-	background:#ccc;
+	background:url("../img/img_background.png") no-repeat center;
 	margin:0;
 	padding:0;
 	position:absolute;
@@ -139,7 +139,7 @@ body {
 									}
 
 	#m-site-2 .wrapper {
-		background:#fff;
+		background:#f3f3f3;
 		margin:0 100px;
 		width:calc(100% - 200px);
 		height:auto;
@@ -148,7 +148,7 @@ body {
 	}
 
 		#m-site-2 .wrapper .top-content {
-			background:#fff;
+			background:#f3f3f3;
 			margin:0 auto;
 			padding:0;
 			width:100%;
@@ -157,7 +157,7 @@ body {
 		}
 
 		#m-site-2 .wrapper .content {
-			background:#fff;
+			background:#f3f3f3;
 			margin:0 auto;
 			padding:0;
 			width:100%;
@@ -191,20 +191,25 @@ body {
 				}
 
 					#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p {
-						font-size:16px;
 						vertical-align:middle;
 						display:table-cell;	
 						margin:0;
 						padding:100px 50px 0;
-						color:#6A85BE;
+						color:#4a4a4a;
 					}
 
-						#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p span {
-							font-size:24px;
+						#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p .heading{
+							font-size:20pt;
 							text-transform:uppercase;
 							font-weight:bold; 
 							display:block;
 							margin:0 auto 20px;
+							padding:0;
+						}
+
+						#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p .paragraph {
+							font-size:14pt;
+							display:block;
 							padding:0;
 						}
 
@@ -233,7 +238,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 label {
   	padding:12px 12px 12px 0;
   	display:inline-block;
-	color:#6A85BE;
+	color:#4a4a4a;
 }
 
 input[type=submit] {
@@ -242,7 +247,7 @@ input[type=submit] {
   	color:#f3f3f3;
   	padding:12px 20px;
 	border-style:solid;
-	border-color:#fff;
+	border-color:#f3f3f3;
   	border-radius:4px;
   	cursor:pointer;
   	float:right;
@@ -301,7 +306,7 @@ input[type=submit]:hover {
 		}
 
 			#m-site-2 .bottom-footer p a {
-				color:#fff;
+				color:#f3f3f3;
 				text-decoration:none;
 			}
 /* ----------------------- FOOTER ------------------------------ */
@@ -446,7 +451,7 @@ video {
 }
 
 .numbertext {
-  	color:#f2f2f2;
+  	color:#f3f3f3;
   	font-size:12px;
   	padding:8px 12px;
   	position:absolute;
@@ -461,7 +466,7 @@ img {
 .caption-container {
   	text-align:center;
   	padding:2px 16px;
-  	color:#f2f2f2;
+  	color:#f3f3f3;
 }
 
 	#caption {
