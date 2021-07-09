@@ -7,6 +7,16 @@
 		font-size:2rem !important;
 	}
 
+	.leftnav-nav-content {
+		width:299px !important;
+		min-width:299px !important;
+	}
+
+	.shopcart-cart {
+		width:299px !important;
+		min-width:299px !important;
+	}
+
 	footer p {
 		font-size:18px !important;
 	}	
@@ -18,12 +28,12 @@
 /* --------------- ShopCart ---------------- */
 	
 	.leftnav-nav-content {
-		width:30vw;
+		width:450px;
 		min-width:450px;
 	}
 	
 	.shopcart-cart {
-		width:30vw;
+		width:450px;
 		min-width:450px;
 	}
 	
