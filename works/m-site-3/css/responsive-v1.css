@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media (max-width:600px) {
+
+	footer p {
+		font-size:18px !important;
+	}	
+
+}
+
 @media screen and (min-width:768px){
 
 /* --------------- ShopCart ---------------- */

@@ -194,16 +194,22 @@ body {
 			padding:0;
 			list-style-type:none;
 			display:inline-block;
+			width:100%;
 		}
 
-        .leftnav-nav-content ul li a {
-            display:inline-block;
-            padding:0;
-            height:80px;
-            line-height:80px;
-            color:#000;
-            text-decoration:none;
-        }
+			.leftnav-nav-content ul li {
+				border-bottom:1px solid #000;
+				width:100%;
+			}
+
+				.leftnav-nav-content ul li a {
+					display:inline-block;
+					padding:0;
+					height:57px;
+					line-height:57px;
+					color:#000;
+					text-decoration:none;
+				}
 
 /* --------------- LeftNav ----------------- */
 
@@ -329,7 +335,7 @@ body {
 /* --------------- sections ---------------- */
 
 	.sections {
-		padding:8rem 0;
+		padding:5rem 0;
 	}
 
 /* --------------- sections ---------------- */
