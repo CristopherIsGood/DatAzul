@@ -165,8 +165,6 @@ body {
 			float:left;
 		}
 
-/* ------------------ SLIDER ----------------------------- */
-
 			#m-site-2 .wrapper .content .bxslider .slide-bg {
 				width:100%;
 				height:auto;
@@ -210,8 +208,6 @@ body {
 							padding:0;
 						}
 
-/* ------------------ SLIDER ----------------------------- */
-
 		#m-site-2 .wrapper .end-content {
 			background:#f3f3f3;
 			margin:0 auto;
@@ -224,8 +220,6 @@ body {
 		.bx-controls-direction {
 			display:none;
 		}
-
-/* -------------------- CONTACT FORM --------------------------- */
 
 input[type=text], input[type=tel], input[type=email], select, textarea {
 	font-family:'Open Sans',sans-serif;
@@ -252,6 +246,7 @@ input[type=submit] {
   	border-radius:4px;
   	cursor:pointer;
   	float:right;
+	transition:0.6s ease;
 }
 
 input[type=submit]:hover {
@@ -398,6 +393,7 @@ video {
   	right:10px;
   	font-size:35px;
   	font-weight:bold;
+	transition:0.3s ease;
 }
 
 .close:hover,
@@ -475,6 +471,12 @@ img {
 
 .demo {
   	opacity:0.6;
+	transition:0.3s ease;
+}
+
+.active,
+.demo {
+	transition:0.3s ease;
 }
 
 .active,

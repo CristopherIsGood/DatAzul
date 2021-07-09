@@ -130,17 +130,16 @@
 		padding-right:40px;
 	}
 	
-.container {
-  	padding-top:80px;
-  	padding-bottom:50px;
-}
-	
-  .col-25, .col-75, input[type=submit] {
-    width:100%;
-    margin-top:0;
-	text-transform:uppercase;
-  }
-	
+	.container {
+		padding-top:80px;
+		padding-bottom:50px;
+	}
+		
+	.col-25, .col-75, input[type=submit] {
+		width:100%;
+		margin-top:0;
+		text-transform:uppercase;
+	}
 }
 
 @media only screen and (min-width: 989px) {
@@ -155,11 +154,10 @@
 	.rowLight .column {
 		width:33.33%;
 	}
-	
+
 }
 
 @media only screen and (min-width: 989px) and (max-width: 1365px) {
-
 	#m-site-2 .top-menu .head-logo {
 		margin-left:30px;
 		width:calc(35% - 30px);
@@ -175,11 +173,9 @@
 		margin-right:40px;
 		width:calc(100% - 80px);
 	}
-
 }
 
 @media screen and (min-width: 1365px) {
-
 		.row > .column {
 			padding-top:0;
 			padding-right:4px;
@@ -192,7 +188,6 @@
 		padding-left:50px;
 		padding-right:50px;
 	}
-	
 }
 
 @media screen and (max-width: 1365px) {
