@@ -13,6 +13,7 @@ body {
 	margin:0;
 	padding:0;
 	background:#a8bcd0;
+	overflow-x:hidden;
 }
 
 #m-site-1 {
