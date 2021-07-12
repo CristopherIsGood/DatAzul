@@ -233,7 +233,7 @@ body {
 		}
 
 input[type=text], input[type=tel], input[type=email], select, textarea {
-	font-family:'Open Sans',sans-serif;
+	font:20px/1.2 'Open Sans', sans-serif;
 	width:100%;
 	padding:12px;
 	border:1px solid #1a1a1a;
@@ -248,7 +248,7 @@ label {
 }
 
 input[type=submit] {
-	font-family:'Open Sans',sans-serif;
+	font:20px/1.2 'Open Sans', sans-serif;
 	background:#6A85BE;
   	color:#f3f3f3;
   	padding:12px 20px;
