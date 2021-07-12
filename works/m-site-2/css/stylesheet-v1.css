@@ -267,7 +267,7 @@ input[type=submit]:hover {
 }
 
 .container {
-  padding:124px 50px 100px;
+  padding:124px 50px 0;
 }
 
 .col-25 {
