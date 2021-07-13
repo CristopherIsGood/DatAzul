@@ -435,7 +435,7 @@ body {
 
 	footer {
 		width:100%;
-		height:150px;
+		height:100px;
 		background:#6a85be;
 		float:left;
 		margin:auto;
@@ -448,7 +448,7 @@ body {
 			text-align:center;
 			text-transform:uppercase;
 			margin:0;
-			padding:0 60px;
+			padding:0;
 			vertical-align:middle;
 			display:table-cell;
 		}
