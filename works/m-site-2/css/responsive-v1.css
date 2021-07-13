@@ -37,7 +37,7 @@
 	}
 	
 		#m-site-2 .bottom-footer p {
-			font-size:1.2rem !important;
+			font-size:24px !important;
 		}
 }
 
@@ -141,7 +141,6 @@
 	.col-25, .col-75, input[type=submit] {
 		width:100%;
 		margin-top:0;
-		text-transform:uppercase;
 	}
 }
 

@@ -210,7 +210,7 @@ body {
 						}
 
 						#m-site-2 .wrapper .content .bxslider .slide-bg .slide-div p .paragraph {
-							font-size:14pt;
+							font-size:1.2rem;
 							display:block;
 							padding:0;
 						}
@@ -229,7 +229,7 @@ body {
 		}
 
 	input[type=text], input[type=tel], input[type=email], select, textarea {
-		font:1rem 'Open Sans', sans-serif;
+		font:1.2rem 'Open Sans', sans-serif;
 		width:100%;
 		padding:12px;
 		border:1px solid #1a1a1a;
@@ -238,13 +238,16 @@ body {
 	}
 
 	label {
+		font-size:1.2rem;
 		padding:12px 12px 12px 0;
 		display:inline-block;
 		color:#1a1a1a;
+		text-transform:uppercase;
 	}
 
 	input[type=submit] {
 		font:20px/1.2 'Open Sans', sans-serif;
+		text-transform:uppercase;
 		background:#6A85BE;
 		color:#f3f3f3;
 		padding:12px 20px;
@@ -307,7 +310,7 @@ body {
 		font-weight:bold;
 		margin:0 auto;
 		padding:0 0 2.5rem;
-		font-size:1rem;
+		font-size:1.2rem;
 	}
 
 		.back-to-top p a {
