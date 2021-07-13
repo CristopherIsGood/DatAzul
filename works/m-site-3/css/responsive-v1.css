@@ -24,8 +24,6 @@
 }
 
 @media screen and (min-width:768px){
-
-/* --------------- ShopCart ---------------- */
 	
 	.leftnav-nav-content {
 		width:450px;
@@ -36,7 +34,5 @@
 		width:450px;
 		min-width:450px;
 	}
-	
-/* --------------- ShopCart ---------------- */
 	
 }
