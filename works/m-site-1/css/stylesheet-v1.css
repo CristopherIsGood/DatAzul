@@ -13,6 +13,7 @@ body {
 	margin:0;
 	padding:0;
 	background:#a8bcd0;
+	font-family:'Open Sans',sans-serif;
 	overflow-x:hidden;
 }
 
@@ -227,115 +228,148 @@ body {
 			display:none;
 		}
 
-.header {
-	text-align:center;
-	padding:32px;
-}
+	.header {
+		text-align:center;
+		padding:32px;
+	}
 
-.galarow {
-	display:-ms-flexbox; /* IE10 */
-	display:flex;
-	-ms-flex-wrap:wrap; /* IE10 */
-	flex-wrap:wrap;
-	margin:0;
-	padding:2px;
-	background:#f3f3f3;
-}
+	.galarow {
+		display:-ms-flexbox; /* IE10 */
+		display:flex;
+		-ms-flex-wrap:wrap; /* IE10 */
+		flex-wrap:wrap;
+		margin:0;
+		padding:2px;
+		background:#f3f3f3;
+	}
 
-.galacolumn {
-	-ms-flex:25%; /* IE10 */
-	flex:25%;
-	max-width:25%;
-	padding:0;
-	margin:0;
-	background:#f3f3f3;
-}
+	.galacolumn {
+		-ms-flex:25%; /* IE10 */
+		flex:25%;
+		max-width:25%;
+		padding:0;
+		margin:0;
+		background:#f3f3f3;
+	}
 
-.galacolumn img {
-	padding:2px;
-	vertical-align:middle;
-}
+	.galacolumn img {
+		padding:2px;
+		vertical-align:middle;
+	}
 
-input[type=text], input[type=tel], input[type=email], select, textarea {
-	width:100%;
-	padding:12px;
-	border:2px solid #f3f3f3;
-	border-radius:4px;
-	resize:vertical;
-	font-family:'Open Sans',sans-serif;
-	outline:none;
-	background:#6A85BE;
-	color:#f3f3f3;
-	font-size:1.2rem;
-}
+	input[type=text], input[type=tel], input[type=email], select, textarea {
+		width:100%;
+		padding:12px;
+		border:2px solid #f3f3f3;
+		border-radius:4px;
+		resize:vertical;
+		font-family:'Open Sans',sans-serif;
+		outline:none;
+		background:#6A85BE;
+		color:#f3f3f3;
+		font-size:1.2rem;
+	}
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	color:#f3f3f3;
-	opacity:1; /* Firefox */
-  }
-  
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-	color:#f3f3f3;
-}
-  
-::-ms-input-placeholder { /* Microsoft Edge */
-	color:#f3f3f3;
-}
+	::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		color:#f3f3f3;
+		opacity:1; /* Firefox */
+	}
+	
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color:#f3f3f3;
+	}
+	
+	::-ms-input-placeholder { /* Microsoft Edge */
+		color:#f3f3f3;
+	}
 
-label {
-  	padding:12px 12px 12px 0;
-  	display:inline-block;
-	font-family:'Open Sans',sans-serif;
-	color:#f3f3f3;
-	font-size:1.2rem;
-	text-transform:uppercase;
-}
+	label {
+		padding:12px 12px 12px 0;
+		display:inline-block;
+		font-family:'Open Sans',sans-serif;
+		color:#f3f3f3;
+		font-size:1.2rem;
+		text-transform:uppercase;
+	}
 
-input[type=submit] {
-	background:#6A85BE;
-	color:#f3f3f3;
-  	padding:12px 20px;
-	border-style:solid;
-	border-color:#f3f3f3;
-  	border-radius:4px;
-  	cursor:pointer;
-  	float:right;
-	font-family:'Open Sans',sans-serif;
-	text-transform:uppercase;
-	transition:0.3s ease;
-	font-weight:bold;
-	font-size:1.2rem;
-}
+	input[type=submit] {
+		background:#6A85BE;
+		color:#f3f3f3;
+		padding:12px 20px;
+		border-style:solid;
+		border-color:#f3f3f3;
+		border-radius:4px;
+		cursor:pointer;
+		float:right;
+		font-family:'Open Sans',sans-serif;
+		text-transform:uppercase;
+		transition:0.3s ease;
+		font-weight:bold;
+		font-size:1.2rem;
+	}
 
-input[type=submit]:hover {
-	border-color:#6A85BE;
-	background:#f3f3f3;
-  	color:#6A85BE;
-	outline:none;
-}
+	input[type=submit]:hover {
+		border-color:#6A85BE;
+		background:#f3f3f3;
+		color:#6A85BE;
+		outline:none;
+	}
 
-.container {
-  background-color:#6A85BE;
-  padding:124px 20px 100px;
-}
+	.container {
+	background-color:#6A85BE;
+	padding:124px 20px 0;
+	}
 
-.col-25 {
-  float:left;
-  width:25%;
-  margin:6px 0 0 0;
-}
+	.col-25 {
+	float:left;
+	width:25%;
+	margin:6px 0 0 0;
+	}
 
-.col-75 {
-  float:left;
-  width:75%;
-  margin:6px 0 0 0;
-}
+	.col-75 {
+	float:left;
+	width:75%;
+	margin:6px 0 0 0;
+	}
 
-.row:after {
-  content:"";
-  display:table;
-  clear:both;
-}
+	.row:after {
+	content:"";
+	display:table;
+	clear:both;
+	}
+
+
+	.share {
+		display:flex;
+		justify-content:center;
+		padding:1.5rem;
+	}
+
+		.share a {
+			box-shadow:inset 0 -0.25em #f3f3f3;
+		}
+				
+		.share img {
+			padding:0.75rem;
+			width:auto;
+			height:4.5em;
+			margin:20px 0;
+		}
+
+	.back-to-top p {
+		text-align:center;
+		color:#f3f3f3;
+		font-weight:bold;
+		margin:0 auto;
+		padding:0 0 2.5rem;
+		font-size:1.2rem;
+	}
+
+		.back-to-top p a {
+			box-shadow:none;
+			text-decoration:none;
+			color:#f3f3f3;
+		}
 
 	#m-site-1 .bottom-footer {
 		background:#f3f3f3;
