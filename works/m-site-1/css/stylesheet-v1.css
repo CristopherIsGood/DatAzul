@@ -266,6 +266,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea {
 	outline:none;
 	background:#6A85BE;
 	color:#f3f3f3;
+	font-size:1.2rem;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -286,6 +287,8 @@ label {
   	display:inline-block;
 	font-family:'Open Sans',sans-serif;
 	color:#f3f3f3;
+	font-size:1.2rem;
+	text-transform:uppercase;
 }
 
 input[type=submit] {
@@ -301,6 +304,7 @@ input[type=submit] {
 	text-transform:uppercase;
 	transition:0.3s ease;
 	font-weight:bold;
+	font-size:1.2rem;
 }
 
 input[type=submit]:hover {
