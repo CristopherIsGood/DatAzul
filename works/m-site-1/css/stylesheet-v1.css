@@ -290,6 +290,7 @@ body {
 		color:#f3f3f3;
 		font-size:1.2rem;
 		text-transform:uppercase;
+		font-weight:600;
 	}
 
 	input[type=submit] {
@@ -316,26 +317,26 @@ body {
 	}
 
 	.container {
-	background-color:#6A85BE;
-	padding:124px 20px 0;
+		background-color:#6A85BE;
+		padding:124px 20px 0;
 	}
 
 	.col-25 {
-	float:left;
-	width:25%;
-	margin:6px 0 0 0;
+		float:left;
+		width:25%;
+		margin:6px 0 0 0;
 	}
 
 	.col-75 {
-	float:left;
-	width:75%;
-	margin:6px 0 0 0;
+		float:left;
+		width:75%;
+		margin:6px 0 0 0;
 	}
 
 	.row:after {
-	content:"";
-	display:table;
-	clear:both;
+		content:"";
+		display:table;
+		clear:both;
 	}
 
 
