@@ -276,10 +276,49 @@
             <h2>about</h2>
         </div><!-- section-title -->
 	</section><!-- about -->
-	<section id="contact" class="sections">
+	<section id="contact" class="sections form">
         <div class="section-title">
             <h2>contact</h2>
         </div><!-- section-title -->
+		<div class="container">
+			<form name="form-contact">
+			  <div class="row">
+				<div class="col-25">
+				  <label for="fullname">Full Name</label>
+				</div>
+				<div class="col-75">
+				  <input type="text" id="fullname" name="fullname" pattern="^(\w\w+)\s(\w+)$" placeholder="James Smith" required>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="phone">Phone Number</label>
+				</div>
+				<div class="col-75">
+				  <input type="tel" id="phone" name="phone" pattern="[0-9]{4}[0-9]{3}[0-9]{3}" placeholder="0123456789" required>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="email">Email Address</label>
+				</div>
+				<div class="col-75">
+				  <input type="email" id="email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" placeholder="james01.smith01@gmail.com" required>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-25">
+				  <label for="message">Message</label>
+				</div>
+				<div class="col-75">
+				  <textarea id="message" name="message" placeholder="What is this about?" style="height:200px" required></textarea>
+				</div>
+			  </div>
+			  <div class="row">
+				<input type="submit" value="Submit">
+			  </div>
+			</form>
+		</div><!-- container -->
 	</section><!-- contact -->
 	<div class="share">
 		<a href="mailto:cristobal.montesino@gmail.com">
