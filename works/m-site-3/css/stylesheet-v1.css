@@ -318,7 +318,7 @@ body {
 	.section-title h2 {
 		text-align:center;
 		font-size:2.5rem;
-		margin-bottom:5rem;
+		margin-bottom:2.5rem;
 		text-transform:capitalize;
 		letter-spacing:var(--mainSpacing);
 	}
@@ -401,6 +401,78 @@ body {
 		text-align:center;
 	}
 
+	.form {
+		padding-bottom:0 !important;
+	}
+
+	input[type=text], input[type=tel], input[type=email], select, textarea {
+		font:1.2rem 'Open Sans', sans-serif;
+		width:100%;
+		padding:12px;
+		border:4px solid #1a1a1a;
+		border-radius:4px;
+		resize:vertical;
+	}
+
+	label {
+		font-size:1.2rem;
+		font-weight:600;
+		padding:12px 12px 12px 0;
+		display:inline-block;
+		color:#1a1a1a;
+		text-transform:uppercase;
+	}
+
+	input[type=submit] {
+		font:20px/1.2 'Open Sans', sans-serif;
+		text-transform:uppercase;
+		background:#6A85BE;
+		color:#f3f3f3;
+		padding:12px 20px;
+		border-width:4px;
+		border-style:solid;
+		border-color:#6A85BE;
+		border-radius:4px;
+		cursor:pointer;
+		float:right;
+		transition:0.6s ease;
+	}
+
+	input[type=submit]:hover {
+		border-color:#6A85BE;
+		background:#f3f3f3;
+		color:#6A85BE;
+	}
+
+	.container {
+		width:100% !important;
+		max-width:1170px !important;
+		margin:0 auto;
+		display:block;
+		align-items:center;
+		justify-content:space-between;
+		padding-left:1.5rem !important;
+		padding-right:1.5rem !important;
+	}
+
+	.col-25 {
+		float:left;
+		width:25%;
+		margin:6px 0 0 0;
+	}
+
+	.col-75 {
+		float:left;
+		width:75%;
+		margin:6px 0 0 0;
+	}
+
+	.row:after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+
 	.share {
 		display:flex;
 		justify-content:center;
@@ -456,4 +528,5 @@ body {
 			footer p a {
 				color:#fff;
 				text-decoration:none;
+				font-weight:600;
 			}

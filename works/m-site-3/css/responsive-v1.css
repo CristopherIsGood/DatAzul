@@ -1,6 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media screen and (max-width:500px) {
+
+	.container {
+		width:calc(100% - 10px) !important;
+		padding-left:5px !important;
+		padding-right:5px !important;
+	}
+
+}
+
+@media screen and (min-width:501px) and (max-width:990px) {
+
+	.container {
+		width:calc(100% - 20px) !important;
+		padding-left:10px !important;
+		padding-right:10px !important;
+	}
+
+}
+
 @media screen and (max-width:768px) {
 
 	.topsec-banner-title {
@@ -35,4 +55,17 @@
 		min-width:450px;
 	}
 	
+}
+
+@media screen and (max-width:990px) {
+
+	.col-25, .col-75, input[type=submit] {
+		width:100%;
+		margin-top:0;
+	}
+
+	.end-content {
+		height:auto !important;
+	}
+
 }
