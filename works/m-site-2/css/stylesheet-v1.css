@@ -243,6 +243,7 @@ body {
 		display:inline-block;
 		color:#1a1a1a;
 		text-transform:uppercase;
+		font-weight:600;
 	}
 
 	input[type=submit] {
@@ -266,25 +267,25 @@ body {
 	}
 
 	.container {
-	padding:124px 50px 0;
+		padding:124px 50px 0;
 	}
 
 	.col-25 {
-	float:left;
-	width:25%;
-	margin:6px 0 0 0;
+		float:left;
+		width:25%;
+		margin:6px 0 0 0;
 	}
 
 	.col-75 {
-	float:left;
-	width:75%;
-	margin:6px 0 0 0;
+		float:left;
+		width:75%;
+		margin:6px 0 0 0;
 	}
 
 	.row:after {
-	content:"";
-	display:table;
-	clear:both;
+		content:"";
+		display:table;
+		clear:both;
 	}
 
 	.share {
@@ -337,6 +338,7 @@ body {
 			padding:0 60px;
 			vertical-align:middle;
 			display:table-cell;
+			font-weight:600;
 		}
 
 			#m-site-2 .bottom-footer p a {
