@@ -17,6 +17,9 @@ body, html {
 		top:0;
 		position:fixed;
 		background:#6a85be;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		z-index:2;
 	}
 
@@ -66,6 +69,9 @@ body, html {
 					list-style-type:none;
 					text-align:center;
 					background:#6a86bf;
+					-webkit-appearance:none;
+					-moz-appearance:none;
+					appearance:none;
 					cursor:pointer;
 					padding:35px 8px;
 				}
@@ -93,6 +99,9 @@ body, html {
 						padding:0;
 						position:fixed;
 						background:#ececec;
+						-webkit-appearance:none;
+						-moz-appearance:none;
+						appearance:none;
 					}
 
 						.menu-bar ul li ul li {
@@ -150,6 +159,9 @@ body, html {
 		
 		.title-box {
 			background:#6a86bf;
+			-webkit-appearance:none;
+			-moz-appearance:none;
+			appearance:none;
 			color:#fff;
 			width:180px;
 			padding:0 10px;
@@ -215,16 +227,25 @@ body, html {
 		background-position:center;
 		background-repeat:no-repeat;
 		background-size:cover;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 	}
 
 	#section {
 		height:500px;
 		background:#a8bcd0;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		margin:10% 0 0;
 	}
 
 	.flip-box {
 		background-color:transparent;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		width:100%;
 		height:500px;
 		float:left;
@@ -282,12 +303,18 @@ body, html {
 
 			.flip-box-front {
 				background-color:#a8bcd0;
+				-webkit-appearance:none;
+				-moz-appearance:none;
+				appearance:none;
 				color:black;
 				display:table;
 			}
 
 			.flip-box-back {
 				background-color:#6986bf;
+				-webkit-appearance:none;
+				-moz-appearance:none;
+				appearance:none;
 				color:white;
 				transform:rotateX(180deg);
 				display:table;
@@ -296,6 +323,9 @@ body, html {
 		.end-content {
 			margin:0 auto !important;
 			background:none !important;
+			-webkit-appearance:none;
+			-moz-appearance:none;
+			appearance:none;
 			padding:0;
 			width:100%;
 			height:auto !important;
@@ -306,7 +336,12 @@ body, html {
 			width:100%;
 			padding:12px;
 			border:4px solid #f3f3f3;
+			-webkit-border-radius:4px;
+			-moz-border-radius:4px;
 			border-radius:4px;
+			-webkit-appearance:none;
+			-moz-appearance:none;
+			appearance:none;
 			resize:vertical;
 			font-family:'Open Sans',sans-serif;
 			outline:none;
@@ -346,7 +381,12 @@ body, html {
 			border-width:4px;
 			border-style:solid;
 			border-color:#f3f3f3;
+			-webkit-border-radius:4px;
+			-moz-border-radius:4px;
 			border-radius:4px;
+			-webkit-appearance:none;
+			-moz-appearance:none;
+			appearance:none;
 			font-family:'Open Sans',sans-serif;
 			text-transform:uppercase;
 			transition:0.3s ease;
@@ -419,6 +459,9 @@ body, html {
 	footer {
 		margin:0;
 		background:#6a86bf;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		color:#fff;
 		clear:both;
 	}
