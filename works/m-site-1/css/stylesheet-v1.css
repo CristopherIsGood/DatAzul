@@ -13,6 +13,9 @@ body {
 	margin:0;
 	padding:0;
 	background:#a8bcd0;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
 	font-family:'Open Sans',sans-serif;
 	overflow-x:hidden;
 }
@@ -27,6 +30,9 @@ body {
 
 	#m-site-1 .top-menu {
 		background:#f3f3f3;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		margin:0 auto;
 		width:100%;
 		height:100px;
@@ -112,6 +118,9 @@ body {
 							top:100px;
 							overflow:hidden;
 							background:#f3f3f3;
+							-webkit-appearance:none;
+							-moz-appearance:none;
+							appearance:none;
 						}
 
 							#m-site-1 .top-menu .head-nav ul li .nav-content ul {
@@ -141,6 +150,9 @@ body {
 
 	#m-site-1 .wrapper {
 		background:#6A85BE;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		margin:0 100px;
 		width:calc(100% - 200px);
 		height:auto;
@@ -150,6 +162,9 @@ body {
 
 		#m-site-1 .wrapper .top-content {
 			background:#fff;
+			-webkit-appearance:none;
+			-moz-appearance:none;
+			appearance:none;
 			margin:0 auto;
 			padding:0;
 			width:100%;
@@ -159,6 +174,9 @@ body {
 
 		#m-site-1 .wrapper .content {
 			background:#6A85BE;
+			-webkit-appearance:none;
+			-moz-appearance:none;
+			appearance:none;
 			margin:0 auto;
 			padding:100px 0 0;
 			width:100%;
@@ -186,6 +204,9 @@ body {
 					margin:0 auto;
 					padding:100px 0 0;
 					background:#6A85BE;
+					-webkit-appearance:none;
+					-moz-appearance:none;
+					appearance:none;
 					position:relative;
 					display:table;
 					z-index:2;
@@ -217,6 +238,9 @@ body {
 
 		#m-site-1 .wrapper .end-content {
 			background:#fff;
+			-webkit-appearance:none;
+			-moz-appearance:none;
+			appearance:none;
 			margin:0 auto;
 			padding:0;
 			width:100%;
@@ -235,12 +259,22 @@ body {
 
 	.galarow {
 		display:-ms-flexbox; /* IE10 */
+		display:-webkit-box;
+		display:-webkit-flex;
 		display:flex;
+		-webkit-flex-wrap:wrap;
 		-ms-flex-wrap:wrap; /* IE10 */
+		-o-flex-wrap:wrap;
 		flex-wrap:wrap;
 		margin:0;
 		padding:2px;
 		background:#f3f3f3;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
+		-webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 	}
 
 	.galacolumn {
@@ -250,6 +284,9 @@ body {
 		padding:0;
 		margin:0;
 		background:#f3f3f3;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 	}
 
 	.galacolumn img {
@@ -261,11 +298,16 @@ body {
 		width:100%;
 		padding:12px;
 		border:2px solid #f3f3f3;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
 		border-radius:4px;
 		resize:vertical;
 		font-family:'Open Sans',sans-serif;
 		outline:none;
 		background:#6A85BE;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		color:#f3f3f3;
 		font-size:1.2rem;
 	}
@@ -295,10 +337,15 @@ body {
 
 	input[type=submit] {
 		background:#6A85BE;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		color:#f3f3f3;
 		padding:12px 20px;
 		border-style:solid;
 		border-color:#f3f3f3;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
 		border-radius:4px;
 		cursor:pointer;
 		float:right;
@@ -312,6 +359,9 @@ body {
 	input[type=submit]:hover {
 		border-color:#6A85BE;
 		background:#f3f3f3;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		color:#6A85BE;
 		outline:none;
 	}
@@ -341,6 +391,9 @@ body {
 
 
 	.share {
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:-webkit-flex;
 		display:flex;
 		justify-content:center;
 		padding:1.5rem;
@@ -374,6 +427,9 @@ body {
 
 	#m-site-1 .bottom-footer {
 		background:#f3f3f3;
+        -webkit-appearance:none;
+        -moz-appearance:none;
+        appearance:none;
 		width:100%;
 		height:100px;
 		float:left;
