@@ -11,6 +11,7 @@ html {
 
 body {
 	background:url("../img/article_bg.png") no-repeat center;
+	overflow-x:hidden;
 }
 
 body,
@@ -38,6 +39,7 @@ article {
 	grid-template-columns:1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
 	height:auto; /* temp fix */
 	padding:0.5in 0;
+	margin:0 auto;
 }
 
 article:nth-child(3),
@@ -67,7 +69,7 @@ article:nth-child(5) p {
 }
 		
 article * {
-	grid-column: start/end;
+	grid-column:start/end;
 }
 
 h2, p {
@@ -119,6 +121,8 @@ a {
 
 	.slide-div a {
 		box-shadow:none;
+		text-decoration:none;
+		color:#f3f3f3;
 	}
 
 span {
@@ -221,6 +225,8 @@ footer {
 
 	.back-to-top p a {
 		box-shadow:none;
+		text-decoration:none;
+		color:#6a86bf;
 	}
 
 .share {

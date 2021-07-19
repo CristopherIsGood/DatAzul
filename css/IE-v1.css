@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document for Internet Explorer */
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	#section1, #section2, #section3, #section4 {
+		max-width:720px;
+		margin:0 auto;
+	}
+ }
