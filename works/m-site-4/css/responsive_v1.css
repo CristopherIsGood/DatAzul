@@ -118,6 +118,7 @@
 
 	.scroll-section-id {
 		height:60px;
+		padding-top:60px;
 	}
 
 .featured-categories {
@@ -141,7 +142,9 @@
 
 	.container {
 		width:calc(100% - 30px) !important;
-		padding:0 15px 0 !important;
+		padding-top:0 !important;
+		padding-right:15px !important;
+		padding-left:15px !important;
 	}
 
 		footer .container {
@@ -161,7 +164,8 @@
 
 	.container {
 		width:calc(100% - 80px) !important;
-		padding:0 40px 0 !important;
+		padding-right:40px !important;
+		padding-left:40px !important;
 	}
 
 	.scroll-section-id {
@@ -174,10 +178,6 @@
 
 	#section {
 		margin:0;
-	}
-
-	.scroll-section-id {
-		float:none !important;
 	}
 	
 }
