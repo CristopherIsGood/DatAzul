@@ -67,7 +67,7 @@ body, html {
 				.menu-bar ul li {
 					height:100px;
 					list-style-type:none;
-					text-align:center;
+					text-align:left;
 					background:#6a86bf;
 					-webkit-appearance:none;
 					-moz-appearance:none;
@@ -159,11 +159,8 @@ body, html {
 		}
 		
 		.title-box {
-			background:#6a86bf;
-			-webkit-appearance:none;
-			-moz-appearance:none;
-			appearance:none;
 			color:#fff;
+			font-weight:600;
 			width:180px;
 			padding:0 10px;
 			height:40px;
@@ -178,19 +175,6 @@ body, html {
 				font-size:24px;
 				text-transform:uppercase;
 			}
-		
-				.title-box:after {
-					content:'';
-					border-bottom:40px solid #6a86bf;
-					border-right:50px solid transparent;
-					position:absolute;
-					display:-webkit-box;
-					display:-ms-flexbox;
-					display:-webkit-flex;
-					display:flex;
-					margin-bottom:0;
-					margin-left:170px;
-				}
 
 	.swiper-container {
 		width:100%;
@@ -355,6 +339,10 @@ body, html {
 			background:transparent;
 			color:#f3f3f3;
 			font-size:1.2rem !important;
+		}
+
+		textarea {
+			overflow-y:hidden;
 		}
 	
 		::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
