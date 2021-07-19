@@ -312,6 +312,10 @@ body {
 		font-size:1.2rem;
 	}
 
+	textarea {
+		overflow-y:hidden;
+	}
+
 	::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 		color:#f3f3f3;
 		opacity:1; /* Firefox */
