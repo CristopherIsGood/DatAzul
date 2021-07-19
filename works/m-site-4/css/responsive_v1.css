@@ -23,7 +23,7 @@
 	
 }
 
-@media only screen and (max-width:980px) {
+@media only screen and (max-width:990px) {
 
 	.top-nav-bar {
 		height:auto;
@@ -114,13 +114,11 @@
 
 	.header {
 		padding-top:75px;
-		padding-bottom:15px;
 	}
 
-.scroll-section-id {
-	height:60px;
-	float:none;
-}
+	.scroll-section-id {
+		height:60px;
+	}
 
 .featured-categories {
 	margin-top:10px;
@@ -152,32 +150,39 @@
 	
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 990px) {
 
 	footer p a {
 		font-size:24pt;
 	}	
 }
 
-@media only screen and (min-width: 981px) and (max-width: 1366px) {
+@media only screen and (min-width: 990px) and (max-width: 1365px) {
 
 	.container {
 		width:calc(100% - 80px) !important;
 		padding:0 40px 0 !important;
 	}
 
+	.scroll-section-id {
+		height:100px;
+	}
+
 }
 
-@media only screen
-and (max-width: 1365px) {
+@media only screen and (max-width: 1365px) {
 
 	#section {
 		margin:0;
 	}
+
+	.scroll-section-id {
+		float:none !important;
+	}
 	
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1365px) {
 
 	.parallax {
 		background-attachment:scroll;
