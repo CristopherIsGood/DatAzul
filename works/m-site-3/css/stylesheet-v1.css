@@ -148,8 +148,6 @@ body {
 		color:var(--mainBlack);
 		border:4px solid var(--primaryColor);
 		outline:none;
-		transition:var(--mainTransition);
-		-webkit-transition:all 0.5s linear;
 		cursor:pointer;
 	}
 
@@ -158,9 +156,9 @@ body {
 		-webkit-appearance:none;
 		-moz-appearance:none;
 		appearance:none;
+		transition:var(--mainTransition);
+		-webkit-transition:all 0.5s linear;
 		color:var(--primaryColor);
-		transition:0.5s;
-		-webkit-transition:0.5s;
 	}
 
 		.topsec-banner-btn a {
