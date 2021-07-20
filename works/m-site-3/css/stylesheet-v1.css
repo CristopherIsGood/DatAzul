@@ -358,12 +358,13 @@ body {
 		}
 
 	.sections {
-		padding:5rem 0;
+		padding:0;
 	}
 
 		.section-title h2 {
 			text-align:center;
 			font-size:2.5rem;
+			padding-top:5rem;
 			margin-bottom:2.5rem;
 			text-transform:capitalize;
 			letter-spacing:var(--mainSpacing);
