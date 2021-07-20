@@ -371,6 +371,21 @@ body {
 		letter-spacing:var(--mainSpacing);
 	}
 
+	.section-paragraph {
+		width:90vw;
+		max-width:1170px;
+		margin:0 auto;
+	}
+
+		.section-paragraph p {
+			margin:0 auto;
+			padding:0 0 20px 0;
+		}
+
+		.section-paragraph p:last-child {
+			padding-bottom:0;
+		}
+
 	.center {
 		width:90vw;
 		margin:0 auto;
