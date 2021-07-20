@@ -361,7 +361,6 @@ body {
 	}
 
 	input[type=submit]:hover {
-		border-color:#6A85BE;
 		background:#f3f3f3;
         -webkit-appearance:none;
         -moz-appearance:none;
