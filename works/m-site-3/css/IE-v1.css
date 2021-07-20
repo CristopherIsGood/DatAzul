@@ -2,6 +2,42 @@
 /* CSS Document for Internet Explorer */
 
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+		.topnav-center p {
+			color:#fff;
+		}
+
+		.topsec-banner {
+			margin-top:200px;
+		}
+
+		.topsec-banner-btn {
+			letter-spacing:0.1rem;
+			background:#6a85be;
+			border:4px solid #6a85be;
+		}
+
+			.topsec-banner-btn a {
+				color:#000;
+			}
+
+	.topnav-icon {
+		color:#fff;
+	}
+
+	.center {
+		display:block;
+	}
+
+	.product {
+		width:25%;
+		float:left;
+		padding:25px;
+	}
+
+	.product-img {
+		min-height:auto;
+	}
+
 	input[type=submit] {
 		margin-top:8px;
 	}
