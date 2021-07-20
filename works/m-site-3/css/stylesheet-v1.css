@@ -363,13 +363,13 @@ body {
 		padding:5rem 0;
 	}
 
-	.section-title h2 {
-		text-align:center;
-		font-size:2.5rem;
-		margin-bottom:2.5rem;
-		text-transform:capitalize;
-		letter-spacing:var(--mainSpacing);
-	}
+		.section-title h2 {
+			text-align:center;
+			font-size:2.5rem;
+			margin-bottom:2.5rem;
+			text-transform:capitalize;
+			letter-spacing:var(--mainSpacing);
+		}
 
 	.section-paragraph {
 		width:90vw;
