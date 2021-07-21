@@ -24,12 +24,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
-	.galacolumn {
-	  -ms-flex:100% !important;
-	  flex:100% !important;
-	  max-width:100% !important;
-	}
 	  
 		  #m-site-1 .bottom-footer p {
 			  font-size:24px !important;
@@ -43,6 +37,16 @@
 			padding-left:10px !important;
 			padding-right:10px !important;
 		}
+
+}
+
+@media screen and (max-width: 800px) {
+
+	.galacolumn {
+		-ms-flex:100% !important;
+		flex:100% !important;
+		max-width:100% !important;
+	  }
 
 }
 
