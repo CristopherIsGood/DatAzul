@@ -181,12 +181,5 @@ $(document).ready(function() {
           $('.shopcart-overlay').addClass('hidden');			
 		}
 	});
-
-	$('.leftnav-nav-content a').click(function() {
-		if($('.leftnav-overlay').hasClass('visible')){
-			$('.leftnav-overlay').removeClass('visible');
-			$('.leftnav-overlay').addClass('hidden');			
-		}
-	});
  
 });
