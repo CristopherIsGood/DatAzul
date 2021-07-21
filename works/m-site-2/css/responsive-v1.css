@@ -2,6 +2,7 @@
 /* CSS Document */
 
 @media screen and (max-width: 500px) {
+	
 	#m-site-2 .top-menu .head-logo, 
 	#m-site-2 .top-menu .head-nav  {
 		margin-left:20px !important;
@@ -23,10 +24,12 @@
 	.container {
 		padding-left:20px !important;
 		padding-right:20px !important
-  }
+  	}
+
 }
 
 @media screen and (max-width: 600px) {
+
 	.column {
 		width:100% !important;
 	}
@@ -39,9 +42,11 @@
 		#m-site-2 .bottom-footer p {
 			font-size:24px !important;
 		}
+
 }
 
 @media screen and (max-width: 989px) {
+
 	#m-site-2 .top-menu {
 		height:auto;
 	}
@@ -119,7 +124,6 @@
 							padding-top:60px;
 						}
 	
-	
 	.column {
 		width:50%;
 	}
@@ -142,9 +146,11 @@
 		width:100%;
 		margin-top:0;
 	}
+
 }
 
 @media only screen and (min-width: 989px) {
+
 			#m-site-2 .top-menu .head-logo .dropbtn {
 				display:none;
 			}	
@@ -160,6 +166,7 @@
 }
 
 @media only screen and (min-width: 989px) and (max-width: 1365px) {
+
 	#m-site-2 .top-menu .head-logo {
 		margin-left:30px;
 		width:calc(35% - 30px);
@@ -175,9 +182,11 @@
 		margin-right:40px;
 		width:calc(100% - 80px);
 	}
+
 }
 
 @media screen and (min-width: 1365px) {
+
 		.row > .column {
 			padding-top:0;
 			padding-right:4px;
@@ -190,9 +199,11 @@
 		padding-left:50px;
 		padding-right:50px;
 	}
+
 }
 
 @media screen and (max-width: 1365px) {
+
 	#m-site-2 .wrapper {
 		margin-left:20px;
 		margin-right:20px;
@@ -209,4 +220,5 @@
 		#m-site-2 .bottom-footer p {
 			font-size:20pt;
 		}
+
 }
