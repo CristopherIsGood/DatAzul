@@ -9,6 +9,9 @@ body, html {
     margin:0 auto;
     padding:0;
     scroll-behavior:smooth;
+}
+
+body {
 	overflow-x:hidden;
 }
 	
