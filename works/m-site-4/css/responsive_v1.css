@@ -10,6 +10,19 @@
 
 }
 
+@media screen and (max-width: 600px) {
+
+	.column {
+		width:100% !important;
+	}
+
+	.LightBox {
+		padding-left:10px !important;
+		padding-right:10px !important;
+	}
+
+}
+
 @media only screen and (max-width: 750px) {
 
 	.flip-box-front p, .flip-box-back p {
@@ -132,6 +145,20 @@
 		margin-left:0;
 	}
 
+	.column {
+		width:50%;
+	}
+	
+	.rowLight .column {
+		width:33.33%;
+	}
+	
+	.LightBox, .content {
+		padding-top:80px;
+		padding-left:40px;
+		padding-right:40px;
+	}
+
 	.col-25, .col-75, input[type=submit] {
 		width:100%;
 		margin-top:0;
@@ -158,7 +185,16 @@
 
 	footer p a {
 		font-size:24pt;
-	}	
+	}
+	
+	.column {
+		width:33.33%;
+	}
+	
+	.rowLight .column {
+		width:33.33%;
+	}
+
 }
 
 @media only screen and (min-width: 990px) and (max-width: 1365px) {
@@ -187,6 +223,23 @@
 
 	.parallax {
 		background-attachment:scroll;
+	}
+
+}
+
+@media screen and (min-width: 1365px) {
+	
+		.row > .column {
+			padding-top:0;
+			padding-right:4px;
+			padding-bottom:4px;
+			padding-left:4px;
+		}
+
+	.LightBox, .content {
+		padding-top:150px;
+		padding-left:50px;
+		padding-right:50px;
 	}
 
 }

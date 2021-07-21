@@ -9,6 +9,7 @@ body, html {
     margin:0 auto;
     padding:0;
     scroll-behavior:smooth;
+	overflow-x:hidden;
 }
 	
 	.top-nav-bar {
@@ -162,7 +163,7 @@ body, html {
 			color:#fff;
 			font-weight:600;
 			width:180px;
-			padding:0 10px;
+			padding:0 10px 0 15px;
 			height:40px;
 			margin-bottom:30px;
 			display:-webkit-box;
@@ -483,4 +484,225 @@ body, html {
 			footer p a:hover {
 				color:#fff;
 				text-decoration:none; 
+			}
+
+			.row {
+				padding:0;
+			}
+			
+			.light {
+				display:none;
+				margin:0 auto;
+				padding:0 20px 30px;
+				width:100%;
+				height:auto;
+				float:left;
+			}
+			
+			.rowLight {
+				padding:0;
+				background-color:rgba(243,243,243,0.8);
+				-webkit-appearance:none;
+				-moz-appearance:none;
+				appearance:none;
+				float:left;
+			}
+			
+			.row > .column {
+				padding:8px;
+			}
+			
+			.row:after {
+				content:"";
+				display:table;
+				clear:both;
+			}
+			
+			.column {
+				float:left;
+			}
+			
+			.rowLight .column {
+				margin:0;
+				padding:0 2px;
+			}
+			
+			video {
+				width:100%;
+				max-width:100%;
+				height:auto;
+				margin:0 auto;
+				padding:0;
+				border:none;
+			}
+			
+			.LightBox {
+				padding:102px 0 20px 0;
+				float:left;
+				background-color:rgba(243,243,243,0.8);
+				-webkit-appearance:none;
+				-moz-appearance:none;
+				appearance:none;
+			}
+			
+				.LightBox p {
+					margin:20px auto;
+					padding:0;
+					text-align:center;
+					font-size:36px;
+				}
+			
+			.modal {
+				display:none;
+				position:fixed;
+				z-index:5;
+				padding:50px 0 0;
+				left:0;
+				top:0;
+				width:100%;
+				height:100%;
+				overflow-y:scroll !important;
+				background-color:rgba(243,243,243,0.8);
+				-webkit-appearance:none;
+				-moz-appearance:none;
+				appearance:none;
+			}
+			
+			.modal::-webkit-scrollbar {
+				display:none;
+			}
+			
+			.modal {
+				-ms-overflow-style:none;
+				scrollbar-width:none; 
+			}
+			
+			.modal-content {
+				position:relative;
+				margin:auto;
+				padding:0;
+				width:100%;
+				max-width:990px;
+				border:none !important;
+				background:none !important;
+				-webkit-appearance:none;
+				-moz-appearance:none;
+				appearance:none;
+			}
+			
+			.close {
+				color:#6A85BE !important;
+				position:absolute;
+				top:-5px;
+				right:10px;
+				font-size:35px !important;
+				font-weight:bold !important;
+				transition:0.3s ease;
+				line-height:normal !important;
+				float:none !important;
+				text-shadow:none !important;
+				opacity:1 !important;
+			}
+			
+			.close:hover,
+			.close:focus {
+				color:#1a1a1a !important;
+				text-decoration:none !important;
+				cursor:pointer;
+			}
+			
+			.mySlides {
+				width:90%;
+				margin:0 auto;
+				display:none;
+			}
+			
+			.cursor {
+				cursor:pointer;
+			}
+			
+			.prev,
+			.next {
+				cursor:pointer;
+				position:absolute;
+				top:45%;
+				width:auto;
+				padding:16px;
+				margin-top:-50px;
+				color:#fff !important;
+				font-weight:bold;
+				font-size:20px;
+				transition:0.6s ease;
+				-webkit-border-radius:0 3px 3px 0;
+				-moz-border-radius:0 3px 3px 0;
+				border-radius:0 3px 3px 0;
+				user-select:none;
+				-webkit-user-select:none;
+			}
+			
+			.prev {
+				margin-left:5%;
+			}
+			
+			.next {
+				right:0;
+				-webkit-border-radius:3px 0 0 3px;
+				-moz-border-radius:3px 0 0 3px;
+				border-radius:3px 0 0 3px;
+				margin-right:5%;
+			}
+			
+			.prev:hover,
+			.next:hover {
+				background-color:rgba(0, 0, 0, 0.8);
+				-webkit-appearance:none;
+				-moz-appearance:none;
+				appearance:none;
+			}
+			
+			.numbertext {
+				color:#f3f3f3;
+				font-size:12px;
+				padding:8px 12px;
+				position:absolute;
+				top:0;
+			}
+			
+			img {
+				margin:0;
+				padding:0;
+			}
+			
+			.caption-container {
+				text-align:center;
+				padding:15px 16px 50px;
+				color:#f3f3f3;
+			}
+			
+				#caption {
+					color:#000;
+				}
+			
+			
+			.demo {
+				opacity:0.6;
+				transition:0.3s ease;
+			}
+			
+			.active,
+			.demo {
+				transition:0.3s ease;
+			}
+			
+			.active,
+			.demo:hover {
+				opacity:1;
+			}
+			
+			img.hover-shadow {
+				transition:0.3s;
+			}
+			
+			.hover-shadow:hover {
+				box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			}
