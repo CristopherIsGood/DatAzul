@@ -2,6 +2,7 @@
 /* CSS Document */
 
 @media screen and (max-width: 500px) {
+	
 	#m-site-1 .top-menu .head-logo, 
 	#m-site-1 .top-menu .head-nav  {
 		margin-left:20px !important;
@@ -19,9 +20,11 @@
 		padding-left:20px !important;
 		padding-right:20px !important;
 	}
+
 }
 
 @media screen and (max-width: 600px) {
+
 	.galacolumn {
 	  -ms-flex:100% !important;
 	  flex:100% !important;
@@ -31,17 +34,20 @@
 		  #m-site-1 .bottom-footer p {
 			  font-size:24px !important;
 		  }
-  }
 
-@media screen and (max-width: 800px) {
-   .galacolumn {
-	 -ms-flex:50%;
-	 flex:50%;
-	 max-width:50%;
-   }
+		.column {
+			width:100% !important;
+		}
+	
+		.LightBox {
+			padding-left:10px !important;
+			padding-right:10px !important;
+		}
+
 }
 
 @media screen and (max-width: 989px) {
+
 	#m-site-1 .top-menu {
 		height:auto;
 	}
@@ -140,6 +146,20 @@
 	.galacolumn {
 		margin-top:0;
 	}
+
+	.column {
+		width:50%;
+	}
+	
+	.rowLight .column {
+		width:33.33%;
+	}
+	
+	.LightBox, .content {
+		padding-top:80px;
+		padding-left:40px;
+		padding-right:40px;
+	}
 	
 	.container {
 		padding-top:80px;
@@ -153,9 +173,19 @@
 }
 
 @media only screen and (min-width: 989px) {
+
 			#m-site-1 .top-menu .head-logo .dropbtn {
 				display:none;
-			}	
+			}
+			
+			.column {
+				width:33.33%;
+			}
+			
+			.rowLight .column {
+				width:33.33%;
+			}
+
 }
 
 @media only screen and (min-width: 989px) and (max-width: 1365px) {
@@ -191,4 +221,21 @@
 		#m-site-1 .bottom-footer p {
 			font-size:22pt;
 		}
+}
+
+@media screen and (min-width: 1365px) {
+
+	.row > .column {
+		padding-top:0;
+		padding-right:4px;
+		padding-bottom:4px;
+		padding-left:4px;
+	}
+
+.LightBox, .content {
+	padding-top:150px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
 }
